@@ -13,12 +13,21 @@ export interface NoteItem {
   depth?: number;
 }
 
+export type NoteType =
+  | 'text' | 'checklist' | 'task' | 'habit'
+  | 'vision' | '3-5-year-goal' | 'annual-goal'
+  | 'quarterly-goal' | 'monthly-goal' | 'weekly-goal'
+  | 'daily-goal' | 'project';
+
+export type TaskStatus = 'pending' | 'in_progress' | 'completed' | 'not_done';
+export type CompletionRating = 'none' | 'orange' | 'yellow' | 'lightgreen' | 'darkgreen';
+
 export interface Note {
   id: string;
   title: string;
   content: string;
   items: NoteItem[];
-  type: 'text' | 'checklist';
+  type: NoteType;
   color: NoteColor;
   labels: string[];
   isPinned: boolean;
@@ -29,6 +38,18 @@ export interface Note {
   createdAt: string;
   updatedAt: string;
   templateId?: string;
+  parentId?: string | null;
+  dependOn?: string[];
+  progress?: number;
+  status: TaskStatus;
+  completedRating?: CompletionRating;
+  startDate?: string;
+  dueDate?: string;
+  completedAt?: string;
+  recurrence?: { rule: string; until?: string };
+  streak?: number;
+  bestStreak?: number;
+  rollupProgress?: number;
 }
 
 export interface NoteTemplate {
@@ -37,10 +58,18 @@ export interface NoteTemplate {
   title: string;
   content: string;
   items: NoteItem[];
-  type: 'text' | 'checklist';
+  type: NoteType;
   color: NoteColor;
   labels: string[];
   createdAt: string;
+  parentId?: string;
+  dependOn?: string[];
+  progress?: number;
+  status: TaskStatus;
+  completedRating?: CompletionRating;
+  startDate?: string;
+  dueDate?: string;
+  recurrence?: { rule: string; until?: string };
 }
 
 export type NoteColor =
@@ -62,9 +91,8 @@ export const COLOR_MAP: Record<NoteColor, string> = {
   gray: '#e8eaed',
 };
 
-const DATA_DIR = path.join(app.getPath('userData'), 'lifeos-keep');
-const NOTES_FILE = path.join(DATA_DIR, 'notes.json');
-const TEMPLATES_FILE = path.join(DATA_DIR, 'templates.json');
+const SYNC_DIR = path.join(app.getPath('userData'), '..', '..', '..', '..', 'source', 'personal_docs');
+const NOTES_FILE = path.join(SYNC_DIR, 'lifeos-keep-notes.json');
 
 export class NoteStore {
   private notes: Note[] = [];
@@ -75,30 +103,72 @@ export class NoteStore {
   }
 
   private async init() {
-    await fs.mkdir(DATA_DIR, { recursive: true });
+    await fs.mkdir(SYNC_DIR, { recursive: true });
     try {
       const data = await fs.readFile(NOTES_FILE, 'utf-8');
-      this.notes = JSON.parse(data);
+      const parsed = JSON.parse(data);
+      this.notes = parsed.notes || [];
+      this.templates = parsed.templates || [];
     } catch {
+      // Seed defaults if starting fresh
       this.notes = [];
-    }
-    try {
-      const data = await fs.readFile(TEMPLATES_FILE, 'utf-8');
-      this.templates = JSON.parse(data);
-    } catch {
       this.templates = [];
     }
   }
 
-  private async save() {
-    await fs.writeFile(NOTES_FILE, JSON.stringify(this.notes, null, 2));
+  private getDefaultStatus(type: NoteType): TaskStatus {
+    return ['habit', 'task'].includes(type) ? 'pending' : 'pending';
   }
 
-  private async saveTemplates() {
-    await fs.writeFile(TEMPLATES_FILE, JSON.stringify(this.templates, null, 2));
+  private async save() {
+    await fs.mkdir(SYNC_DIR, { recursive: true });
+    await fs.writeFile(NOTES_FILE, JSON.stringify({ notes: this.notes, templates: this.templates }, null, 2));
   }
+
+  // ── Recursive Progress Roll-Up ──
+  private computeRollup(noteId: string): number {
+    const note = this.notes.find(n => n.id === noteId);
+    if (!note) return 0;
+
+    // Checklist-based progress
+    if (note.items && note.items.length > 0) {
+      const checked = note.items.filter(i => i.checked).length;
+      return Math.round((checked / note.items.length) * 100);
+    }
+
+    // Manual progress if set
+    if (note.progress !== undefined) return note.progress;
+    if (note.status === 'completed') return 100;
+    if (note.status === 'not_done') return 0;
+
+    // Recursive: average of children
+    const children = this.notes.filter(n => n.parentId === noteId && !n.isTrashed);
+    if (children.length === 0) return 0;
+
+    const total = children.reduce((sum, child) => sum + this.computeRollup(child.id), 0);
+    return Math.round(total / children.length);
+  }
+
+  private updateAllRollups() {
+    for (const note of this.notes) {
+      note.rollupProgress = this.computeRollup(note.id);
+    }
+  }
+
+  // ── Check dependencies ──
+  private areDependenciesMet(noteId: string): boolean {
+    const note = this.notes.find(n => n.id === noteId);
+    if (!note?.dependOn || note.dependOn.length === 0) return true;
+    return note.dependOn.every(depId => {
+      const dep = this.notes.find(n => n.id === depId);
+      return dep?.status === 'completed';
+    });
+  }
+
+  // ── Public API ──
 
   getAll(): Note[] {
+    this.updateAllRollups();
     return this.notes.filter(n => !n.isTrashed).sort((a, b) => {
       if (a.isPinned && !b.isPinned) return -1;
       if (!a.isPinned && b.isPinned) return 1;
@@ -107,7 +177,9 @@ export class NoteStore {
   }
 
   get(id: string): Note | undefined {
-    return this.notes.find(n => n.id === id);
+    const note = this.notes.find(n => n.id === id);
+    if (note) note.rollupProgress = this.computeRollup(note.id);
+    return note;
   }
 
   create(note: Partial<Note>): Note {
@@ -123,9 +195,21 @@ export class NoteStore {
       isArchived: false,
       isTrashed: false,
       reminder: note.reminder,
+      taskId: note.taskId,
       createdAt: new Date().toISOString(),
       updatedAt: new Date().toISOString(),
       templateId: note.templateId,
+      parentId: note.parentId || null,
+      dependOn: note.dependOn || [],
+      progress: note.progress,
+      status: note.status || this.getDefaultStatus(note.type || 'text'),
+      completedRating: note.completedRating,
+      startDate: note.startDate,
+      dueDate: note.dueDate,
+      completedAt: note.completedAt,
+      recurrence: note.recurrence,
+      streak: note.streak || 0,
+      bestStreak: note.bestStreak || 0,
     };
     this.notes.push(newNote);
     this.save();
@@ -135,14 +219,22 @@ export class NoteStore {
   update(note: Note): Note {
     const idx = this.notes.findIndex(n => n.id === note.id);
     if (idx !== -1) {
-      this.notes[idx] = { ...note, updatedAt: new Date().toISOString() };
+      const updated = { ...note, updatedAt: new Date().toISOString() };
+      this.notes[idx] = updated;
+      this.updateAllRollups();
       this.save();
     }
     return this.notes[idx];
   }
 
   delete(id: string): void {
-    this.notes = this.notes.filter(n => n.id !== id);
+    // Also remove from parent's dependOn
+    this.notes.forEach(n => {
+      if (n.dependOn?.includes(id)) {
+        n.dependOn = n.dependOn.filter(d => d !== id);
+      }
+    });
+    this.notes = this.notes.filter(n => n.id !== id && n.parentId !== id);
     this.save();
   }
 
@@ -240,6 +332,35 @@ export class NoteStore {
     );
   }
 
+  // ── Hierarchy helpers ──
+  getChildren(id: string): Note[] {
+    return this.notes.filter(n => n.parentId === id && !n.isTrashed);
+  }
+
+  getDescendants(id: string): Note[] {
+    const result: Note[] = [];
+    const children = this.getChildren(id);
+    for (const child of children) {
+      result.push(child);
+      result.push(...this.getDescendants(child.id));
+    }
+    return result;
+  }
+
+  getAncestors(id: string): Note[] {
+    const result: Note[] = [];
+    let current = this.notes.find(n => n.id === id);
+    while (current?.parentId) {
+      const parent = this.notes.find(n => n.id === current!.parentId);
+      if (parent) {
+        result.push(parent);
+        current = parent;
+      } else break;
+    }
+    return result;
+  }
+
+  // ── Templates ──
   saveTemplate(template: Partial<NoteTemplate>): NoteTemplate {
     const newTemplate: NoteTemplate = {
       id: uuidv4(),
@@ -251,6 +372,14 @@ export class NoteStore {
       color: template.color || 'white',
       labels: template.labels || [],
       createdAt: new Date().toISOString(),
+      parentId: template.parentId,
+      dependOn: template.dependOn,
+      progress: template.progress,
+      status: template.status || 'pending',
+      completedRating: template.completedRating,
+      startDate: template.startDate,
+      dueDate: template.dueDate,
+      recurrence: template.recurrence,
     };
     this.templates.push(newTemplate);
     this.saveTemplates();
@@ -266,11 +395,16 @@ export class NoteStore {
     this.saveTemplates();
   }
 
+  private async saveTemplates() {
+    await this.save(); // Combined storage now
+  }
+
+  // ── Markdown Export/Import ──
   async exportToMarkdown(targetDir: string): Promise<void> {
     await fs.mkdir(targetDir, { recursive: true });
     const activeNotes = this.notes.filter(n => !n.isTrashed);
     for (const note of activeNotes) {
-      const safeTitle = note.title.replace(/[<>|:"/\\?*]/g, '').slice(0, 80) || 'untitled';
+      const safeTitle = note.title.replace(/[<>|:\"/\\\\?*]/g, '').slice(0, 80) || 'untitled';
       const filename = `${safeTitle}_${note.id.slice(0, 8)}.md`;
       const filepath = path.join(targetDir, filename);
 
@@ -283,10 +417,23 @@ export class NoteStore {
       md += `archived: ${note.isArchived}\n`;
       md += `created: ${note.createdAt}\n`;
       md += `updated: ${note.updatedAt}\n`;
+      md += `status: ${note.status}\n`;
+      if (note.parentId) md += `parent_id: ${note.parentId}\n`;
+      if (note.dependOn?.length) md += `depends_on: ${JSON.stringify(note.dependOn)}\n`;
+      if (note.progress !== undefined) md += `progress: ${note.progress}\n`;
+      if (note.completedRating) md += `completed_rating: ${note.completedRating}\n`;
+      if (note.startDate) md += `start_date: ${note.startDate}\n`;
+      if (note.dueDate) md += `due_date: ${note.dueDate}\n`;
+      if (note.completedAt) md += `completed_at: ${note.completedAt}\n`;
       if (note.reminder) md += `reminder: ${note.reminder}\n`;
+      if (note.recurrence) md += `recurrence: ${JSON.stringify(note.recurrence)}\n`;
+      if (note.streak) md += `streak: ${note.streak}\n`;
+      if (note.bestStreak) md += `best_streak: ${note.bestStreak}\n`;
+      if (note.rollupProgress !== undefined) md += `rollup_progress: ${note.rollupProgress}\n`;
       md += `---\n\n`;
+
       md += `# ${note.title}\n\n`;
-      if (note.type === 'checklist') {
+      if (note.type === 'checklist' || note.items.length > 0) {
         const writeItems = (items: NoteItem[], depth = 0) => {
           for (const item of items) {
             const indent = '  '.repeat(depth);
@@ -298,7 +445,7 @@ export class NoteStore {
         };
         writeItems(note.items);
       } else {
-        md += note.content;
+        md += note.content || '';
       }
       md += '\n';
       await fs.writeFile(filepath, md, 'utf-8');
@@ -341,10 +488,10 @@ export class NoteStore {
     const bodyContent = body.replace(/^# .+\n\n?/, '');
 
     const items: NoteItem[] = [];
-    const type = (fm.type as any) || 'text';
+    const type = (fm.type as NoteType) || 'text';
     let noteContent = bodyContent;
 
-    if (type === 'checklist') {
+    if (type === 'checklist' || bodyContent.includes('- [ ]') || bodyContent.includes('- [x]')) {
       const lines = bodyContent.split('\n').filter(l => l.trim());
       const stack: NoteItem[] = [];
       lines.forEach(line => {
@@ -360,7 +507,6 @@ export class NoteStore {
             children: [],
             depth,
           };
-          // Find parent
           while (stack.length > 0 && (stack[stack.length - 1].depth || 0) >= depth) {
             stack.pop();
           }
@@ -392,6 +538,17 @@ export class NoteStore {
       reminder: fm.reminder,
       createdAt: fm.created || new Date().toISOString(),
       updatedAt: fm.updated || new Date().toISOString(),
+      parentId: fm.parent_id || null,
+      dependOn: fm.depends_on ? JSON.parse(fm.depends_on) : [],
+      progress: fm.progress ? Number(fm.progress) : undefined,
+      status: (fm.status as TaskStatus) || 'pending',
+      completedRating: (fm.completed_rating as CompletionRating) || undefined,
+      startDate: fm.start_date,
+      dueDate: fm.due_date,
+      completedAt: fm.completed_at,
+      recurrence: fm.recurrence ? JSON.parse(fm.recurrence) : undefined,
+      streak: fm.streak ? Number(fm.streak) : 0,
+      bestStreak: fm.best_streak ? Number(fm.best_streak) : 0,
     };
   }
 }

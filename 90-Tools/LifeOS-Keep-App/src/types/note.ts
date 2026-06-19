@@ -6,34 +6,31 @@ export interface NoteItem {
   children?: NoteItem[];
   collapsed?: boolean;
   depth?: number;
-  // New fields for task promotion and dependencies
-  isTask?: boolean; // Flag to promote this todo to a full task
-  dependencies?: string[]; // IDs of other note items or notes this depends on
-  dueDate?: string; // ISO date string
-  estimatedHours?: number;
-  actualHours?: number;
-  priority?: 'low' | 'medium' | 'high' | 'urgent';
-  tags?: string[]; // For cross-referencing
 }
 
-export type NoteLevel =
-  | 'vision'
-  | 'mission'
-  | 'longTerm' // 3-5 year
-  | 'annual'
-  | 'quarterly'
-  | 'monthly'
-  | 'weekly'
-  | 'daily'
+export type NoteType =
+  | 'text'
+  | 'checklist'
   | 'task'
-  | 'habit';
+  | 'habit'
+  | 'vision'
+  | '3-5-year-goal'
+  | 'annual-goal'
+  | 'quarterly-goal'
+  | 'monthly-goal'
+  | 'weekly-goal'
+  | 'daily-goal'
+  | 'project'; // New type for overarching projects
+
+export type TaskStatus = 'pending' | 'in_progress' | 'completed' | 'not_done';
+export type CompletionRating = 'none' | 'orange' | 'yellow' | 'lightgreen' | 'darkgreen';
 
 export interface Note {
   id: string;
   title: string;
   content: string;
   items: NoteItem[];
-  type: 'text' | 'checklist';
+  type: NoteType;
   color: NoteColor;
   labels: string[];
   isPinned: boolean;
@@ -44,23 +41,24 @@ export interface Note {
   createdAt: string;
   updatedAt: string;
   templateId?: string;
-  
-  // NEW: Goal/Habit/Task hierarchy fields
-  level?: NoteLevel; // What level of goal this note represents
-  parentId?: string | null; // Parent goal/note ID
-  progress?: number; // 0-100% completion (auto-calculated for parent goals)
-  dependencies?: string[]; // Note IDs this goal/task depends on
-  isHabit?: boolean; // Whether this is a habit to track
-  habitFrequency?: 'daily' | 'weekly' | 'monthly'; // How often to repeat
-  habitStreak?: number; // Current streak count
-  habitBestStreak?: number; // Best streak ever
-  lastCompleted?: string; // Last date completed (ISO)
-  targetDate?: string; // Target completion date (ISO)
-  startDate?: string; // Start date (ISO)
-  estimatedEffort?: string; // e.g., "2h", "1d", "1w"
-  actualEffort?: string; // Actual time spent
-  priority?: 'low' | 'medium' | 'high' | 'critical';
-  status?: 'planning' | 'active' | 'stalled' | 'completed' | 'cancelled';
+
+  // New fields for hierarchy, progress, dependencies, and habits
+  parentId?: string | null;          // UUID of parent note (goal/project)
+  dependOn?: string[];               // array of note IDs that must be done first
+  progress?: number;                 // 0-100 % (manual for goals/tasks, auto for checklists)
+  status: TaskStatus;                // 'pending', 'in_progress', 'completed', 'not_done'
+  completedRating?: CompletionRating; // 'orange', 'yellow', 'lightgreen', 'darkgreen'
+  startDate?: string;                // ISO date (planned start)
+  dueDate?: string;                  // ISO date (planned due)
+  completedAt?: string;              // ISO timestamp when marked done
+  recurrence?: {                     // for habits & repeating goals
+    rule: string;                    // e.g. "FREQ=DAILY;INTERVAL=1"
+    until?: string;
+  };
+  streak?: number;                   // current habit streak
+  bestStreak?: number;
+  rollupProgress?: number;           // computed from children (0-100)
+  autoCompleteChildren?: boolean;    // Option for goals to auto-complete children
 }
 
 export interface NoteTemplate {
@@ -69,13 +67,26 @@ export interface NoteTemplate {
   title: string;
   content: string;
   items: NoteItem[];
-  type: 'text' | 'checklist';
+  type: NoteType;
   color: NoteColor;
   labels: string[];
   createdAt: string;
-  // Templates can also have goal level
-  level?: NoteLevel;
+  parentId?: string;
+  dependOn?: string[];
+  progress?: number;
+  status: TaskStatus;
+  completedRating?: CompletionRating;
+  startDate?: string;
+  dueDate?: string;
+  recurrence?: {
+    rule: string;
+    until?: string;
+  };
 }
+
+export type NoteColor =
+  | 'white' | 'red' | 'orange' | 'yellow' | 'green' | 'teal'
+  | 'blue' | 'darkblue' | 'purple' | 'pink' | 'brown' | 'gray';
 
 export const COLOR_MAP: Record<NoteColor, string> = {
   white: '#ffffff',
@@ -105,6 +116,15 @@ export const COLOR_NAMES: Record<NoteColor, string> = {
   pink: 'Pink',
   brown: 'Brown',
   gray: 'Gray',
+};
+
+// Colors for task completion ratings
+export const RATING_COLORS: Record<CompletionRating, string> = {
+  none: '#e8eaed', // Default gray
+  orange: '#fbbc04',
+  yellow: '#fff475',
+  lightgreen: '#ccff90',
+  darkgreen: '#1a73e8', // Keep blue for 'darkgreen'
 };
 
 export const USER_LABELS = [
@@ -162,112 +182,123 @@ export const DEFAULT_TEMPLATES: Omit<NoteTemplate, 'id' | 'createdAt'>[] = [
   {
     name: '10 Daily Questions',
     title: '10 Daily Questions',
-    content: '1. What did I learn today?\\n2. What am I grateful for?\\n3. What did I struggle with?\\n4. How did I serve others?\\n5. What will I do differently tomorrow?\\n6. How did I grow spiritually?\\n7. What relationships did I invest in?\\n8. How was my health today?\\n9. What progress did I make on my goals?\\n10. Am I aligned with my core values?',
+    content: '1. What did I learn today?\n2. What am I grateful for?\n3. What did I struggle with?\n4. How did I serve others?\n5. What will I do differently tomorrow?\n6. How did I grow spiritually?\n7. What relationships did I invest in?\n8. How was my health today?\n9. What progress did I make on my goals?\n10. Am I aligned with my core values?',
     items: [],
-    type: 'text',
+    type: 'daily-goal', // Changed from text to daily-goal
     color: 'yellow',
     labels: ['00. Templates'],
-    level: 'daily',
+    status: 'pending', // Default status
   },
   {
     name: 'Daily Priorities',
     title: 'Daily Priorities',
-    content: '**Spiritual:** \\n\\n**Material:** \\n\\n**Financial:** \\n\\n**Business:** \\n\\n**Personal:** \\n',
+    content: '**Spiritual:** \n\n**Material:** \n\n**Financial:** \n\n**Business:** \n\n**Personal:** \n',
     items: [],
-    type: 'text',
+    type: 'daily-goal', // Changed from text to daily-goal
     color: 'blue',
     labels: ['00d. Daily Priorities'],
-    level: 'daily',
+    status: 'pending',
   },
   {
     name: 'Gratitude List',
     title: 'Gratitude List',
-    content: '**Spiritual:** \\n\\n**Material:** \\n\\n**Relational:** \\n\\n**Financial:** \\n\\n**Health:** \\n',
+    content: '**Spiritual:** \n\n**Material:** \n\n**Relational:** \n\n**Financial:** \n\n**Health:** \n',
     items: [],
     type: 'text',
     color: 'green',
     labels: ['00a Gratitude Lists'],
-    level: 'daily',
+    status: 'pending',
   },
   {
     name: 'Pressing Needs',
     title: 'Pressing Needs',
-    content: '**Urgent & Important:** \\n\\n**Important but Not Urgent:** \\n\\n**Urgent but Not Important:** \\n\\n**Delegate:** \\n',
+    content: '**Urgent & Important:** \n\n**Important but Not Urgent:** \n\n**Urgent but Not Important:** \n\n**Delegate:** \n',
     items: [],
-    type: 'text',
+    type: 'checklist', // Changed to checklist
     color: 'red',
     labels: ['00a. Daily Pressing Needs'],
-    level: 'daily',
+    status: 'pending',
   },
   {
     name: 'Weekly Plan',
     title: 'Weekly Plan',
-    content: '**Goals:** \\n\\n**Key Actions:** \\n\\n**Appointments:** \\n\\n**Review Points:** \\n',
+    content: '**Goals:** \n\n**Key Actions:** \n\n**Appointments:** \n\n**Review Points:** \n',
     items: [],
-    type: 'text',
+    type: 'weekly-goal', // Changed from text to weekly-goal
     color: 'purple',
     labels: ['01. Goals & Plans'],
-    level: 'weekly',
+    status: 'pending',
   },
   {
     name: 'Quarterly Review',
     title: 'Quarterly Review',
-    content: '**Wins:** \\n\\n**Challenges:** \\n\\n**Metrics:** \\n\\n**Next Quarter Focus:** \\n\\n**Adjustments:** \\n',
+    content: '**Wins:** \n\n**Challenges:** \n\n**Metrics:** \n\n**Next Quarter Focus:** \n\n**Adjustments:** \n',
     items: [],
-    type: 'text',
+    type: 'quarterly-goal', // Changed from text to quarterly-goal
     color: 'darkblue',
     labels: ['06. Performance Tracking'],
-    level: 'quarterly',
+    status: 'pending',
+  },
+  // New templates for the hierarchy
+  {
+    name: 'Vision & Mission',
+    title: 'My Life Vision & Mission',
+    content: 'Define your ultimate purpose and guiding principles.',
+    items: [],
+    type: 'vision',
+    color: 'white',
+    labels: [],
+    status: 'pending',
   },
   {
-    name: 'Annual Goals',
-    title: 'Annual Goals',
-    content: '**Theme for the Year:** \\n\\n**Top 3 Goals:** \\n\\n**Key Metrics:** \\n\\n**Resources Needed:** \\n\\n**Potential Obstacles:** \\n',
+    name: '3-5 Year Goal',
+    title: 'New 3-5 Year Goal',
+    content: 'Break down your vision into actionable mid-term goals.',
     items: [],
-    type: 'text',
-    color: 'red',
-    labels: ['01. Goals & Plans'],
-    level: 'annual',
-  },
-  {
-    name: 'Vision Statement',
-    title: 'Vision Statement',
-    content: '**My Life Vision:** \\n\\n**Core Values:** \\n\\n**Legacy I Want to Leave:** \\n\\n**Impact I Want to Have:** \\n',
-    items: [],
-    type: 'text',
-    color: 'purple',
-    labels: ['01. Goals & Plans'],
-    level: 'vision',
-  },
-  {
-    name: 'Mission Statement',
-    title: 'Mission Statement',
-    content: '**My Purpose:** \\n\\n**Who I Serve:** \\n\\n**How I Serve Them:** \\n\\n**My Unique Value:** \\n',
-    items: [],
-    type: 'text',
+    type: '3-5-year-goal',
     color: 'blue',
     labels: ['01. Goals & Plans'],
-    level: 'mission',
+    status: 'pending',
   },
   {
-    name: 'Long-Term Goals (3-5 Year)',
-    title: 'Long-Term Goals',
-    content: '**Year 3 Goals:** \\n\\n**Year 4 Goals:** \\n\\n**Year 5 Goals:** \\n',
+    name: 'Annual Goal',
+    title: 'New Annual Goal',
+    content: 'What do you want to achieve this year?',
     items: [],
-    type: 'text',
-    color: 'orange',
+    type: 'annual-goal',
+    color: 'teal',
     labels: ['01. Goals & Plans'],
-    level: 'longTerm',
+    status: 'pending',
   },
   {
-    name: 'Habit Tracker',
-    title: 'Habit Tracker',
-    content: '# Habit Tracking\\n\\nTrack your daily/weekly habits here. Check off each day you complete the habit.',
+    name: 'Project',
+    title: 'New Project',
+    content: 'A series of tasks leading to a specific outcome.',
     items: [],
-    type: 'checklist',
+    type: 'project',
+    color: 'gray',
+    labels: ['02. Readiness (Educ., Skills, & Traits)'], // Example label
+    status: 'pending',
+  },
+  {
+    name: 'Task',
+    title: 'New Task',
+    content: 'A single actionable item.',
+    items: [],
+    type: 'task',
+    color: 'white',
+    labels: ['04. Execution'],
+    status: 'pending',
+  },
+  {
+    name: 'Habit',
+    title: 'New Habit',
+    content: 'Track your daily habits.',
+    items: [],
+    type: 'habit',
     color: 'green',
     labels: ['03. Wellness Indicators'],
-    level: 'habit',
-    habitFrequency: 'daily',
+    status: 'pending',
+    recurrence: { rule: 'FREQ=DAILY' },
   },
 ];

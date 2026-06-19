@@ -62,6 +62,9 @@ const api: IElectronAPI = {
     getTemplates: () => ipcRenderer.invoke('note:getTemplates'),
     deleteTemplate: (id) => ipcRenderer.invoke('note:deleteTemplate', id),
     getReminders: () => ipcRenderer.invoke('note:getReminders'),
+    getChildren: (id) => ipcRenderer.invoke('note:getChildren', id),
+    getDescendants: (id) => ipcRenderer.invoke('note:getDescendants', id),
+    getAncestors: (id) => ipcRenderer.invoke('note:getAncestors', id),
   },
   sync: {
     exportToMarkdown: (targetPath) => ipcRenderer.invoke('sync:exportToMarkdown', targetPath),

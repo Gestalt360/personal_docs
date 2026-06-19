@@ -1,11 +1,11 @@
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
-import type { Note, NoteColor, NoteTemplate } from '../types/note';
+import type { Note, NoteColor, NoteTemplate, TaskStatus, CompletionRating } from '../types/note';
 
 interface NoteStoreState {
   notes: Note[];
   labels: string[];
   templates: NoteTemplate[];
-  view: 'notes' | 'archive' | 'trash' | 'label' | 'search' | 'reminders';
+  view: 'notes' | 'archive' | 'trash' | 'label' | 'search' | 'reminders' | 'goals' | 'habits' | 'projects' | 'timeline';
   activeLabel: string | null;
   searchQuery: string;
   isLoading: boolean;
@@ -25,6 +25,15 @@ interface NoteStoreActions {
   getArchived: () => Promise<Note[]>;
   getTrashed: () => Promise<Note[]>;
   getWithReminders: () => Promise<Note[]>;
+  getTree: () => Note[];
+  updateProgress: (id: string, progress: number) => Promise<void>;
+  updateStatus: (id: string, status: TaskStatus) => Promise<void>;
+  updateRating: (id: string, rating: CompletionRating) => Promise<void>;
+  toggleCompletion: (id: string) => Promise<void>;
+  addDependency: (noteId: string, dependsOnId: string) => Promise<void>;
+  removeDependency: (noteId: string, dependsOnId: string) => Promise<void>;
+  toggleHabitCompletion: (id: string) => Promise<void>;
+  rollupProgress: (id: string) => number;
   setView: (view: NoteStoreState['view']) => void;
   setActiveLabel: (label: string | null) => void;
   setSearchQuery: (query: string) => void;
@@ -38,6 +47,7 @@ interface NoteStoreActions {
   deleteTask: (taskId: string) => Promise<{ success: boolean; error?: string }>;
   selectFolder: () => Promise<string | null>;
   getAppPath: () => Promise<string>;
+  getVersion: () => Promise<string>;
 }
 
 const NoteStoreContext = createContext<(NoteStoreState & NoteStoreActions & { filteredNotes: Note[] }) | null>(null);
@@ -109,6 +119,136 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
     if (!api) return [];
     return await api.note.getReminders();
   }, [api]);
+
+  const getTree = useCallback(() => {
+    const buildTree = (parentId: string | null = null): Note[] => {
+      return state.notes
+        .filter(n => n.parentId === parentId && !n.isTrashed)
+        .map(n => ({
+          ...n,
+          children: buildTree(n.id),
+        }));
+    };
+    return buildTree(null);
+  }, [state.notes]);
+
+  const rollupProgress = useCallback((id: string): number => {
+    const note = state.notes.find(n => n.id === id);
+    if (!note) return 0;
+    
+    // If it's a checklist note, progress is based on checkboxes
+    if (note.items && note.items.length > 0) {
+      const checked = note.items.filter(i => i.checked).length;
+      return Math.round((checked / note.items.length) * 100);
+    }
+    
+    // Find children
+    const children = state.notes.filter(n => n.parentId === id && !n.isTrashed);
+    if (children.length === 0) {
+      return note.progress || (note.status === 'completed' ? 100 : 0);
+    }
+    
+    // Recursively calculate average progress of children
+    const totalProgress = children.reduce((sum, child) => sum + rollupProgress(child.id), 0);
+    return Math.round(totalProgress / children.length);
+  }, [state.notes]);
+
+  const updateProgress = useCallback(async (id: string, progress: number) => {
+    if (!api) return;
+    const note = state.notes.find(n => n.id === id);
+    if (!note) return;
+    const updated = { ...note, progress, updatedAt: new Date().toISOString() };
+    await api.note.update(updated);
+    await loadNotes();
+  }, [api, loadNotes, state.notes]);
+
+  const updateStatus = useCallback(async (id: string, status: TaskStatus) => {
+    if (!api) return;
+    const note = state.notes.find(n => n.id === id);
+    if (!note) return;
+    const updated: Note = {
+      ...note,
+      status,
+      completedAt: status === 'completed' ? new Date().toISOString() : status === 'not_done' ? undefined : note.completedAt,
+      progress: status === 'completed' ? 100 : status === 'not_done' ? 0 : note.progress,
+      updatedAt: new Date().toISOString(),
+    };
+    await api.note.update(updated);
+    await loadNotes();
+  }, [api, loadNotes, state.notes]);
+
+  const updateRating = useCallback(async (id: string, rating: CompletionRating) => {
+    if (!api) return;
+    const note = state.notes.find(n => n.id === id);
+    if (!note) return;
+    const updated = { ...note, completedRating: rating === 'none' ? undefined : rating, updatedAt: new Date().toISOString() };
+    await api.note.update(updated);
+    await loadNotes();
+  }, [api, loadNotes, state.notes]);
+
+  const toggleCompletion = useCallback(async (id: string) => {
+    if (!api) return;
+    const note = state.notes.find(n => n.id === id);
+    if (!note) return;
+    const isCurrentlyCompleted = note.status === 'completed';
+    const newStatus: TaskStatus = isCurrentlyCompleted ? 'not_done' : 'completed';
+    await updateStatus(id, newStatus);
+  }, [api, updateStatus, state.notes]);
+
+  const addDependency = useCallback(async (noteId: string, dependsOnId: string) => {
+    if (!api) return;
+    const note = state.notes.find(n => n.id === noteId);
+    if (!note) return;
+    const deps = note.dependOn || [];
+    if (deps.includes(dependsOnId)) return;
+    const updated = { ...note, dependOn: [...deps, dependsOnId], updatedAt: new Date().toISOString() };
+    await api.note.update(updated);
+    await loadNotes();
+  }, [api, loadNotes, state.notes]);
+
+  const removeDependency = useCallback(async (noteId: string, dependsOnId: string) => {
+    if (!api) return;
+    const note = state.notes.find(n => n.id === noteId);
+    if (!note) return;
+    const deps = (note.dependOn || []).filter(d => d !== dependsOnId);
+    const updated = { ...note, dependOn: deps.length > 0 ? deps : undefined, updatedAt: new Date().toISOString() };
+    await api.note.update(updated);
+    await loadNotes();
+  }, [api, loadNotes, state.notes]);
+
+  const toggleHabitCompletion = useCallback(async (id: string) => {
+    if (!api) return;
+    const note = state.notes.find(n => n.id === id);
+    if (!note) return;
+    
+    const today = new Date().toISOString().split('T')[0];
+    const completedDates: string[] = note.completedAt ? [note.completedAt] : [];
+    
+    // Toggle today's completion
+    const index = completedDates.indexOf(today);
+    let newDates: string[];
+    let newStreak = note.streak || 0;
+    let newBestStreak = note.bestStreak || 0;
+    
+    if (index >= 0) {
+      newDates = completedDates.filter(d => d !== today);
+      newStreak = Math.max(0, newStreak - 1);
+    } else {
+      newDates = [...completedDates, today];
+      newStreak += 1;
+      newBestStreak = Math.max(newStreak, newBestStreak);
+    }
+    
+    const updated = {
+      ...note,
+      streak: newStreak,
+      bestStreak: newBestStreak,
+      completedAt: newDates.join(','),
+      updatedAt: new Date().toISOString(),
+    };
+    await api.note.update(updated);
+    await loadNotes();
+  }, [api, loadNotes, state.notes]);
 
   const archiveNote = useCallback(async (id: string) => {
     if (!api) return;
@@ -207,6 +347,11 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
     return await api.app.getPath('userData');
   }, [api]);
 
+  const getVersion = useCallback(async () => {
+    if (!api) return '';
+    return await api.app.getVersion();
+  }, [api]);
+
   const filteredNotes = React.useMemo(() => {
     let result = state.notes;
     if (state.view === 'archive') {
@@ -215,6 +360,15 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
       result = state.notes.filter(n => n.isTrashed);
     } else if (state.view === 'reminders') {
       result = state.notes.filter(n => n.reminder && !n.isTrashed && !n.isArchived);
+    } else if (state.view === 'goals') {
+      result = state.notes.filter(n =>
+        !n.isArchived && !n.isTrashed &&
+        ['vision', '3-5-year-goal', 'annual-goal', 'quarterly-goal', 'monthly-goal', 'weekly-goal', 'daily-goal'].includes(n.type)
+      );
+    } else if (state.view === 'habits') {
+      result = state.notes.filter(n => !n.isArchived && !n.isTrashed && n.type === 'habit');
+    } else if (state.view === 'projects') {
+      result = state.notes.filter(n => !n.isArchived && !n.isTrashed && n.type === 'project');
     } else if (state.view === 'label' && state.activeLabel) {
       result = state.notes.filter(n => n.labels.includes(state.activeLabel!));
     } else if (state.view === 'search' && state.searchQuery) {
@@ -227,6 +381,8 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
           n.labels.some(l => l.toLowerCase().includes(q))
         )
       );
+    } else if (state.view === 'notes') {
+      result = state.notes.filter(n => !n.isArchived && !n.isTrashed && n.type === 'text' || n.type === 'checklist' || n.type === 'task');
     } else {
       result = state.notes.filter(n => !n.isArchived && !n.isTrashed);
     }
@@ -244,11 +400,15 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
     getArchived,
     getTrashed,
     getWithReminders,
-    archiveNote,
-    unarchiveNote,
-    trashNote,
-    restoreNote,
-    togglePin,
+    getTree,
+    updateProgress,
+    updateStatus,
+    updateRating,
+    toggleCompletion,
+    addDependency,
+    removeDependency,
+    toggleHabitCompletion,
+    rollupProgress,
     setView,
     setActiveLabel,
     setSearchQuery,
@@ -262,6 +422,7 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
     deleteTask,
     selectFolder,
     getAppPath,
+    getVersion,
   };
 
   return <NoteStoreContext.Provider value={value}>{children}</NoteStoreContext.Provider>;
