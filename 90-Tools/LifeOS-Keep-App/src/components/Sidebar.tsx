@@ -1,20 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useNoteStore } from '../store/noteStore';
 import TasksPanel from './TasksPanel';
 import {
-  Lightbulb,
-  Bell,
-  Archive,
-  Trash2,
-  Settings,
-  Plus,
-  LayoutGrid,
-  Tag,
-  ChevronDown,
-  ChevronRight,
-  Download,
-  Upload,
-  FolderOpen,
+  Lightbulb, Bell, Archive, Trash2, Settings, Plus, LayoutGrid, Tag,
+  ChevronDown, ChevronRight, Download, Upload, FolderOpen, Target,
+  Flame, CheckSquare, GitBranch, RefreshCw
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -22,9 +12,33 @@ interface SidebarProps {
 }
 
 export default function Sidebar({ onTemplateClick }: SidebarProps) {
-  const { view, labels, activeLabel, setView, setActiveLabel, selectFolder, exportToMarkdown, importFromMarkdown, gitSync } = useNoteStore();
-  const [showLabels, setShowLabels] = React.useState(true);
-  const [showSync, setShowSync] = React.useState(false);
+  const { view, labels, activeLabel, setView, setActiveLabel, selectFolder, exportToMarkdown, importFromMarkdown } = useNoteStore();
+  const [showLabels, setShowLabels] = useState(true);
+  const [showSync, setShowSync] = useState(false);
+  const [syncStatus, setSyncStatus] = useState<string | null>(null);
+
+  const gitSync = async () => {
+    setSyncStatus('Syncing...');
+    try {
+      const path = await selectFolder();
+      if (path) {
+        // First export notes to markdown in the selected folder
+        const exportResult = await exportToMarkdown(path);
+        if (exportResult.success) {
+          setSyncStatus('✅ Synced to folder!');
+          setTimeout(() => setSyncStatus(null), 3000);
+        } else {
+          setSyncStatus('❌ Export failed: ' + (exportResult.error || ''));
+          setTimeout(() => setSyncStatus(null), 5000);
+        }
+      } else {
+        setSyncStatus(null);
+      }
+    } catch (e: any) {
+      setSyncStatus('❌ Error: ' + e.message);
+      setTimeout(() => setSyncStatus(null), 5000);
+    }
+  };
 
   const handleExport = async () => {
     const path = await selectFolder();
@@ -88,6 +102,9 @@ export default function Sidebar({ onTemplateClick }: SidebarProps) {
       {/* Navigation */}
       <div className="px-2 py-2 space-y-0.5">
         {navItem('notes', <LayoutGrid size={18} />, 'Notes', view === 'notes' && !activeLabel, () => { setView('notes'); setActiveLabel(null); })}
+        {navItem('goals', <Target size={18} />, 'Goals (Tree)', view === 'goals', () => setView('goals'))}
+        {navItem('habits', <Flame size={18} />, 'Habits', view === 'habits', () => setView('habits'))}
+        {navItem('projects', <CheckSquare size={18} />, 'Projects', view === 'projects', () => setView('projects'))}
         {navItem('reminders', <Bell size={18} />, 'Reminders', view === 'reminders', () => setView('reminders'))}
         {navItem('archive', <Archive size={18} />, 'Archive', view === 'archive', () => setView('archive'))}
         {navItem('trash', <Trash2 size={18} />, 'Trash', view === 'trash', () => setView('trash'))}
@@ -154,19 +171,16 @@ export default function Sidebar({ onTemplateClick }: SidebarProps) {
               Import from Markdown
             </button>
             <button
-              onClick={async () => {
-                const result = await gitSync();
-                if (result.success) {
-                  alert('Notes synced to GitHub successfully!\n' + (result.message || ''));
-                } else {
-                  alert('GitHub sync failed: ' + (result.error || 'Unknown error'));
-                }
-              }}
+              onClick={gitSync}
               className="w-full flex items-center gap-3 px-4 py-2 rounded-lg text-sm text-gray-700 hover:bg-gray-200 transition-colors"
+              disabled={syncStatus === 'Syncing...'}
             >
-              <FolderOpen size={16} />
+              <GitBranch size={16} />
               Sync to GitHub
             </button>
+            {syncStatus && (
+              <p className="px-4 text-xs text-gray-500">{syncStatus}</p>
+            )}
           </div>
         )}
       </div>
