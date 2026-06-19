@@ -7,3 +7,13 @@ dist-electron/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Exclude personal data and secrets
+.takeout/
+.tools/
+
+# Ignore any secrets or credentials
+*.token
+*.key
+*.pem
+**/secret*

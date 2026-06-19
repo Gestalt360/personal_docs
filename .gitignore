@@ -1,29 +1,15 @@
-# LifeOS Personal Docs
-
-# Ignore system files
+# Ignore personal data and secrets
+.takeout/
+.tools/
+node_modules/
+dist/
+dist-electron/
+*.log
+*.token
+*.key
+*.pem
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Ignore sensitive config
-99-Meta/.env
-
-# Ignore tool downloads
-.tools/*.zip
-
-# Ignore auto-generated manifests (keep latest, archive old)
-99-Meta/keep_sync_manifest_*.json
-
-# Ignore temp files
-*.tmp
-*.bak
-~$*
-
-# Keep everything else tracked
-!00-Inbox/
-!10-Projects/
-!20-Areas/
-!30-Resources/
-!40-Archive/
-!90-Tools/
-!99-Meta/
+# Allow global .gitignore overrides in subfolders
+!**/.gitkeep
