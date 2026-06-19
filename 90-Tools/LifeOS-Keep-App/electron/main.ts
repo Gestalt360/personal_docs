@@ -297,10 +297,8 @@ ipcMain.handle('tasks:checkAuth', async () => {
     return { authenticated: false };
   }
 });
-    return { authenticated: false };
-  }
-});
 
+// ── IPC handlers — Dialog & App ──
 // ── IPC handlers — Dialog & App ──
 ipcMain.handle('dialog:selectFolder', async () => {
   const result = await dialog.showOpenDialog(mainWindow!, {
@@ -315,4 +313,39 @@ ipcMain.handle('app:getPath', (_, name: string) => {
 
 ipcMain.handle('app:getVersion', () => {
   return app.getVersion();
+});
+
+// GitHub Sync
+ipcMain.handle('git:sync', async () => {
+  try {
+    const { spawn } = require('child_process');
+    const path = require('path');
+    
+    const scriptPath = path.join(__dirname, '..', '..', 'git-sync.mjs');
+    const repoUrl = 'https://github.com/Gestalt360/lifeos-keep-notes.git';
+    // Clone into personal_docs/GitHub-Keep-Notes (inside the personal_docs folder)
+    const clonePath = path.join(__dirname, '..', '..', 'GitHub-Keep-Notes');
+    
+    return new Promise((resolve) => {
+      const proc = spawn('node', [scriptPath, repoUrl, clonePath], {
+        cwd: path.join(__dirname, '..', '..'),
+        env: { ...process.env }
+      });
+      
+      let stdout = '';
+      let stderr = '';
+      proc.stdout.on('data', (data) => { stdout += data.toString(); });
+      proc.stderr.on('data', (data) => { stderr += data.toString(); });
+      
+      proc.on('close', (code) => {
+        if (code !== 0) {
+          resolve({ success: false, error: stderr || `Git sync failed with code ${code}` });
+        } else {
+          resolve({ success: true, message: stdout });
+        }
+      });
+    });
+  } catch (error) {
+    return { success: false, error: (error as Error).message };
+  }
 });

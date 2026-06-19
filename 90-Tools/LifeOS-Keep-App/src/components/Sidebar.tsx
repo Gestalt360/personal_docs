@@ -22,7 +22,7 @@ interface SidebarProps {
 }
 
 export default function Sidebar({ onTemplateClick }: SidebarProps) {
-  const { view, labels, activeLabel, setView, setActiveLabel, selectFolder, exportToMarkdown, importFromMarkdown } = useNoteStore();
+  const { view, labels, activeLabel, setView, setActiveLabel, selectFolder, exportToMarkdown, importFromMarkdown, gitSync } = useNoteStore();
   const [showLabels, setShowLabels] = React.useState(true);
   const [showSync, setShowSync] = React.useState(false);
 
@@ -155,17 +155,17 @@ export default function Sidebar({ onTemplateClick }: SidebarProps) {
             </button>
             <button
               onClick={async () => {
-                const path = await selectFolder();
-                if (path) {
-                  const result = await exportToMarkdown(path + '\\30-Resources\\30-01-Keep-Notes\\30-01-01-Inbox');
-                  if (result.success) alert('Synced to personal_docs!');
-                  else alert('Sync failed: ' + result.error);
+                const result = await gitSync();
+                if (result.success) {
+                  alert('Notes synced to GitHub successfully!\n' + (result.message || ''));
+                } else {
+                  alert('GitHub sync failed: ' + (result.error || 'Unknown error'));
                 }
               }}
               className="w-full flex items-center gap-3 px-4 py-2 rounded-lg text-sm text-gray-700 hover:bg-gray-200 transition-colors"
             >
               <FolderOpen size={16} />
-              Sync to personal_docs
+              Sync to GitHub
             </button>
           </div>
         )}

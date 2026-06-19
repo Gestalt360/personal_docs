@@ -38,6 +38,7 @@ export interface IElectronAPI {
   app: {
     getPath: (name: string) => Promise<string>;
     getVersion: () => Promise<string>;
+    gitSync: () => Promise<{ success: boolean; message?: string; error?: string }>;
   };
 }
 
@@ -79,6 +80,7 @@ const api: IElectronAPI = {
   app: {
     getPath: (name) => ipcRenderer.invoke('app:getPath', name),
     getVersion: () => ipcRenderer.invoke('app:getVersion'),
+    gitSync: () => ipcRenderer.invoke('git:sync'),
   },
 };
 
