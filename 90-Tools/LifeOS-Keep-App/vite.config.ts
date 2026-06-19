@@ -40,8 +40,4 @@ export default defineConfig({
     ]),
     renderer(),
   ],
-  server: {
-    port: 5175,
-    strictPort: false,
-  },
 });
