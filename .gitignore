@@ -14,6 +14,7 @@ __pycache__/
 *.pyc
 .env
 .takeout/
+nul
 
 # ── OS ──
 .DS_Store

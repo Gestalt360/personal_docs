@@ -1,0 +1,124 @@
+---
+type: checklist
+color: white
+labels: ["00a. Daily Pressing Needs"]
+pinned: False
+archived: False
+created: 2026-02-09T14:16:30.602000
+updated: 2026-02-09T14:16:30.602000
+---
+
+# Sunday, 8 February 2026 Daily Routine 
+
+- [ ] Important Events & Appointments
+- [ ] Priorities
+- [ ] =============
+- [ ] AM Routine
+- [ ] AM Doctrinal Purity Bible study (fundamental doctrines, miscellaneous doctrines, difficult verses, sermon notes review) 
+- [ ] AM Meditation 
+- [ ] AM Prayer
+- [ ] Freshen and Dress Up
+- [ ] Do Laundry 
+- [ ] BizBuilding Routine
+- [ ] Daily 10 Outreach
+- [ ] Respond to Prospects 
+- [ ] Log  Activities
+- [ ] Complete Priority Sales Tasks
+- [ ] Update CRM
+- [ ] Pull and Read Lessons
+- [ ] Complete Action Tasks
+- [ ] Sync and Log Day
+- [ ] Lunch Break Routine 
+- [ ] Daytime Bible Study (Obedience, Pink Highlight Verses, Proverbs, Psalms, Sermon Notes Review) 
+- [ ] Daytime Meditation
+- [ ] Daytime Prayer
+- [ ] Business Success Routine 
+- [ ] Business Education, Skills and Traits Dev.
+- [ ] Business Wellness 
+- [ ] Business Executions
+- [ ] - Product Development Execution
+- [ ] - Sales Execution
+- [ ] - Marketing Execution 
+- [ ] - Order Fulfillment Execution
+- [ ] - Customer Support Execution
+- [ ] - Customer Satisfaction Execution
+- [ ] - Customer Success Execution
+- [ ] - Finance Management Execution
+- [ ] - Operations Management Execution
+- [ ] - Strategic Management Executions
+- [ ] - Admin Operations Executions
+- [ ] - Legal Affairs Executions
+- [ ] - Corporate Governance Executions
+- [ ] Business Overcoming
+- [ ] Business Performance Tracking
+- [ ] Business Guidance and Oversight
+- [ ] After-Work Routine
+- [ ] Errands
+- [ ] Exercise (30-min walk, leg exercises, dumbbell reps)
+- [ ] Personal Success Routine
+- [ ] Personal Education, Skills Development & Traits Development
+- [ ] - Spiritual Education, Skills Development & Traits Development 
+- [ ] - Material Education, Skills Development & Traits Development 
+- [ ] - Financial Education, Skills Development & Traits Development 
+- [ ] Wellness Indicators
+- [ ] - Spiritual Wellness Indicators 
+- [ ] - Material Wellness Indicators 
+- [ ] - Financial Wellness Indicators 
+- [ ] Spiritual Execution
+- [ ] - PM Bible Study (God's Promises Bible Study, Whole Bible Reading, Bible Books/Literature Reading, Articles Reading, Sermon Notes Review)
+- [ ] - PM Meditation
+- [ ] - PM Prayer (Intercessions)
+- [ ] - Self-Examination (Approval, Pre-Passover, 10-Daily Qs)
+- [ ] - Memory Scriptures
+- [ ] - God's Work
+- [ ] - Give Alms & Serve
+- [ ] Material Execution
+- [ ] - Personal Care Execution (shower, hair and nails care, dental care, skincare routine, mending/laundry and ironing, drink water, eat supper)
+- [ ] - Homecare and Chores Execution (rent payment, utilities (water, electricity, internet access, telephony), furnishings, maintenance, land purchase, building costs/construction)
+- [ ] - Safety and Health Execution (healthful living protocols)
+- [ ] - Personal Connections (Fe) Execution (DCM, kids, parents & siblings, brethren, close friends, friends, relatives); 
+- [ ] - Competence Development Execution (expertise, qualifications, credentials)
+- [ ] - Creative Self-Expression Execution ("Startup Essentials for Lifestyle Entrepreneurs" book writing; music theory and practical lessons; entrepreneurship and technology reading, travelling plans, food production, public speaking)
+- [ ] Financial Execution
+- [ ] - Budgeting
+- [ ] - Income Management
+- [ ] - Tithes, Offerings and Fundraising
+- [ ] - Savings & Emergency Funds
+- [ ] - Expenses Tracking
+- [ ] - Debt Management
+- [ ] - Investment Planning & Review
+- [ ] - Tax Planning & Filing
+- [ ] - Insurance
+- [ ] - Estate Planning & Organisation
+- [ ] - Credit Score Monitoring & Management
+- [ ] - Financial Statements
+- [ ] - Shareholding & Board Membership Activities
+- [ ] Personal Overcoming
+- [ ] - Spiritual Overcoming
+- [ ] - Material Overcoming
+- [ ] - Financial Overcoming
+- [ ] Personal Performance Tracking
+- [ ] - Spiritual Performance Tracking
+- [ ] - Material Performance Tracking 
+- [ ] - Financial Performance Tracking 
+- [ ] Personal Guidance
+- [ ] - Spiritual Guidance
+- [ ] - Material Guidance
+- [ ] - Financial Guidance
+- [ ] Bedtime Routine
+- [ ] Freshen Up
+- [ ] Wind Down 
+- [ ] Sleep Between 21:00 and 23:00 (03h45)
+- [ ] ================
+- [ ] Day's Review
+- [ ] Blessings, Victories & Breakthroughs Grateful For:
+- [ ] Obstacles/Setbacks/Mistakes: 
+- [ ] Thoughts/Ideas:
+- [x] BizBuilder App Dev
+- [x] Prepare and Eat Breakfast
+- [x] Clean the House
+- [x] Business Goals and Plans ((Daily: weekly plan review, day plan review, next day plan); (Weekly: monthly plan review; weekly plan review; new week plan); (Monthly: quarterly plan review; critical actions, projects and tasks review; monthly plan review; new weekly plan) (Quarterly: annual plan review; quarterly plan review; new quarterly plan, critical actions, projects and tasks); (Annually: lifetime plan review; annual plan review; new annual plan) 
+- [x] Personal Goals & Plans ((Daily: weekly plan review, day plan review, next day plan); (Weekly: monthly plan review; weekly plan review; new week plan); (Monthly: quarterly plan review; critical actions, projects and tasks review; monthly plan review; new weekly plan) (Quarterly: annual plan review; quarterly plan review; new quarterly plan, critical actions, projects and tasks); (Annually: lifetime plan review; annual plan review; new annual plan)
+- [x] - Spiritual Goals & Plans
+- [x] - Material Goals & Plans 
+- [x] - Financial Goals & Plans 

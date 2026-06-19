@@ -1,0 +1,124 @@
+---
+type: checklist
+color: white
+labels: []
+pinned: False
+archived: False
+created: 2026-02-05T06:49:50.883000
+updated: 2026-02-08T09:33:45.172000
+---
+
+# Week 1-7 February 2026 Weekly Plan 
+
+- [ ] This Week's Pressing Needs
+- [ ] Ask Mike for Spokesman Club Assignments and Scheduling Sheet, prepare assignments for next Club session and post them in the group 
+- [ ] Speak to Lungile about access to wi-fi 
+- [ ] NB!!! R83 for chrysalinks.co.za domain renewal
+- [ ] Food (2 x bread R34, sour milk R37, bananas R14, peanuts/peanut butter R40, sunflower seeds R30, brown rice R55, 2 x soup mix R30, lentils R25, cabbage R15, yoghurt R32, potluck R30) R350
+- [ ] Personal care products (bath soap R20, roll-on R30, toothpaste R20, toothbrush R30, washing powder for laundry R30, Zenplex spots remover R50, glycerine R20) R200
+- [ ] 7.5GB/7.5GB Telkom LTE data (R100) and 100GB Night Surfer data bundle (R135)
+- [ ] Read Spokesman and Graduate Club manual and prepare topics for assignment
+- [ ] Fix quotations, invoices, and receipts tables in the billing hub to pull strictly only the user's records 
+- [ ] Fix quotation actions in the billing hub to be able to convert a quote into an invoice
+- [ ] Create  a quote for Cynthia, convert it into an invoice, and email it to her
+- [ ] Start working on on Cynthia's Email Setup order, fix Email Setup module bugs, onboard her, and apologise for the delay
+- [ ] Create a quote for Khotso, send it him, apologise for not getting back to him, and setup a discovery call for Kagiso 
+- [ ] Setup Ollama (3.5GB), Kilo Code, and Open Notebook staging containers in Docker
+- [ ] Pull Llama 3.2 model into Ollama container to make sure that the Ollama container runs and is healthy
+- [ ] Complete implementation of Kilo Code, Open Notebook, and Ollama AI 
+- [ ] Download LibreOffice and set up Google Drive as a remote service to work with the hub, client, and portal Google Sheets offline  ("Open Remote" in the File menu or Start Center -> "Manage Services" to add Google Drive 
+- [ ] Make sure the Personal Docs 2-Way Google Drive Sync works 
+- [ ] Complete  rhe Customer Journey Management System
+- [ ] Create a Bugs Collection and Fixing System  
+- [ ] Create a SaaS Operations Management System 
+- [ ] Remove redundant functionalities from Scripts Generator System and let Customer Journey Management System handle them
+- [ ] Complete Billing Hub fixes
+- [ ] Complete Portal View Dashboards fixes
+- [ ] Complete Calendar and Scheduling System 
+- [ ] Make the app completely offline
+- [ ] Get website builder and GBP modules working, create Dr Sbu's 1-pager website, and request R397 for the domain
+- [ ] Sign up for Cloudflare paid account to access the domain registration API
+- [ ] Sign up for OCI paid account for better ARM free-tier allowances
+- [ ] Respond to Gugu, Jacquie, Dunisani, Ronald, Cherish, Mr Machaba, Malondi, Lebo, and Lorraine
+- [ ] Add 10 BizBuilding Program clients and help them get their 10 customers
+- [ ] Raise up to R50k in business revenues to draw a R16k salary, and quarterly performance bonuses
+- [ ] R100 for outstanding tithe, R250 for fundraising
+- [ ] Raise at least R2,750 for deposit for flat at the back of the shopping centre, and the the R2,750 for rent, and R6,1k for furnishings
+- [ ] Raise R1,5k for household expenses contribution for February
+- [ ] Healing for tumour in left thumb
+- [ ] Multi-focal eye glasses
+- [ ] Get cavities in molars and decays on front teeth filled
+- [ ] Get all core features (chat, scripts swap file, notifications, dashboards, calendar and scheduling, workflows, store (e-commerce) view, crm, project status, mobile app,  and modules (Domain Sales, Website Builder, Email Setup, GBP Setup, Optimisation, and Management)  of BizBuilder app working
+- [ ] Talk to mom
+- [ ] Send Siphokazi some assistance (R500)
+- [ ] Business name and address change, and a new card with TymeBank (R100)
+- [ ] CIPC business address change (R250)
+- [ ] Personal bank card (R100)
+- [ ] Pay Mike his R450
+- [ ] Laptop USB universal power adapter (R400)
+- [ ] Rechargeable batteries (R400)
+- [ ] Solar battery charger (R400)
+- [ ] Power bank charger (R400)
+- [ ] Leather toecap dress shoes (R600-R800)
+- [ ] Semi-formal shoes (R500)
+- [ ] 4 x work pants (R1k)
+- [ ] Sign up 335 domains for the month
+- [ ] Memory Verses
+- [ ] Important Events & Appointment
+- [ ] Appointment: Thursday, 10am—Company Registration Qualifying & Discovery Call with Kagiso's Business Partner (Did not happen)
+- [ ] This Week's Priorities
+- [ ] =================
+- [ ] Sunday Priorities
+- [ ] Monday Priorities
+- [ ] Tuesday Priorities
+- [ ] Wednesday Priorities
+- [ ] Thursday Priorities
+- [ ] Friday Priorities
+- [ ] Saturday Priorities
+- [ ] ================
+- [ ] Week's Review
+- [ ] Breakthroughs, Blessings, and Milestones  Grateful For:
+- [ ] Developing the Customer Journey Management System; installing Kilo Code, Ollama AI, and Open Notebook to run locally and offline (incomplete); downloading LibreOffice; developing the Bug Collection and Fixing System (incomplete); developing the Personal Docs Google Drive 2-Way Sync 
+- [ ] Being appointed as a Spokesman Secretary for this season 
+- [ ] Mike sending the Spokesman Club Assignments and Scheduling Sheet, and able to prepare assignments for next Club session and posting them in the group 
+- [ ] Delano picking me up for, and dropping me back from services; great sermonette on grieving God's Spirit from Mr Grey and sermon on Samson''s lost opportunity from Mr Schleiffer; great fellowship and potluck; coffee and water; finding a tentative venue for NTBMO, Delano sending me R50 airtime to buy data
+- [ ] Getting to build my rich personal library from community-donated library books
+- [ ] Still having shelter at home
+- [ ] Obstacles/Setbacks/Mistakes: 
+- [ ] Working on Club Assignments and developing a Personal Docs 2-Way Sync with Google Drive on the Sabbath 
+- [ ] Thoughts/Ideas:
+- [ ] Organise R15 urgently to buy +3GB to pull Llama 3.2 model into Ollama container to make sure that the Ollama container runs and is healthy 
+- [ ] Add 10 BizBuilding Program clients and help them get their 10 customers 
+- [ ] Follow up on payment with Khotso
+- [ ] Respond to Gugu, Jacquie, Dunisani, Ronald, Cherish, Mr Machaba, Malondi, Lebo, and Lorraine Raise R83 and pay for chrysalinks.co.za domain
+- [ ] Raise R100 for outstanding tithe, R250 for fundraising 
+- [ ] Raise R200 and give it to Dad for wi-fi access 
+- [ ] Do everything necessary to raise the R1,5k for household expenses contribution 
+- [ ] Start planning for Parable of the Pound Fundraising Campaign
+- [ ] Stay close to and lean on God on everything daily, throughout the week
+- [ ] Start preparing for Passover, NTBMO, and DUB
+- [ ] Prepare for Spokesman Club topics and evaluation duties, and attendance on Wednesday, 11 Feb.
+- [ ] - Read Spokesman and Graduate Club manual and prepare topics for assignment 
+- [ ] - Ensure that I have adequate Internet access for Club
+- [ ] Attend Spokesman Club Session: Wednesday, 18h30-20h30, 11 Feb. 2026
+- [ ] Raise R450 for food (4 x bread R70, sour milk R74 bananas R30, peanuts/peanut butter R50, sunflower seeds R30, brown rice R55, 2 x soup mix R30, lentils R25, cabbage R15, yoghurt R32, potluck R30) and R200 for personal care products (bath soap R20, roll-on R30, toothpaste R20, toothbrush R30, washing powder for laundry R30, Zenplex spots remover R50, glycerine R20) 
+- [ ] Fix quotations, invoices, and receipts tables in the billing hub to pull strictly only the user's records 
+- [ ] Fix quotation actions in the billing hub to be able to convert a quote into an invoice 
+- [ ] Create  a quote for Cynthia, convert it into an invoice, and email it to her 
+- [ ] Folllow up on Discovery Call with Kagiso and Keane
+- [ ] Complete implementation of Kilo Code, Open Notebook, and Ollama AI 
+- [ ] Make sure the Personal Docs 2-Way Google Drive Sync works 
+- [ ] Complete  the Customer Journey Management System 
+- [ ] Complete Billing Hub fixes 
+- [ ] Get website builder and GBP modules working, create Dr Sbu's 1-pager website, and request R397 for the domain 
+- [ ] Sign up for Cloudflare paid account to access the domain registration API 
+- [ ] Sign up for OCI paid account for better ARM free-tier allowances 
+- [ ] Complete Portal View Dashboards fixes 
+- [ ] Complete Calendar and Scheduling System 
+- [ ] Remove redundant functionalities from Scripts Generator System and let Customer Journey Management System handle them 
+- [ ] Make the app completely offline 
+- [ ] Complete the Bugs Collection and Fixing System  
+- [ ] Start working on a SaaS Operations Management System 
+- [ ] Pray fervent for healing for right thumb tumour, getting right molars cavities and other decays fixed, and for multi-focal eye glasses
+- [ ] Get all core features (chat, scripts swap file, notifications, dashboards, calendar and scheduling, workflows, store (e-commerce) view, crm, project status, mobile app,  and modules (Domain Sales, Website Builder, Email Setup, GBP Setup, Optimisation, and Management)  of BizBuilder app working 
+- [ ] Talk to mom

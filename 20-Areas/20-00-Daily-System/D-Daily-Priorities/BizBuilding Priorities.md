@@ -1,0 +1,123 @@
+---
+type: checklist
+color: white
+labels: ["00d. Daily Priorities", "01. Goals & Plans", "12. Business"]
+pinned: True
+archived: False
+created: 2026-03-23T16:57:08.294000
+updated: 2026-05-29T20:06:31.538000
+---
+
+# BizBuilding Priorities
+
+- [ ] BizBuilder App Dev
+- [ ] BizBuilding Platform Refactor Project
+- [ ] 00. Prepare my working tools and make sure they work properly
+- [ ] 🔴 - Set up Google Collab and Gemma4 to use it with Ollama and Claude Code
+- [ ] 03. WP3 PWA Foundation
+- [ ] - Implement PWA shell and mobile framework
+- [ ] - Build the Dashboard View: Business Intelligence Command Center
+- [ ] - Build the Focus View: 14 Operational Blocks Control Room (Each Driven by the 7 Laws of Success) *move to BizBuilding Program Module
+- [ ] - Build the Productivity View: Linear Replacement & Project Management
+- [ ] - Build the Finance View: Financial Intelligence & Analytics
+- [ ] 04. WP4 Advanced Busines Views
+- [ ] - Create CJMS View (Customer Journey Intelligence)
+- [ ] - Build Modules View (Automated Solutions: Website Builder, Secured Domains, Email Setup, Google Business Profile Optimisation, BizBuilding Program)
+- [ ] - Develop Portal View (Admin and Customer Experience Hub)
+- [ ] - Create Partner View (Referral and Service Delivery Partner Ecosystem)
+- [ ] - Build the AI-Driven Chat Functionality
+- [ ] 05. WP5 Intelligent Automation
+- [ ] - Build Daily CJMS Report Routine
+- [ ] **  Daily CJMS ReportTriggers: cron/scheduled tasks
+- [ ] ** Daily CJMS Report Spin ups: cloud agent sessions
+- [ ] ** Daily CJMS Report Reads: skills, db, memory
+- [ ] ** Daily CJMS Report Actions: tools, mcps, browse web
+- [ ] ** Daily CJMS Report Writes: db, whatsapp, email, docs, code, notifications
+- [ ] - Create Daily BizBuilding Program Routine
+- [ ] ** Daily BizBuilding Program Triggers: cron/scheduled tasks
+- [ ] ** Daily BizBuilding Program Spin ups: cloud agent sessions
+- [ ] ** Daily BizBuilding Program Reads: skills, db, memory
+- [ ] ** Daily BizBuilding Program Actions: tools, mcps, browse web
+- [ ] ** Daily BizBuilding Program Writes: db, whatsapp, email, docs, code, notifications
+- [ ] - Implement Daily Business Success Routine
+- [ ] ** Triggers: cron/scheduled tasks
+- [ ] ** Spin up: cloud agent sessions
+- [ ] ** Read: skills, db, memory
+- [ ] ** Act: tools, mcps, browse web
+- [ ] ** Write: db, whatsapp, email, docs, code, notifications
+- [ ] - Develop Weekly Brief/Closeout Routines
+- [ ] ** Triggers: cron/scheduled tasks
+- [ ] ** Spin up: cloud agent sessions
+- [ ] ** Read: skills, db, memory
+- [ ] ** Act: tools, mcps, browse web
+- [ ] ** Write: db, whatsapp, email, docs, code, notifications
+- [ ] - Build Lead Follow-up & Health Routines
+- [ ] ** Triggers: cron/scheduled tasks
+- [ ] ** Spin up: cloud agent sessions
+- [ ] ** Read: skills, db, memory
+- [ ] ** Act: tools, mcps, browse web
+- [ ] ** Write: db, whatsapp, email, docs, code, notifications
+- [ ] - Create all workflows in Workflows Tab and use GAS scripts for logic
+- [ ] ** Authentication workflows
+- [ ] ** Dashboard workflows
+- [ ] ** Productivity workflows
+- [ ] ** Finance workflows
+- [ ] ** CJMS workflows
+- [ ] ** Website module workflows
+- [ ] ** Domains module workflows
+- [ ] ** Email module workflows
+- [ ] ** Google Business Profile module workflows
+- [ ] ** BizBuilding Program module workflows
+- [ ] ** Admin Portal workflows
+- [ ] ** Customer Portal workflows
+- [ ] ** Referral Partner Portal workflows
+- [ ] ** Service Delivery Partner workflows
+- [ ] ** Chat workflows
+- [ ] ** Daily CJMS Report workflows
+- [ ] ** Business Success workflows
+- [ ] ** Weekly Brief/Closeout workflows
+- [ ] ** Lead Follow Up/Health workflows
+- [ ] - Integrate WhatsApp Automation
+- [ ] 06. WP6 Advanced Features Production
+- [ ] - Optimise workspace protocol 
+- [ ] ** MWP folder structure (AGENTS.md artifacts, contexts, memory, skills, business and technical log, etc)
+- [ ] ** Quick navigation (I want this... go here)
+- [ ] ** Organised file systems for docs, code, files, etc.
+- [ ] - Refine Edge Function (data sync betweet apps, database, and workspace)
+- [ ] - Optimise PWA (seamless and best-in-class UI with backend and presentation of processed or raw data/information)
+- [ ] - Implement Cross-Platform Mobile with Offline capabilities
+- [ ] - Deploy to production using git submodules and private NPM
+- [ ] - Setup comprehensive monitoring
+- [ ] - Optimise agentic tools (AI model providers, models, mcps, skills, commands, etc.)
+- [ ] - Optimise infrastructure stack (cloud server instance capacity, git, containerised apps/images, hosting, domain, cloud services)
+- [ ] Daily 10 Outreach
+- [ ] Respond to Prospects 
+- [ ] Log  Activities
+- [ ] Complete Priority Sales Tasks
+- [ ] Update CRM
+- [ ] Pull and Read Lessons
+- [ ] Complete Action Tasks
+- [ ] Sync and Log Day
+- [ ] 
+- [ ] Status Indicator Lights
+- [ ] 9-10: 🏆 
+- [ ] 7-8: 🟢
+- [ ] 5-6: 🟡
+- [ ] 3-4: 🟠
+- [ ] 0-1: 🔴
+- [ ] N/A: ⚪ 
+- [ ] Not Started: ⚫ 
+- [x] 🟢 - Get Ollama set up and working in Alibaba Cloud instance, with a gemma4:31b-cloud model, and a pulled qwen2.5:3b model
+- [x] 🟢 - Get the Cline and Kilo Code Extensions working with both local and remote Ollama
+- [x] 🟢 - Get the Ralph scripts working
+- [x] 🟢 - Get Claude Code working, convert the ralph-once script into a skill and use it to implement the issues and complete the BizBuilder Platform refactor project
+- [x] 🟢 01. WP1 Core Infrastructure
+- [x] 🟢 - Implement MWP 5-Layer Architecture
+- [x] 🟢 - Migrate from OpenClaw to MWP Single-Agent
+- [x] 🟢 - Setup TDD Framework and Deep Module Architecture
+- [x] 🟡 02. WP2 Data Architecture
+- [x] 🟢  - Create exclusive Google Sheets database
+- [x] 🟢  - Implement Edge Functions sync layer
+- [x] 🟢  - Build self-improvement memory system
+- [x] 🟢 - Setup cron automation layer
+- [x] 🟢 - Complete domain/email routing

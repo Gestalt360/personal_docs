@@ -1,0 +1,103 @@
+---
+type: checklist
+color: white
+labels: ["00. Templates"]
+pinned: False
+archived: False
+created: 2026-03-16T09:37:55.216000
+updated: 2026-03-19T09:47:06.519000
+---
+
+# 15-21 March 2026 Weekly Plan
+
+- [ ] This Week's Pressing Needs
+- [ ] Food (2 x bread R34, sour milk R37, bananas R14, peanuts/peanut butter R40, sunflower seeds R30, brown rice R55, 2 x soup mix R30, lentils R25, cabbage R15, yoghurt R32, potluck R30) R350 for the week 15-21 March 2026 
+- [ ] R1.5k for household expenses contribution for March 2026 
+- [ ] R1.1k for Kagiso's BL.INK company registration refund 
+- [ ] R200 for fibre contribution for February 2026 
+- [ ] R100 for outstanding tithe 
+- [ ] R205 for fundraising pledge 
+- [ ] R200 for the Parable of the Pound Fundraising Campaign 
+- [ ] R400 FDUB & LDUB Offerings
+- [ ] Personal care products (bath soap R20, roll-on R30, toothpaste R20, toothbrush R30, washing powder for laundry R30, Zenplex spots remover R50, glycerine R20) R200 
+- [ ] Dry clean suits R500 
+- [ ] Healing for tumour in left thumb 
+- [ ] Get all cavities filled, including on the right molars; get amalgams and stains removed; get chirps and cracks fixed; get receding gums fixed; and get dentures for the gaps R22k
+- [ ] Multi-focal eye glasses R2k 
+- [ ] Memory Verses
+- [ ] Heb. 10:26-33, "26 For if we sin wilfully after that we have received the knowledge of the truth, there remaineth no more sacrifice for sins,   27 But a certain fearful looking for of judgment and fiery indignation, which shall devour the adversaries.   28 He that despised Moses' law died without mercy under two or three witnesses:   29 Of how much sorer punishment, suppose ye, shall he be thought worthy, who hath trodden under foot the Son of God, and hath counted the blood of the covenant, wherewith he was sanctified, an unholy thing, and hath done despite unto the Spirit of grace?   30 For we know him that hath said, Vengeance belongeth unto me, I will recompense, saith the Lord. And again, The Lord shall judge his people.   31 It is a fearful thing to fall into the hands of the living God.   32 But call to remembrance the former days, in which, after ye were illuminated, ye endured a great fight of afflictions;   33 Partly, whilst ye were made a gazingstock both by reproaches and 
+- [ ] afflictions; and partly, whilst ye became companions of them that were so used." 
+- [ ] Important Events & Appointments
+- [ ] This Week's Priorities
+- [ ] Complete Script Swapping System
+- [ ] - Pull all WAHA messages to a new WhatsApp_Messages tab in HQ sheet and have the chat_orchestrator.json workflow read chats and messages from the sheet
+- [ ] - Make sure that the chat orchestrator workflow provides swaps that are context aware
+- [ ] Complete fixing the Journey View
+- [ ] - Fix the Pipeline UI
+- [ ] - Fix CJMS Customer API workflow errors
+- [ ] - Make sure that the Journey View pulls all metrics and pertinent information accordingly
+- [ ] Complete fixing the Billing Hub
+- [ ] - Fix quotation and invoice editing and saving functionality
+- [ ] - Fix quotation actions in the billing hub to be able to convert a quote into an invoice
+- [ ] - Fix quotations, invoices, and receipts tables in the billing hub to pull strictly only the user's records 
+- [ ] - Make sure that the Billing Hub pulls all numbers accordingly
+- [ ] Fix sub-domain connections with production containers (waha, app, and automations)
+- [ ] Find and reconfigure Odoo DNS record for chrysalinks.co.za website 
+- [ ] Fix email redirection and sending via Gmail
+- [ ] Re-engage prospects and leads 
+- [ ] - Respond to Gugu, Jacquie, Dunisani, Ronald, Cherish, Mr Machaba, Malondi, Lebo, and Lorraine 
+- [ ] Continue with BizBuilding Program
+- [ ] - Create  a quote for Cynthia, convert it into an invoice, and email it to her 
+- [ ] - Start working on on Cynthia's Email Setup order, fix Email Setup module bugs, onboard her, and apologise for the delay 
+- [ ] Complete listening to TGUS parts 626 and 627
+- [ ] Continue with Pre-Passover preparations
+- [ ] - Complete reading Ch. 8-9 of the Anoint Your Eyes book
+- [ ] - Read through recommended holy days' reading list
+- [ ] - Start self-examination in earnestness
+- [ ] - Conclude NTBMO preparations with Jhb brethren and communicate with Anka
+- [ ] =================
+- [ ] Sunday Priorities
+- [ ] Monday Priorities
+- [ ] Tuesday Priorities
+- [ ] Wednesday Priorities
+- [ ] Thursday Priorities
+- [ ] Complete reading Ch. 8 of the Anoint Your Eyes book
+- [ ] Contribute to the NTBMO preparations with Jhb brethren 
+- [ ] Pull all WAHA messages to a new WhatsApp_Messages tab in HQ sheet and have the chat_orchestrator.json workflow read chats and messages from the sheet 
+- [ ] Make sure that the chat orchestrator workflow provides swaps that are context aware 
+- [ ] Fix CJMS Customer API workflow errors 
+- [ ] Fix the Pipeline UI 
+- [ ] Complete listening to TGUS parts 626 
+- [ ] Friday Priorities
+- [ ] If not going to Pta for services, ask Mike to send me the sermon
+- [ ] Organise potluck
+- [ ] Saturday Priorities
+- [ ] Attend Sabbath service
+- [ ] Initiate fellowship and enjoy potluck
+- [ ] ================
+- [ ] Week's Review
+- [ ] Grateful For:
+- [ ] Obstacles/Setbacks: 
+- [ ] Thoughts/Ideas:
+- [x] 🟢 Wed, 18 March 2026, 18h30-20h30: Spokesman Club
+- [x] 🟢 Plan for the week
+- [x] 🟢 Prepare for and attend Spokesman Club
+- [x] 🟢 - Read Lesson 7 of the Graduate Club Manual 
+- [x] 🟢 - Prepare my speech 
+- [x] 🟢 - Practise my speech
+- [x] 🟢 - Prepare to present assignments, get speech ready for delivery, have a review of my speech (check previous improvement tips), refresh and dress up, and set up environment, and attend Spokesman Club
+- [x] Review sermon notes
+- [x] 🟢 Plan for the week
+- [x] 🟢 Read Lesson 7 of the Graduate Club Manual
+- [x] 🟢 Start preparing my speech
+- [x] 🟢 Review sermon notes
+- [x] 🟡 Pull all WAHA messages to a new WhatsApp_Messages tab in HQ sheet and have the chat_orchestrator.json workflow read chats and messages from the sheet 
+- [x] 🟢 Review sermon notes 
+- [x] 🟡 Pull all WAHA messages to a new WhatsApp_Messages tab in HQ sheet and have the chat_orchestrator.json workflow read chats and messages from the sheet 
+- [x]  🟠 Make sure that the chat orchestrator workflow provides swaps that are context aware 
+- [x] 🟢 Review sermon notes 
+- [x] 🟡 Pull all WAHA messages to a new WhatsApp_Messages tab in HQ sheet and have the chat_orchestrator.json workflow read chats and messages from the sheet 
+- [x]  🟡 Make sure that the chat orchestrator workflow provides swaps that are context aware 
+- [x] 🟢 Complete preparing my speech and practise it
+- [x] 🟢 Prepare for Spokesman Club:  Assignments, get speech ready, have a last practice (check previous improvement tips), refresh and dress up, and set up environment
+- [x] 🟢 Attend Spokesman Club

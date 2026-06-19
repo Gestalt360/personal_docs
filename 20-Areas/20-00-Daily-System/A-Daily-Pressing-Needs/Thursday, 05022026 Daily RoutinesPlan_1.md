@@ -1,0 +1,159 @@
+---
+type: checklist
+color: white
+labels: ["00a. Daily Pressing Needs"]
+pinned: False
+archived: False
+created: 2026-02-05T05:46:04.434000
+updated: 2026-02-06T15:27:19.481000
+---
+
+# Thursday, 05/02/2026 Daily Routines/Plan
+
+- [ ] Today's Pressing Needs
+- [ ] NB!!! R83 for chrysalinks.co.za domain renewal
+- [ ] Food (2 x bread R34, sour milk R37, bananas R14, peanuts/peanut butter R40, sunflower seeds R30, brown rice R55, 2 x soup mix R30, lentils R25, cabbage R15, yoghurt R32, potluck R30) R350
+- [ ] Personal care products (bath soap R20, roll-on R30, toothpaste R20, toothbrush R30, washing powder for laundry R30, Zenplex spots remover R50, glycerine R20) R200
+- [ ] 7.5GB/7.5GB Telkom LTE data (R100) and 100GB Night Surfer data bundle (R135)
+- [ ] Fix quotations, invoices, and receipts tables in the billing hub to pull strictly only the user's records 
+- [ ] Fix quotation actions in the billing hub to be able to convert a quote into an invoice
+- [ ] Create  a quote for Cynthia, convert it into an invoice, and email it to her
+- [ ] Start working on on Cynthia's Email Setup order, fix Email Setup module bugs, onboard her, and apologise for the delay
+- [ ] Create a quote for Khotso, send it him, apologise for not getting back to him, and setup a discovery call for Kagiso 
+- [ ] Respond to Gugu, Jacquie, Dunisani, Ronald, Cherish, Mr Machaba, Malondi, Lebo, and Lorraine
+- [ ] R100 for outstanding tithe, R250 for fundraising
+- [ ] Raise at least R2,750 for deposit for flat at the back of the shopping centre, and the the R2,750 for rent, and R6,1k for furnishings
+- [ ] Raise R1,5k for household expenses contribution for February
+- [ ] Healing for tumour in left thumb
+- [ ] Memory Verse
+- [ ] Phil. 4:19, "But my God shall supply all your needs according to His riches in glory by Christ Jesus."
+- [ ] Important Events & Appointments
+- [ ] Priorities
+- [ ] Fix quote creation and saving bugs, create and send Khotso a quote for the self-paced program for payment
+- [ ] Renew chrysalinks.co.za domain
+- [ ] Set up a discovery call with Kagiso
+- [ ] Complete offline and local Kilo Code, Ollama AI, and Open Notebook implementation 
+- [ ] Download LibreOffice to use for Google Sheets offline editing and syncing
+- [ ] Re-engage all prospects
+- [ ] Create  a quote for Cynthia, convert it into an invoice, and email it to her 
+- [ ] Start working on Cynthia's Email Setup order, fix Email Setup module bugs, onboard her, and apologise for the delay 
+- [ ] Set up a bug reporting and management system in the PWA (Incomplete) 
+- [ ] Fix quotations, invoices, and receipts tables in the billing hub to pull strictly only the user's records 
+- [ ] BizBuilder App Dev
+- [ ] =============
+- [ ] AM Routine
+- [ ] BizBuilding Routine
+- [ ] Daily 10 Outreach
+- [ ] Respond to Prospects 
+- [ ] Log  Activities
+- [ ] Complete Priority Sales Tasks
+- [ ] Update CRM
+- [ ] Pull and Read Lessons
+- [ ] Complete Action Tasks
+- [ ] Sync and Log Day
+- [ ] Business Success Routine 
+- [ ] Business Goals and Plans ((Daily: weekly plan review, day plan review, next day plan); (Weekly: monthly plan review; weekly plan review; new week plan); (Monthly: quarterly plan review; critical actions, projects and tasks review; monthly plan review; new weekly plan) (Quarterly: annual plan review; quarterly plan review; new quarterly plan, critical actions, projects and tasks); (Annually: lifetime plan review; annual plan review; new annual plan) 
+- [ ] Business Education, Skills and Traits Dev.
+- [ ] Business Wellness 
+- [ ] Business Executions
+- [ ] - Order Fulfillment Execution
+- [ ] - Customer Support Execution
+- [ ] - Customer Satisfaction Execution
+- [ ] - Customer Success Execution
+- [ ] - Finance Management Execution
+- [ ] - Strategic Management Executions
+- [ ] - Admin Operations Executions
+- [ ] - Legal Affairs Executions
+- [ ] - Corporate Governance Executions
+- [ ] Business Performance Tracking
+- [ ] Business Guidance and Oversight
+- [ ] After-Work Routine
+- [ ] Errands
+- [ ] Personal Success Routine
+- [ ] Personal Goals & Plans ((Daily: weekly plan review, day plan review, next day plan); (Weekly: monthly plan review; weekly plan review; new week plan); (Monthly: quarterly plan review; critical actions, projects and tasks review; monthly plan review; new weekly plan) (Quarterly: annual plan review; quarterly plan review; new quarterly plan, critical actions, projects and tasks); (Annually: lifetime plan review; annual plan review; new annual plan)
+- [ ] - Spiritual Goals & Plans
+- [ ] - Material Goals & Plans 
+- [ ] - Financial Goals & Plans 
+- [ ] Personal Education, Skills Development & Traits Development
+- [ ] - Spiritual Education, Skills Development & Traits Development 
+- [ ] - Material Education, Skills Development & Traits Development 
+- [ ] - Financial Education, Skills Development & Traits Development 
+- [ ] Wellness Indicators
+- [ ] - Spiritual Wellness Indicators 
+- [ ] - Material Wellness Indicators 
+- [ ] - Financial Wellness Indicators 
+- [ ] - Self-Examination (Approval, Pre-Passover, 10-Daily Qs)
+- [ ] - Memory Scriptures
+- [ ] - God's Work
+- [ ] - Give Alms & Serve
+- [ ] Material Execution
+- [ ] - Safety and Health Execution (healthful living protocols)
+- [ ] - Competence Development Execution (expertise, qualifications, credentials)
+- [ ] Financial Execution
+- [ ] - Budgeting
+- [ ] - Income Management
+- [ ] - Tithes, Offerings and Fundraising
+- [ ] - Savings & Emergency Funds
+- [ ] - Expenses Tracking
+- [ ] - Debt Management
+- [ ] - Investment Planning & Review
+- [ ] - Tax Planning & Filing
+- [ ] - Insurance
+- [ ] - Estate Planning & Organisation
+- [ ] - Credit Score Monitoring & Management
+- [ ] - Financial Statements
+- [ ] - Shareholding & Board Membership Activities
+- [ ] Personal Overcoming
+- [ ] - Spiritual Overcoming
+- [ ] - Material Overcoming
+- [ ] - Financial Overcoming
+- [ ] Personal Performance Tracking
+- [ ] - Spiritual Performance Tracking
+- [ ] - Material Performance Tracking 
+- [ ] - Financial Performance Tracking 
+- [ ] Personal Guidance
+- [ ] - Spiritual Guidance
+- [ ] - Material Guidance
+- [ ] - Financial Guidance
+- [ ] Bedtime Routine
+- [ ] Freshen Up
+- [ ] Wind Down 
+- [ ] Sleep Between 21:00 and 23:00
+- [ ] ================
+- [ ] Day's Review
+- [ ] Blessings, Victories & Breakthroughs Grateful For:
+- [ ] Obstacles/Setbacks/Mistakes: 
+- [ ] Thoughts/Ideas:
+- [x] Setup Ollama (3.5GB), Kilo Code, and Open Notebook staging containers in Docker and complete their implementation plan
+- [x] Download LibreOffice and set up Google Drive as a remote service to work with the hub, client, and portal Google Sheets offline  ("Open Remote" in the File menu or Start Center -> "Manage Services" to add Google Drive 
+- [x] Fix quotation actions in the billing hub to be able to convert a quote into an invoice 
+- [x] Setup Ollama (3.5GB), Kilo Code, and Open Notebook staging containers in Docker 
+- [x] Follow-up on payment with Khotso (NOT RESPONDING)
+- [x] Hold a qualitifying and discovery call with Kagiso's business partner at 10am (DID NOT HAPPEN, CALLED BUT WAS BUSY WITH CLIENT, REVERTED AT NIGHT WITH REFERRAL (KEANE)
+- [x] Fix quotation actions in the billing hub to be able to convert a quote into an invoice  (Incomplete)
+- [x] Finish setup for Ollama (3.5GB), Kilo Code, and Open Notebook staging containers in Docker  (Incomplete)
+- [x] Download LibreOffice and set up Google Drive as a remote service to work with the hub, client, and portal Google Sheets offline  ("Open Remote" in the File menu or Start Center -> "Manage Services" to add Google Drive  (Incomplete)
+- [x] AM Doctrinal Purity Bible study (fundamental doctrines, miscellaneous doctrines, difficult verses, sermon notes review) 
+- [x] AM Meditation 
+- [x] AM Prayer
+- [x] Freshen and Dress Up
+- [x] Prepare and Eat Breakfast
+- [x] Lunch Break Routine 
+- [x] Daytime Bible Study (Obedience, Pink Highlight Verses, Proverbs, Psalms, Sermon Notes Review) 
+- [x] Daytime Meditation
+- [x] Daytime Prayer
+- [x] - Product Development Execution
+- [x] - Sales Execution
+- [x] - Marketing Execution 
+- [x] - Operations Management Execution
+- [x] Business Overcoming
+- [x] Exercise (30-min walk, leg exercises, dumbbell reps)
+- [x] Sabbath Preps (Prepare Sabbath clothes, organise potluck)
+- [x] Spiritual Execution
+- [x] - PM Bible Study (God's Promises Bible Study, Whole Bible Reading, Bible Books/Literature Reading, Articles Reading, Sermon Notes Review)
+- [x] - PM Meditation
+- [x] - PM Prayer (Intercessions)
+- [x] - Personal Care Execution (shower, hair and nails care, dental care, skincare routine, mending/laundry and ironing, drink water, eat supper)
+- [x] - Homecare and Chores Execution (rent payment, utilities (water, electricity, internet access, telephony), furnishings, maintenance, land purchase, building costs/construction)
+- [x] - Personal Connections (Fe) Execution (DCM, kids, parents & siblings, brethren, close friends, friends, relatives); 
+- [x] - Creative Self-Expression Execution ("Startup Essentials for Lifestyle Entrepreneurs" book writing; music theory and practical lessons; entrepreneurship and technology reading, travelling plans, food production, public speaking)

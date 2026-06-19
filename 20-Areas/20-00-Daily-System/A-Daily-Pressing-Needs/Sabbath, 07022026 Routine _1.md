@@ -1,0 +1,114 @@
+---
+type: checklist
+color: white
+labels: ["00a. Daily Pressing Needs"]
+pinned: False
+archived: False
+created: 2026-02-08T00:05:34.402000
+updated: 2026-02-08T09:33:44.878000
+---
+
+# Sabbath, 07/02/2026 Routine 
+
+- [ ] Today's Pressing Needs
+- [ ] NB!!! R83 for chrysalinks.co.za domain renewal
+- [ ] Food (2 x bread R34, sour milk R37, bananas R14, peanuts/peanut butter R40, sunflower seeds R30, brown rice R55, 2 x soup mix R30, lentils R25, cabbage R15, yoghurt R32, potluck R30) R350
+- [ ] Personal care products (bath soap R20, roll-on R30, toothpaste R20, toothbrush R30, washing powder for laundry R30, Zenplex spots remover R50, glycerine R20) R200
+- [ ] Fix quotations, invoices, and receipts tables in the billing hub to pull strictly only the user's records 
+- [ ] Fix quotation actions in the billing hub to be able to convert a quote into an invoice and then save the modal without an error 
+- [ ] Create  a quote for Cynthia, convert it into an invoice, and email it to her
+- [ ] Start working on on Cynthia's Email Setup order, fix Email Setup module bugs, onboard her, and apologise for the delay
+- [ ] Create a quote for Khotso, send it him, apologise for not getting back to him, and setup a discovery call for Kagiso 
+- [ ] Find out how to make LibreOffice sync with Google Drive to work with the hub, client, and portal Google Sheets offline, when the "Manage Services" for Google Drive is failing to authenticate and pull files
+- [ ] Respond to Gugu, Jacquie, Dunisani, Ronald, Cherish, Mr Machaba, Malondi, Lebo, and Lorraine
+- [ ] R100 for outstanding tithe, R250 for fundraising
+- [ ] Raise at least R2,750 for deposit for flat at the back of the shopping centre, and the the R2,750 for rent, and R6,1k for furnishings
+- [ ] Raise R1,5k for household expenses contribution for February
+- [ ] Healing for tumour in left thumb
+- [ ] Memory Verse
+- [ ] Important Events & Appointments
+- [ ] Priorities
+- [ ] =============
+- [ ] BizBuilder App Dev
+- [ ] Personal Success Routine
+- [ ] Personal Goals & Plans ((Daily: weekly plan review, day plan review, next day plan); (Weekly: monthly plan review; weekly plan review; new week plan); (Monthly: quarterly plan review; critical actions, projects and tasks review; monthly plan review; new weekly plan) (Quarterly: annual plan review; quarterly plan review; new quarterly plan, critical actions, projects and tasks); (Annually: lifetime plan review; annual plan review; new annual plan)
+- [ ] - Spiritual Goals & Plans
+- [ ] - Material Goals & Plans 
+- [ ] - Financial Goals & Plans 
+- [ ] Personal Education, Skills Development & Traits Development
+- [ ] - Spiritual Education, Skills Development & Traits Development 
+- [ ] - Material Education, Skills Development & Traits Development 
+- [ ] - Financial Education, Skills Development & Traits Development 
+- [ ] Wellness Indicators
+- [ ] - Spiritual Wellness Indicators 
+- [ ] - Material Wellness Indicators 
+- [ ] - Financial Wellness Indicators 
+- [ ] Spiritual Execution
+- [ ] - PM Bible Study (God's Promises Bible Study, Whole Bible Reading, Bible Books/Literature Reading, Articles Reading, Sermon Notes Review)
+- [ ] - PM Meditation
+- [ ] - PM Prayer (Intercessions)
+- [ ] - Self-Examination (Approval, Pre-Passover, 10-Daily Qs)
+- [ ] - Memory Scriptures
+- [ ] - God's Work
+- [ ] - Give Alms & Serve
+- [ ] Material Execution
+- [ ] - Personal Care Execution (shower, hair and nails care, dental care, skincare routine, mending/laundry and ironing, drink water, eat supper)
+- [ ] - Homecare and Chores Execution (rent payment, utilities (water, electricity, internet access, telephony), furnishings, maintenance, land purchase, building costs/construction)
+- [ ] - Safety and Health Execution (healthful living protocols)
+- [ ] - Personal Connections (Fe) Execution (DCM, kids, parents & siblings, brethren, close friends, friends, relatives); 
+- [ ] - Competence Development Execution (expertise, qualifications, credentials)
+- [ ] Financial Execution
+- [ ] - Budgeting
+- [ ] - Income Management
+- [ ] - Tithes, Offerings and Fundraising
+- [ ] - Savings & Emergency Funds
+- [ ] - Expenses Tracking
+- [ ] - Debt Management
+- [ ] - Investment Planning & Review
+- [ ] - Tax Planning & Filing
+- [ ] - Insurance
+- [ ] - Estate Planning & Organisation
+- [ ] - Credit Score Monitoring & Management
+- [ ] - Financial Statements
+- [ ] - Shareholding & Board Membership Activities
+- [ ] Personal Overcoming
+- [ ] - Spiritual Overcoming
+- [ ] - Material Overcoming
+- [ ] - Financial Overcoming
+- [ ] Personal Performance Tracking
+- [ ] - Spiritual Performance Tracking
+- [ ] - Material Performance Tracking 
+- [ ] - Financial Performance Tracking 
+- [ ] Personal Guidance
+- [ ] - Spiritual Guidance
+- [ ] - Material Guidance
+- [ ] - Financial Guidance
+- [ ] Bedtime Routine
+- [ ] Freshen Up
+- [ ] Wind Down 
+- [ ] Sleep Between 21:00 and 23:00 (02:30)
+- [ ] ================
+- [ ] Day's Review
+- [ ] Blessings, Victories & Breakthroughs Grateful For:
+- [ ] Delano picking me up for, and dropping me back from services; great sermonette on grieving God's Spirit from Mr Grey and sermon on Samson''s lost opportunity from Mr Schleiffer; great fellowship and potluck; coffee and water; finding a tentative venue for NTBMO, Delano sending me R50 airtime to buy data 
+- [ ] Working on Club Assignments and deveping a Personal Docs 2-Way Sync with Google Drive on the Sabbath 
+- [ ] Obstacles/Setbacks/Mistakes: 
+- [ ] Thoughts/Ideas:
+- [x] 7.5GB/7.5GB Telkom LTE data (R100) and 100GB Night Surfer data bundle (R135) - Delano assisted with R50 airtime to buy data
+- [x] Setup Ollama (3.5GB), Kilo Code, and Open Notebook staging containers in Docker and complete their implementation plan (Incomplete—needs to pull Llama 3.2 model again)
+- [x] Complete configuring Club Season 2025-26 Speaking Schedule and post it to group 
+- [x] AM Routine
+- [x] AM Doctrinal Purity Bible study (fundamental doctrines, miscellaneous doctrines, difficult verses, sermon notes review) 
+- [x] AM Meditation 
+- [x] AM Prayer
+- [x] Freshen and Dress Up
+- [x] Prepare and Eat Breakfast
+- [x] Sabbath Commanded Assembly Routine
+- [x] Leave for Sabbath Service 
+- [x] Setup Hall
+- [x] Pre-Service Fellowship
+- [x] Attend Service
+- [x] Breakdown Setup
+- [x] Potluck & Post-Service Fellowship
+- [x] Come Back Home/Errands
+- [x] - Creative Self-Expression Execution ("Startup Essentials for Lifestyle Entrepreneurs" book writing; music theory and practical lessons; entrepreneurship and technology reading, travelling plans, food production, public speaking)

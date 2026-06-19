@@ -1,0 +1,109 @@
+---
+type: checklist
+color: white
+labels: []
+pinned: False
+archived: False
+created: 2023-11-19T22:32:11.292000
+updated: 2026-02-04T04:02:56.277000
+---
+
+# Prophecy Series
+
+- [ ] The 6th Head
+- [ ] Rev. 17:1, 9-10 
+- 7 heads are 7 mountains/nations on which the great whore (Roman system) sits; 
+- Nebucchadnezzar is the 7th mountain/head, is different, and flown in by 2 stocks in a jar; 
+- 6th is from another nation/mountain (Russia) and is here when things start (Vladimir (to rule with greatness, peaceful ruler, ruler of the world) Putin (the path, or whore in French (of the great whore)), King Jerub Israel works with)). He foreshadows and is a type of the 7th head, very brutal and yet flattering
+- [ ] KoIR (1 Year)
+- [ ] Mic. 4:8
+- [ ] Acts 1:6
+- [ ] Acts 2:15-19
+- [ ] Acts 3:19-22; 
+- [ ] Acts 7:37
+- [ ] John 10:1-22 
+- 7th head, spoke in winter, during Hannukah
+- [ ] Hos. 2:8-11
+- [ ] Amos 1:1-
+- [ ] I Cor 1:7-8
+- [ ] 2 Cor 1:14-15 
+- End = Day of Christ/the LORD
+- [ ] Jer. 30:4
+- [ ] Ps. 83
+- [ ] Is. 55: 5, 40; 
+- [ ] Prov 30; 
+- [ ] Mal 3:5; 
+- [ ] Matt. 24:14; 
+- [ ] Ps. 68; 
+- [ ] Rom. 9; 
+- [ ] Phil. 2:15-16; 
+- [ ] Heb. 10:38
+- [ ] Hos 9:5 
+- a month devours Israel, gone to captivity for 28 days
+- [ ] Jer 8:20 
+- harvest is past and winter is ended 
+- [ ] Amos 4:7 
+- [ ] Matt 13:30 
+- season of wheat harvest in the fall
+- [ ] Hab 3:11-12 
+- Day of the LORD, right at its noon, of 365.25 day solar year
+- [ ] Hab.3:2 
+- Midst of solar years, Work starts at the beginning of the year and ends at its end
+- [ ] Hos. 6:2 
+- former rain over by Nov. 1
+- [ ] Luke 4:16-20, 42 
+- We are looking for a kingdom that's precisely 1 full solar year/annual), 
+- similar word also used in Luke 13:1-10 (3 years/1 more crop/fruit growing year - grapes and figs grow in solar annualized years), Acts 11:26 (Syrians didn't keep sacred years), Acts 18:11 (3 years 6 months - can only be calculated off a  solar year), Gal. 4:10 (Gentiles kept solar years); Jam. 4:13; Rev. 9:15 
+- 490 year prophecy decreed by a Gentile king Artxerxes who observed in 457 BC, 489 done (full solar years, one to go)
+- [ ] Gen. 1:14 
+- Creation week, no months mentioned)
+- [ ] Ex. 34:22 
+- Year's end (revolution of the sun, course of time, or when the year is lapsing after FOT); 
+- days are based on the sun, not the moon and years are based on the earth's revolution around the sun
+- [ ] Dan. 7:12 
+- similar to Rev. 9:12, kings that came out of the earth in the time/year (Idaan, a Caldean word for a solar year, similar to v25
+- [ ] Hab 2:3 
+- waiting for a moad (Sabbaths, new moons, holy days, start of a year)
+- [ ] Jer. 52:4,6 
+- two of the four of Jews fasts,
+- fast of the tenth day of the tenth month, starting at dawn; 
+- [ ] Zech. 8:16-19 
+- the four fasts God will turn into cheerful feasts/moads on those days Jerusalem is the throne of the LORD, 
+- cannot go beyond Tevet 10/Fri, 21 Dec. 2023, 
+- involving fasting at dawn, 
+- Is 41:4-7, winter solistice starting a season/winter
+- [ ] Is. 58:1-5 
+- first thing out of Elijah's mouth, when people are fasting, '...you shall not fast as you fast today...'
+- [ ] Ez. 40:1 
+- beginning of the [solar] year, 10th day of the tenth month, the measuring of the temple, same day of the Jews' fast
+- [ ] Ez. 33: 
+- Elijah rises in Tevet, in winter (Is. ?)
+- [ ] Hos. 12:9 
+- Israel to again dwell in Tabernacles (FOT), 
+- they go to captivity Nov. 1, 2024, a 30-day month
+- - sacrifices are stopped, 
+- darkest day of the year
+- [ ] Job 38:22 
+- time of [Jacob's] trouble, day of battle and war (the LORD) 
+- hail, snow and ice (Rev. 8:1-7, hail and fire, Is. 39:6)
+- [ ] Hos. 9:5 
+- solemn day/moad when in captivity, day of the sword
+- [ ] Dan. 11:5 
+- king of the north, 
+- end of years/last year, at the time of end, 
+- Elijah starts to speak to Israel, 
+- one year later is the end/day of Christ
+- [ ] Jer. 51:46
+- rumour involving 2 years
+- Temple cleansed year to year
+- Saints harvested after the former rain is over
+- [ ] 7-Year KoG
+- [ ] Amos 9:13-15
+- [ ] Is.1 41:15-20 
+- How mountains and hills go away
+- [ ] Dan. 7:28 
+- 8th head, 3.5 solar years
+- [ ] Zech10:1
+- [ ] Rev. 11 
+- 2 witnesses killed, in a season people are giving gifts one to another, after the beast reset times and re-instated Christmas
+- [ ] 1,000-Year/Millennial KoG

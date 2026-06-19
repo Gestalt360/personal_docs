@@ -1,0 +1,159 @@
+---
+type: checklist
+color: white
+labels: ["00. Templates"]
+pinned: True
+archived: False
+created: 2026-04-11T21:17:07.381000
+updated: 2026-04-12T17:29:26.928000
+---
+
+# Spiritual Apr-Jun 2026 Quarterly Plan
+
+- [ ] April Priorities
+- [ ] Pursued repentance daily to think like Christ (Mark 1:15; Acts 2:38; Jer. 17:9; Rom. 8:7; Job 42:6; 2 Cor. 7:10)
+- [ ] Remained believing the true Gospel always and know and retain the true message of the Good News of the coming Kingdom of God (Mark 1:14-15; 2 Cor. 4:4; Matt. 13:11)
+- [ ] Always honoured my baptism by keeping the old man buried and discontinuing the actions that put me under the death penalty, which Christ paid for with a brutal and humiliating death (Rom. 6:23; Col. 2:12; Rom. 6:4; 1 Pet. 3:21; 2 Cor. 5:17; Matt. 3:16)
+- [ ] Pursued obedience daily, continued not in habitual sins, and obeyed God’s law and the Ten Commandments (1 John 3:4; Is. 59:2; John 8:11; Jer. 10:23; Prov. 7:2; Deut. 5:10; John 14:15; 1 John 2:4; Rom. 13:9; 3:20; 5:13; 1 Cor. 4:4)
+- [ ] Carried my cross daily by being willing to suffer to obey God, and  denying myself, even to death (John 19:17; Matt. 16:24-26; Luke 14:27; Mark 8:34-37; Matt. 10:38; 2 Tim. 3:12; Acts 14:22)
+- [ ] Always has a willingness to forsake all that I have and put God first, by being willing to forsake my wealth, possessions, positions, or relationships, however difficult, to demonstrate my priorities and set my mind on things above (Luk. 13:33; 12:15; Mark 10:17-21; Col. 3:1-3; Matt. 13:44)
+- [ ] Was always troubled by sins and the abominations In the world—sighed and cried, to be comforted
+- [ ] Was lowly and humbled myself, to inherit the earth
+- [ ] Had a constant desire for the things of God—always hungered and thirsted for keeping God's Commandment, to be filled
+- [ ] Had a compassionate, generous, and forgiving attitude—overlooked offences and lived the give way of life, to obtain mercy
+- [ ] Maintained purity in doctrine, thought, motive, conduct, speech, and appearance—pursued genuiness and sincerity always, to see God
+- [ ] Pursued peacemaking always—sought to be in harmony with God and man, to the best of my abilities, to be called the child of God
+- [ ] Always maintained a willingness to suffer wrongfully for obeying God—rejoiced and was exceedingly glad when persecuted, reviled, or evil spoken of falsely, for a great reward in heaven
+- [ ] Exercised and produced the fruit of love (affection, benevolence, charity, outgoing concern for others, the give way of life, obedience of God’s Commandments), daily
+- [ ] Exercised and produced the fruit of joy (cheerfulness, calm delight, gladness, joyfulness)
+- [ ] Exercised and produced the fruit of peace (prosperity, quietness, rest, set at one again)
+- [ ] Exercised and produced the fruit of longsuffering (longanimity, forbearance, fortitude, patience)
+- [ ] Exercised and produced the fruit of gentleness (usefulness, moral excellence in character or demeanour, goodness, kindness)
+- [ ] Exercised and produced the fruit of goodness (virtue - strength, valour, commendable traits/qualities, conforming to standards of right, capacity to act, beneficence, performing acts of kindness, tender-heartedness)
+- [ ] Exercised and produced the fruit of faith (persuasion, credence - belief that something is true, moral conviction of religious truth or the truthfulness of God, especially in reliance upon Christ for salvation, abstractly constancy in such profession, the system of religious truth, assurance, belief, believe, fidelity)
+- [ ] Exercised and produced the fruit of meekness (gentleness, humility)
+- [ ] Exercised and produced the fruit of temperance (self-control, continence) 
+- [ ] Was the salt and light of the world by being an example of good works to those watching, to glorify my Father who is in heaven
+- [ ] Went beyond the physical observance of the law
+- [ ] Avoided anger toward and insulting brethren in my heart without cause
+- [ ] Reconciled quickly with offended brethren
+- [ ] Avoided looking at women lustfully or entertaining lustful thoughts or desires
+- [ ] Dealt honestly, with integrity, and kept my word always
+- [ ] Resisted not evil or sought not retribution, but showed love always, to strangers and even to my enemies
+- [ ] Was charitable without seeking others’ attention
+- [ ] Communicated properly and often with the Father
+- [ ] Fasted properly
+- [ ] Had a proper perspective on money and material goods
+- [ ] Sought the Kingdom of God first and His righteousness
+- [ ] Avoided judging others
+- [ ] Handled carefully the truths of God
+- [ ] Trusted God for material and spiritual needs
+- [ ] Avoided false prophets
+- [ ] Built my life on Christ’s sayings
+- [ ] To faith I've added virtue (manliness, valour, excellence and praiseworthiness)
+- [ ] To virtue I've added knowledge (knowing and understanding Christ, the truth and doctrines, God's plans and moral wisdom (living out this knowledge and God's will))
+- [ ] To knowledge I've added temperance (self-control and continence over desires, passions, sensual appetites and thoughts)
+- [ ] To temperance I've added patience (cheerful or hopeful endurance, constancy, patient continuance/waiting)
+- [ ] To patience I've added godliness (the fear of God, piety, holiness)
+- [ ] To godliness I've added brotherly kindness (fraternal affection, brotherly love, love of the brethren)
+- [ ] To brotherly kindness I've added charity (love, affection, and benevolence, that is broader and unconditional, including strangers and enemies)
+- [ ] 
+- [ ] May Priorities
+- [ ] Pursued repentance daily to think like Christ (Mark 1:15; Acts 2:38; Jer. 17:9; Rom. 8:7; Job 42:6; 2 Cor. 7:10)
+- [ ] Remained believing the true Gospel always and know and retain the true message of the Good News of the coming Kingdom of God (Mark 1:14-15; 2 Cor. 4:4; Matt. 13:11)
+- [ ] Always honoured my baptism by keeping the old man buried and discontinuing the actions that put me under the death penalty, which Christ paid for with a brutal and humiliating death (Rom. 6:23; Col. 2:12; Rom. 6:4; 1 Pet. 3:21; 2 Cor. 5:17; Matt. 3:16)
+- [ ] Pursued obedience daily, continued not in habitual sins, and obeyed God’s law and the Ten Commandments (1 John 3:4; Is. 59:2; John 8:11; Jer. 10:23; Prov. 7:2; Deut. 5:10; John 14:15; 1 John 2:4; Rom. 13:9; 3:20; 5:13; 1 Cor. 4:4)
+- [ ] Carried my cross daily by being willing to suffer to obey God, and  denying myself, even to death (John 19:17; Matt. 16:24-26; Luke 14:27; Mark 8:34-37; Matt. 10:38; 2 Tim. 3:12; Acts 14:22)
+- [ ] Always has a willingness to forsake all that I have and put God first, by being willing to forsake my wealth, possessions, positions, or relationships, however difficult, to demonstrate my priorities and set my mind on things above (Luk. 13:33; 12:15; Mark 10:17-21; Col. 3:1-3; Matt. 13:44)
+- [ ] Was always troubled by sins and the abominations In the world—sighed and cried, to be comforted
+- [ ] Was lowly and humbled myself, to inherit the earth
+- [ ] Had a constant desire for the things of God—always hungered and thirsted for keeping God's Commandment, to be filled
+- [ ] Had a compassionate, generous, and forgiving attitude—overlooked offences and lived the give way of life, to obtain mercy
+- [ ] Maintained purity in doctrine, thought, motive, conduct, speech, and appearance—pursued genuiness and sincerity always, to see God
+- [ ] Pursued peacemaking always—sought to be in harmony with God and man, to the best of my abilities, to be called the child of God
+- [ ] Always maintained a willingness to suffer wrongfully for obeying God—rejoiced and was exceedingly glad when persecuted, reviled, or evil spoken of falsely, for a great reward in heaven
+- [ ] Exercised and produced the fruit of love (affection, benevolence, charity, outgoing concern for others, the give way of life, obedience of God’s Commandments), daily
+- [ ] Exercised and produced the fruit of joy (cheerfulness, calm delight, gladness, joyfulness)
+- [ ] Exercised and produced the fruit of peace (prosperity, quietness, rest, set at one again)
+- [ ] Exercised and produced the fruit of longsuffering (longanimity, forbearance, fortitude, patience)
+- [ ] Exercised and produced the fruit of gentleness (usefulness, moral excellence in character or demeanour, goodness, kindness)
+- [ ] Exercised and produced the fruit of goodness (virtue - strength, valour, commendable traits/qualities, conforming to standards of right, capacity to act, beneficence, performing acts of kindness, tender-heartedness)
+- [ ] Exercised and produced the fruit of faith (persuasion, credence - belief that something is true, moral conviction of religious truth or the truthfulness of God, especially in reliance upon Christ for salvation, abstractly constancy in such profession, the system of religious truth, assurance, belief, believe, fidelity)
+- [ ] Exercised and produced the fruit of meekness (gentleness, humility)
+- [ ] Exercised and produced the fruit of temperance (self-control, continence) 
+- [ ] Was the salt and light of the world by being an example of good works to those watching, to glorify my Father who is in heaven
+- [ ] Went beyond the physical observance of the law
+- [ ] Avoided anger toward and insulting brethren in my heart without cause
+- [ ] Reconciled quickly with offended brethren
+- [ ] Avoided looking at women lustfully or entertaining lustful thoughts or desires
+- [ ] Dealt honestly, with integrity, and kept my word always
+- [ ] Resisted not evil or sought not retribution, but showed love always, to strangers and even to my enemies
+- [ ] Was charitable without seeking others’ attention
+- [ ] Communicated properly and often with the Father
+- [ ] Fasted properly
+- [ ] Had a proper perspective on money and material goods
+- [ ] Sought the Kingdom of God first and His righteousness
+- [ ] Avoided judging others
+- [ ] Handled carefully the truths of God
+- [ ] Trusted God for material and spiritual needs
+- [ ] Avoided false prophets
+- [ ] Built my life on Christ’s sayings
+- [ ] To faith I've added virtue (manliness, valour, excellence and praiseworthiness)
+- [ ] To virtue I've added knowledge (knowing and understanding Christ, the truth and doctrines, God's plans and moral wisdom (living out this knowledge and God's will))
+- [ ] To knowledge I've added temperance (self-control and continence over desires, passions, sensual appetites and thoughts)
+- [ ] To temperance I've added patience (cheerful or hopeful endurance, constancy, patient continuance/waiting)
+- [ ] To patience I've added godliness (the fear of God, piety, holiness)
+- [ ] To godliness I've added brotherly kindness (fraternal affection, brotherly love, love of the brethren)
+- [ ] To brotherly kindness I've added charity (love, affection, and benevolence, that is broader and unconditional, including strangers and enemies)
+- [ ] June Priorities
+- [ ] Pursued repentance daily to think like Christ (Mark 1:15; Acts 2:38; Jer. 17:9; Rom. 8:7; Job 42:6; 2 Cor. 7:10)
+- [ ] Remained believing the true Gospel always and know and retain the true message of the Good News of the coming Kingdom of God (Mark 1:14-15; 2 Cor. 4:4; Matt. 13:11)
+- [ ] Always honoured my baptism by keeping the old man buried and discontinuing the actions that put me under the death penalty, which Christ paid for with a brutal and humiliating death (Rom. 6:23; Col. 2:12; Rom. 6:4; 1 Pet. 3:21; 2 Cor. 5:17; Matt. 3:16)
+- [ ] Pursued obedience daily, continued not in habitual sins, and obeyed God’s law and the Ten Commandments (1 John 3:4; Is. 59:2; John 8:11; Jer. 10:23; Prov. 7:2; Deut. 5:10; John 14:15; 1 John 2:4; Rom. 13:9; 3:20; 5:13; 1 Cor. 4:4)
+- [ ] Carried my cross daily by being willing to suffer to obey God, and  denying myself, even to death (John 19:17; Matt. 16:24-26; Luke 14:27; Mark 8:34-37; Matt. 10:38; 2 Tim. 3:12; Acts 14:22)
+- [ ] Always has a willingness to forsake all that I have and put God first, by being willing to forsake my wealth, possessions, positions, or relationships, however difficult, to demonstrate my priorities and set my mind on things above (Luk. 13:33; 12:15; Mark 10:17-21; Col. 3:1-3; Matt. 13:44)
+- [ ] Was always troubled by sins and the abominations In the world—sighed and cried, to be comforted
+- [ ] Was lowly and humbled myself, to inherit the earth
+- [ ] Had a constant desire for the things of God—always hungered and thirsted for keeping God's Commandment, to be filled
+- [ ] Had a compassionate, generous, and forgiving attitude—overlooked offences and lived the give way of life, to obtain mercy
+- [ ] Maintained purity in doctrine, thought, motive, conduct, speech, and appearance—pursued genuiness and sincerity always, to see God
+- [ ] Pursued peacemaking always—sought to be in harmony with God and man, to the best of my abilities, to be called the child of God
+- [ ] Always maintained a willingness to suffer wrongfully for obeying God—rejoiced and was exceedingly glad when persecuted, reviled, or evil spoken of falsely, for a great reward in heaven
+- [ ] Exercised and produced the fruit of love (affection, benevolence, charity, outgoing concern for others, the give way of life, obedience of God’s Commandments), daily
+- [ ] Exercised and produced the fruit of joy (cheerfulness, calm delight, gladness, joyfulness)
+- [ ] Exercised and produced the fruit of peace (prosperity, quietness, rest, set at one again)
+- [ ] Exercised and produced the fruit of longsuffering (longanimity, forbearance, fortitude, patience)
+- [ ] Exercised and produced the fruit of gentleness (usefulness, moral excellence in character or demeanour, goodness, kindness)
+- [ ] Exercised and produced the fruit of goodness (virtue - strength, valour, commendable traits/qualities, conforming to standards of right, capacity to act, beneficence, performing acts of kindness, tender-heartedness)
+- [ ] Exercised and produced the fruit of faith (persuasion, credence - belief that something is true, moral conviction of religious truth or the truthfulness of God, especially in reliance upon Christ for salvation, abstractly constancy in such profession, the system of religious truth, assurance, belief, believe, fidelity)
+- [ ] Exercised and produced the fruit of meekness (gentleness, humility)
+- [ ] Exercised and produced the fruit of temperance (self-control, continence) 
+- [ ] Was the salt and light of the world by being an example of good works to those watching, to glorify my Father who is in heaven
+- [ ] Went beyond the physical observance of the law
+- [ ] Avoided anger toward and insulting brethren in my heart without cause
+- [ ] Reconciled quickly with offended brethren
+- [ ] Avoided looking at women lustfully or entertaining lustful thoughts or desires
+- [ ] Dealt honestly, with integrity, and kept my word always
+- [ ] Resisted not evil or sought not retribution, but showed love always, to strangers and even to my enemies
+- [ ] Was charitable without seeking others’ attention
+- [ ] Communicated properly and often with the Father
+- [ ] Fasted properly
+- [ ] Had a proper perspective on money and material goods
+- [ ] Sought the Kingdom of God first and His righteousness
+- [ ] Avoided judging others
+- [ ] Handled carefully the truths of God
+- [ ] Trusted God for material and spiritual needs
+- [ ] Avoided false prophets
+- [ ] Built my life on Christ’s sayings
+- [ ] To faith I've added virtue (manliness, valour, excellence and praiseworthiness) 
+- [ ] To virtue I've added knowledge (knowing and understanding Christ, the truth and doctrines, God's plans and moral wisdom (living out this knowledge and God's will)) 
+- [ ] To knowledge I've added temperance (self-control and continence over desires, passions, sensual appetites and thoughts) 
+- [ ] To temperance I've added patience (cheerful or hopeful endurance, constancy, patient continuance/waiting) 
+- [ ] To patience I've added godliness (the fear of God, piety, holiness) 
+- [ ] To godliness I've added brotherly kindness (fraternal affection, brotherly love, love of the brethren) 
+- [ ] To brotherly kindness I've added charity (love, affection, and benevolence, that is broader and unconditional, including strangers and enemies) 
+- [ ] ================
+- [ ] Quarter's Review
+- [ ] Grateful For:
+- [ ] Obstacles/Setbacks: 
+- [ ] Thoughts/Ideas:

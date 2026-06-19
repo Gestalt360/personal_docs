@@ -1,0 +1,103 @@
+---
+type: checklist
+color: white
+labels: ["00d. Daily Priorities", "01. Goals & Plans", "09. Material"]
+pinned: True
+archived: False
+created: 2026-04-07T21:01:24.815000
+updated: 2026-04-07T21:25:52.265000
+---
+
+# Material Annual Priorities (2025-2026)
+
+- [ ] Always relied on and gave thanks to God for provision of my daily food needs of 3-square and balanced-diet meals 
+- [ ] Relied on and gave thanks to God for helping me make sure that I have appropriate and sufficient breakfast, lunch, and supper that provides all the needs of my body daily
+- [ ] Always relied on and gave thanks to God for provision of my daily water needs for drinking, cooking, and washing
+- [ ] Relied on and gave thanks to God for helping me make sure that I have access to clean water to drink, cook with, wash my body, and do laundry daily
+- [ ] Always relied on and gave thanks to God for provision of my daily needs for clothes that are appropriate for every occasion, classics of good quality and fit, and clean and neat
+- [ ] Relied on and gave thanks to God for helping with making sure I have maintain an ambassadorial and professional wardrobe for all occasions, and that is made of classics of good quality and fit
+- [ ] Relied on and gave thanks to God for helping with making sure that I do laundry and dry-cleaning to keep my clothse and clean and neat always; 
+- [ ] Relied on and gave thanks to God for helping with make sure I attend to all necessary mending and alterations for my clothes
+- [ ] Always relied on and gave thanks to God for provision my daily needs of shelter from the storms and elements, that rent and expenses were paid for in full and timely; had sufficient space, amenities and furnishings; was well-maintained and clean; was sufficiently-resourced with all necessities; and that eventually was my own
+- [ ] Relied on and gave thanks to God for his help with making sure that I contribute towards household expenses as I lived home  
+- [ ] Relied on and gave thanks to God for his help with making sure that I got my own accommodation and paid rent timely, every month
+- [ ] Relied on and gave thanks to God for his help with making sure that I had and paid for utilities 
+- [ ] Relied on and gave thanks to God for his help with making sure that I always kept my living quarter well-maintained, clean, and neat 
+- [ ] Relied on and gave thanks to God for his help with making sure that the place live in was always sufficiently-resourced with all household necessities, furniture & furnishings 
+- [ ] Always relied on and gave thanks to God for provision of my transport needs local, Sabbath, holy days, recreational, and long-distance needs, whether public, rented, or private
+- [ ] Relied on and gave thanks to God for helping to make sure that I had adequate funds to pay for public transport, e-hailing services, petrol contributions, and car hires for travel needs as they arose 
+- [ ] Relied on and gave thanks to God for helping to make sure that I had adequate funds to have the option to travel wherever I needed to without inhibitions 
+- [ ] Always relied on and gave thanks to God for daily 30-minute brisk walks to stay physically-fit, complemented by leg exercises and dumb bell sets
+- [ ] Always relied on and gave thanks to God for enabling me to do 30-minutes brisk walks, Sundays to Fridays, to stay physically-fit
+- [ ] Always relied on and gave thanks to God for enabling me to do leg exercises and dumbbell sets to complete my exercise routine, Sunday to Friday
+- [ ] Always relied on and gave thanks to God for the provision of wholesome food that are 60% natural, uncooked or slightly cooked meals made up of vegetables and fruits; whole, unrefined, unprocessed, and locally produced or grown foods; pure natural or distilled or filtered water with added trace elements; sour milk from raw milk; natural, raw, unprocessed honey; and cold-pressed vegetable oils
+- [ ] Always relied on and gave thanks to God for enabling me to always source and eat wholesome foods that are 60% natural, uncooked or slightly cooked meals made up of vegetables and fruits; 
+- [ ] Always relied on and gave thanks to God for enabling me to always source and eat whole, unrefined, unprocessed, and locally produced or grown foods 
+- [ ] Always relied on and gave thanks to God for enabling me to always source and drink pure natural or distilled or filtered water with added trace elements 
+- [ ] Always relied on and gave thanks to God for enabling me to always source and eat sour milk from raw goat milk 
+- [ ] Always relied on and gave thanks to God for enabling me to always source and use natural, raw, unprocessed honey; and cold-pressed vegetable oils 
+- [ ] Always relied on and gave thanks to God for enabling me to always source and use cold-pressed vegetable oils 
+- [ ] Always relied on and gave thanks to God for the provision of meat that is organic red meat or chicken with red wine or ACV, and fresh fish, taken with quality dry white table wine
+- [ ] Always relied on and gave thanks to God for enabling me to always source and eat meat that is organic red meat or chicken with red wine or ACV, and fresh fish, taken with quality dry white table wine 
+- [ ] Always relied on and gave thanks to God for help with physical fasting through juice fasting for 7 days quarterly, using alkali-forming fruits and vegetable juices
+- [ ] Always relied on and gave thanks to God for enabling me to quarterly have physical fasts through 7-day juice fasting, using alkali-forming fruits and vegetable juices 
+- [ ] Always relied on and gave thanks to God for the provision of nutritional supplements of natural multivitamins/multiminerals; vitamin C with bioflavonoid complex (crystals); potassium chloride (as a salt substitute); Biogen Supreme B Complex (Vitamin B12 with Methylcobalamin and not cyanocobalamin); Magnesium Citrate; Vitamin D with K2; Folate (s-methyltetrahydrofolate); Apple Cider Vinegar; MSM; digestive enzymes, and vitality foods (dark chocolate, garlic, rosemary, avocado, pumpkin seeds, sunflower seeds, almond nuts, olive oil, ginger, spinach/kale, beetroot, organic eggs, cinnamon, turmeric, bicarbonate of soda, broccoli/cabbage, grapefruit, green tea, lemons, apples, bananas, blueberries)
+- [ ] Always relied on and gave thanks to God for enabling me to always source and take natural vitamin C with bioflavonoid complex (crystals) supplements
+- [ ] Always relied on and gave thanks to God for enabling me to always source and take natural potassium chloride (as a salt substitute) 
+- [ ] Always relied on and gave thanks to God for enabling me to always source and take natural Biogen Supreme B Complex (Vitamin B12 with Methylcobalamin and not cyanocobalamin) supplement
+- [ ] Always relied on and gave thanks to God for enabling me to always source and take natural Magnesium Citrate supplement
+- [ ] Always relied on and gave thanks to God for enabling me to always source and take natural Vitamin D with K2 supplement
+- [ ] Always relied on and gave thanks to God for enabling me to always source and take natural 
+- [ ] Always relied on and gave thanks to God for enabling me to always source and take natural 
+- [ ] Always relied on and gave thanks to God for enabling me to always source and take natural 
+- [ ] Always relied on and gave thanks to God for enabling me to always source and take natural 
+- [ ] Always relied on and gave thanks to God for enabling me to always source and take natural 
+- [ ] Always relied on and gave thanks to God for enabling me to always source and take natural 
+- [ ] Always relied on and gave thanks to God for rest and sleep through the weekly Sabbath rest, 7-8 hours sleep daily, New Moon observances monthly, and annual holy days
+- [ ] Always relied on and gave thanks to God for enabling me to take a break for rest and sleep through the weekly Sabbath rest 
+- [ ] Always relied on and gave thanks to God for enabling me to take a break and enjoy a special meal during monthly New Moon observances
+- [ ] Always relied on and gave thanks to God for personal hygiene through clean and orderly living quarters; pleasant body odour; hair, nails, dental, and breath grooming; and clean and appropriate dress code for every occasion
+- [ ] Always relied on and gave thanks to God for enabling me to maintain clean and orderly quarters daily
+- [ ] Always relied on and gave thanks to God for enabling me to maintain a pleasant body odour daily
+- [ ] Always relied on and gave thanks to God for enabling me to maintain daily hair, nails, dental and breath grooming
+- [ ] Always relied on and gave thanks to God for enabling me to maintain a clean and appropriate dress code for every occasion
+- [ ] Always relied on and gave thanks to God for safety consciousness by concentration and focus on the task at hand; wisdom and planning ahead for trips; familiarity with basic first aid; safe driving habits; and anticipating and avoiding potential hazards
+- [ ] Always relied on and gave thanks to God for enabling me to concentrate and focus on the task at hand for safety
+- [ ] Always relied on and gave thanks to God for enabling me to  exercise wisdom and planning well ahead of time for trips for safety
+- [ ] Always relied on and gave thanks to God for enabling me to get familiar with basic first aid for safety
+- [ ] Always relied on and gave thanks to God for enabling me to practise safe driving habits for safety
+- [ ] Always relied on and gave thanks to God for enabling me to anticipate and avoid potential hazards for safety
+- [ ] Always relied on and gave thanks to God for a positive outlook encompassing a positive mental attitude (a positive, optimistic hope, mixed with the faith of Christ, and peace from being in harmony with God); meditating on God's truths, good and wholesome things, character building things, praiseworthy things, and overall spiritual mindedness); fearing God and departing from sin; a merciful and forgiving attitude; keeping my words; serving and giving; recreational activities; and a strong work ethic
+- [ ] Always relied on and gave thanks to God for enabling me to maintain a positive mental attitude, embodied in a positive optimistic hope, mixed with the faith of Christ, and peace from being in harmony with God
+- [ ] Always relied on and gave thanks to God for enabling me to maintain a spiritual-mindedness by meditating on His truths, good and wholesome things, character-building things, and praiseworthy things
+- [ ] Always relied on and gave thanks to God for enabling me to fear Him and depart from evil, at all times
+- [ ] Always relied on and gave thanks to God for enabling me to maintain a merciful and forgiving attitude
+- [ ] Always relied on and gave thanks to God for enabling me to always keep my words
+- [ ] Always relied on and gave thanks to God for enabling me to always serve and give
+- [ ] Always relied on and gave thanks to God for enabling me to engage in recreational activities, and give myself enough “downtime” to unwind, and sort through life’s challenges 
+- [ ] Always relied on and gave thanks to God for enabling me to maintain a strong work ethic
+- [ ] Always relied on and gave thanks to God for overcoming and resourcefulness 
+- [ ] Always relied on and gave thanks to God for enabling me to maintaing a determination and resolve to overcome all  sins, weaknesses, trials, temptations, and obstacles
+- [ ] Always relied on and gave thanks to God for enabling me to always seek solutions, and refuse to accept defeat or give up
+- [ ] Always relied on and gave thanks to God for herbal remedies, "The How to Herb Book" by Keith and Gordon, 1994; Prescriptions for Nutritional Healing: by Dr James Balch and Phyllis Balch, 2000 (3rd Ed); Echinacea; Olive Leaf; Ginger
+- [ ] Always relied on and gave thanks to God for enabling me to obtain and use the book "The How to Herb Book" by Keith and Gordon to use herbs for good health
+- [ ] Always relied on and gave thanks to God for herbal remedies, "The How to Herb Book" by Keith and Gordon, 1994; Prescriptions for Nutritional Healing: by Dr James Balch and Phyllis Balch, 2000 (3rd Ed); Echinacea; Olive Leaf; Ginger
+- [ ] Always relied on and gave thanks to God for enabling me to obtain and use the book "Prescriptions for Nutritional Healing," by Dr James Balch and Phyllis Balch, 2000 (3rd Ed.) on using herbs for good health 
+- [ ] Always relied on and gave thanks to God for enabling me to have and use echinacea, olive leaf, ginger, and garlic to maintain a strong immunity system
+- [ ] Always relied on and gave thanks to God for help with meeting my obligations and commitments pertaining to providing support and being the father Mfundo, Khethiwe, Siphokazi, and Nkanyiso need
+- [ ] Always relied on and gave thanks to God for enabling me to communicate with Mfundo at least once a week and visit at least 2x/year
+- [ ] Always relied on and gave thanks to God for enabling me to send Siphokazi at least R500 monthly for personal care stuff and communicate weeks
+- [ ] Always relied on and gave thanks to God for enabling me to send Khethiwe at least R500 monthly for personal care stuff 
+- [ ] Always relied on and gave thanks to God for helping with meeting my obligations and commitments pertaining to honouring my father and mother through financial support and communication
+- [ ] Always relied on and gave thanks to God for the help with meeting my obligations and commitments pertaining to being a worthy friend to Delano, Khotso, Dunisani, and Mike
+- [ ] Always relied on and gave thanks to God for the help with meeting my obligations and commitments pertaining to my siblings and relatives
+- [ ] Always relied on and gave thanks to God for all qualifications and accreditations
+- [ ] Always relied on and gave thanks to God for all accomplishments and awards
+- [ ] Always relied on and gave thanks to God for IT and entrepreneurship careers
+- [ ] Always relied on and gave thanks to God for book authorship
+- [ ] Always relied on and gave thanks to God for ownership of Chrysalinks Group 
+- [ ] Always relied on and gave thanks to God for all Church responsibilities
+- [ ] Always relied on and gave thanks to God for the enjoyment of reading by creating a personal library of edifying, exciting and informative books that replace the screen for entertainment, winding, and getting informed about subjects
+- [ ] Always relied on and gave thanks to God for the enjoyment of music through an intensive study of music theory, practical music lessons, voice training and singing, and choir mastership
+- [ ] Always relied on and gave thanks to God for the enjoyment of writing through book writing of the 10x BizBuilding Book Series (Startup Success Essentials for Lifestyle Entrepreneurs for fundraising for the Work, the Becoming a Known Brand for Lifestyle Entrepreneurs, the Building a Full Operation for Lifestyle Entrepreneurs, and the Corporate Building for Lifestyle Entrepreneurs
+- [ ] Always relied on and gave thanks to God for the enjoyment of travelling through quarterly visits to Swaziland, Durban, FOT, and Cape Town 

@@ -1,0 +1,177 @@
+---
+type: checklist
+color: white
+labels: ["00a. Daily Pressing Needs"]
+pinned: False
+archived: False
+created: 2026-02-03T17:55:04.906000
+updated: 2026-02-04T12:51:21.030000
+---
+
+# Tuesday, 03/02/2026 Routine
+
+- [ ] Today's Pressing Needs
+- [ ] NB!!! R83 for chrysalinks.co.za domain renewal
+- [ ] Food (2 x bread R34, sour milk R37, bananas R14, peanuts/peanut butter R40, sunflower seeds R30, brown rice R55, 2 x soup mix R30, lentils R25, cabbage R15, yoghurt R32, potluck R30) R350
+- [ ] Personal care products (bath soap R20, roll-on R30, toothpaste R20, toothbrush R30, washing powder for laundry R30, Zenplex spots remover R50, glycerine R20) R200
+- [ ] 7.5GB/7.5GB Telkom LTE data (R100) and 100GB Night Surfer data bundle (R135)
+- [ ] Fix quotations, invoices, and receipts tables in the billing hub to pull strictly only the user's records 
+- [ ] Fix quotation actions in the billing hub to be able to convert a quote into an invoice
+- [ ] Create  a quote for Cynthia, convert it into an invoice, and email it to her
+- [ ] Start working on on Cynthia's Email Setup order, fix Email Setup module bugs, onboard her, and apologise for the delay
+- [ ] Create a quote for Khotso, send it him, apologise for not getting back to him, and setup a discovery call for Kagiso 
+- [ ] Setup Ollama (3.5GB), Kilo Code, and Open Notebook staging containers in Docker
+- [ ] Figure out how to work with the hub, client, and portal Google Sheets offline
+- [ ] Get website builder and GBP modules working, create Dr Sbu's 1-pager website, and request R397 for the domain
+- [ ] Sign up for Cloudflare paid account to access the domain registration API
+- [ ] Sign up for OCI paid account for better ARM free-tier allowances
+- [ ] Respond to Gugu, Jacquie, Dunisani, Ronald, Cherish, Mr Machaba, Malondi, Lebo, and Lorraine
+- [ ] Add 10 BizBuilding Program clients and help them get their 10 customers
+- [ ] Raise up to R50k in business revenues to draw a R16k salary, and quarterly performance bonuses
+- [ ] R100 for outstanding tithe, R250 for fundraising
+- [ ] Raise at least R2,750 for deposit for flat at the back of the shopping centre, and the the R2,750 for rent, and R6,1k for furnishings
+- [ ] Raise R1,5k for household expenses contribution for February
+- [ ] Get cavities in molars and decays on front teeth filled
+- [ ] Healing for tumour in left thumb
+- [ ] Multi-focal eye glasses
+- [ ] Get all core features (chat, scripts swap file, notifications, dashboards, calendar and scheduling, workflows, store (e-commerce) view, crm, project status, mobile app,  and modules (Domain Sales, Website Builder, Email Setup, GBP Setup, Optimisation, and Management)  of BizBuilder app working
+- [ ] Talk to mom
+- [ ] Send Siphokazi some assistance
+- [ ] Business name and address change, and a new card with TymeBank (R100)
+- [ ] CIPC business address change (R250)
+- [ ] Personal bank card (R70)
+- [ ] Pay Mike his R450
+- [ ] Laptop USB universal power adapter (R400)
+- [ ] Rechargeable batteries (R400)
+- [ ] Solar battery charger (R400)
+- [ ] Power bank charger (R400)
+- [ ] Leather toecap dress shoes (R600-R800)
+- [ ] Semi-formal shoes (R500)
+- [ ] 4 x work pants (R1k)
+- [ ] Sign up 335 domains for the month
+- [ ] Memory Verse
+- [ ] Phil. 4:19, "But my God shall supply all your needs according to His riches in glory by Christ Jesus."
+- [ ] Important Events & Appointments
+- [ ] Priorities
+- [ ] Fix quotations, invoices, and receipts tables in the billing hub to pull strictly only the user's records 
+- [ ] Fix quotation actions in the billing hub to be able to convert a quote into an invoice 
+- [ ] Create  a quote for Cynthia, convert it into an invoice, and email it to her 
+- [ ] Start working on Cynthia's Email Setup order, fix Email Setup module bugs, onboard her, and apologise for the delay 
+- [ ] Create a quote for Khotso, send it to him, apologise for not getting back to him, and set up a discovery call for Kagiso 
+- [ ] Setup Ollama (3.5GB), Kilo Code, and Open Notebook staging containers in Docker 
+- [ ] BizBuilding Routine [NOT DONE]
+- [ ] Daily 10 Outreach [NOT DONE]
+- [ ] Respond to Prospects [NOT DONE]
+- [ ] Log  Activities [NOT DONE]
+- [ ] Complete Priority Sales Tasks [NOT DONE]
+- [ ] Update CRM [NOT DONE]
+- [ ] Pull and Read Lessons [NOT DONE]
+- [ ] Complete Action Tasks [NOT DONE]
+- [ ] Sync and Log Day [NOT DONE]
+- [ ] Lunch Break Routine 
+- [ ] Daytime Bible Study (Obedience, Pink Highlight Verses, Proverbs, Psalms, Sermon Notes Review) [NOT DONE] 
+- [ ] Daytime Meditation [NOT DONE]
+- [ ] Business Success Routine 
+- [ ] - - Start working on Cynthia's Email Setup order, fix Email Setup module bugs, onboard her, and apologise for the delay  [NOT DONE]
+- [ ] - Marketing Execution 
+- [ ] - Sales Execution
+- [ ] - - Create a quote for Khotso, send it to him, apologise for not getting back to him, and set up a discovery call for Kagiso [NOT DONE]
+- [ ] - Order Fulfillment Execution [NOT DONE]
+- [ ] - - Create a quote for Cynthia, convert it into an invoice, and email it to her [NOT DONE]
+- [ ] - Customer Support Execution
+- [ ] - Customer Satisfaction Execution
+- [ ] - Customer Success Execution
+- [ ] - Finance Management Execution
+- [ ] - Operations Management Execution [NOT DONE]
+- [ ] - Strategic Management Executions
+- [ ] - Admin Operations Executions
+- [ ] - Legal Affairs Executions
+- [ ] - Corporate Governance Executions
+- [ ] Business Overcoming
+- [ ] - Fix quotations, invoices, and receipts tables in the billing hub to pull strictly only the user's records 
+- [ ] - Fix quotation actions in the billing hub to be able to convert a quote into an invoice 
+- [ ] Business Guidance and Oversight
+- [ ] After-Work Routine
+- [ ] Errands
+- [ ] Personal Success Routine
+- [ ] Personal Education, Skills Development & Traits Development
+- [ ] Personal Wellness Indicators
+- [ ] - Spiritual Wellness Indicators 
+- [ ] - Material Wellness Indicators 
+- [ ] - Financial Wellness Indicators 
+- [ ] Spiritual Execution
+- [ ] - PM Bible Study (God's Promises Bible Study, Whole Bible Reading, Books Reading, Articles Reading, Sermon Notes Review)
+- [ ] - PM Meditation
+- [ ] - PM Prayer (Intercessions)
+- [ ] - Self-Examination (Approval, Pre-Passover, 10-Daily Qs)
+- [ ] - Memory Scriptures
+- [ ] Material Execution
+- [ ] - Personal Care Execution (shower, hair and nails care, dental care, skincare routine, mending/laundry and ironing, drink water, eat supper)
+- [ ] - Homecare and Chores Execution (rent payment, utilities (water, electricity, internet access, telephony), furnishings, maintenance, land purchase, building costs/construction)
+- [ ] - Safety and Health Execution (healthful living protocols)
+- [ ] - Personal Connections (Fe) Execution (DCM, kids, parents & siblings, brethren, close friends, friends, relatives); 
+- [ ] - Competence Development Execution (expertise, qualifications, credentials)
+- [ ] - Creative Self-Expression Execution ("Startup Essentials for Lifestyle Entrepreneurs" book writing; music theory and practical lessons; entrepreneurship and technology reading, travelling plans, food production, public speaking)
+- [ ] Financial Execution
+- [ ] - Budgeting
+- [ ] - Income Management
+- [ ] - Tithes, Offerings and Fundraising
+- [ ] - Savings & Emergency Funds
+- [ ] - Expenses Tracking
+- [ ] - Debt Management
+- [ ] - Investment Planning & Review
+- [ ] - Tax Planning & Filing
+- [ ] - Insurance
+- [ ] - Estate Planning & Organisation
+- [ ] - Credit Score Monitoring & Management
+- [ ] - Financial Statements
+- [ ] - Shareholding & Board Membership Activities
+- [ ] Personal Overcoming
+- [ ] - Spiritual Overcoming
+- [ ] - Material Overcoming
+- [ ] - Financial Overcoming
+- [ ] Personal Performance Tracking
+- [ ] - Spiritual Performance Tracking
+- [ ] - Material Performance Tracking 
+- [ ] - Financial Performance Tracking 
+- [ ] Personal Guidance
+- [ ] - Spiritual Guidance
+- [ ] - Material Guidance
+- [ ] - Financial Guidance
+- [ ] Bedtime Routine
+- [ ] Freshen Up
+- [ ] Wind Down 
+- [ ] ================
+- [ ] Day's Review
+- [ ] Grateful For:
+- [ ] Obstacles/Setbacks: 
+- [ ] Thoughts/Ideas:
+- [x] Set up a bug reporting and management system in the PWA (Incomplete) 
+- [x] Set up productivity system in Google Keep for it's offline availability, accessibility, from almost anywhere, integration with Google Tasks, and syncing convenience
+- [x] BizBuilder App Dev
+- [x] Set up a bug reporting and management system in the PWA (Incomplete)
+- [x] AM Routine
+- [x] AM Doctrinal Purity Bible study (sermon notes review) 
+- [x] AM Meditation 
+- [x] AM Prayer
+- [x] Freshen and Dress Up
+- [x] Prepare and Eat Breakfast
+- [x] Daytime Prayer
+- [x] Business Goals and Plans ((Daily: weekly plan review, day plan review, next day plan); (Weekly: monthly plan review; weekly plan review; new week plan); (Monthly: quarterly plan review; critical actions, projects and tasks review; monthly plan review; new weekly plan) (Quarterly: annual plan review; quarterly plan review; new quarterly plan, critical actions, projects and tasks); (Annually: lifetime plan review; annual plan review; new annual plan) 
+- [x] - Set up a productivity system in Google Keep for its offline availability, accessibility from almost anywhere, integration with Google Tasks, and syncing convenience 
+- [x] - Work on lifetime plan
+- [x] Business Education, Skills and Traits Dev.
+- [x] Business Wellness Indicators 
+- [x] Business Executions
+- [x] - Product Development Execution
+- [x] - - Work on setting up a bug reporting and management system in the PWA (Incomplete) 
+- [x] Business Performance Tracking
+- [x] Exercise (30-min walk, leg exercises, dumbbell reps)
+- [x] Personal Goals & Plans ((Daily: weekly plan review, day plan review, next day plan); (Weekly: monthly plan review; weekly plan review; new week plan); (Monthly: quarterly plan review; critical actions, projects and tasks review; monthly plan review; new weekly plan) (Quarterly: annual plan review; quarterly plan review; new quarterly plan, critical actions, projects and tasks); (Annually: lifetime plan review; annual plan review; new annual plan)
+- [x] - Spiritual Goals & Plans
+- [x] - Material Goals & Plans 
+- [x] - Financial Goals & Plans 
+- [x] - Spiritual Education, Skills Development & Traits Development 
+- [x] - Material Education, Skills Development & Traits Development 
+- [x] - Financial Education, Skills Development & Traits Development 
+- [x] Sleep Between 21:00 and 23:00  (23h30)

@@ -1,0 +1,122 @@
+---
+type: checklist
+color: white
+labels: ["00. Templates"]
+pinned: True
+archived: False
+created: 2026-03-08T14:53:00.973000
+updated: 2026-04-08T08:11:12.364000
+---
+
+# Spiritual Wellness Indicators Template
+
+- [ ] Conversion
+- [ ] Stayed eligible for salvation
+- [ ] Repentance—think like Christ (Mark 1:15; Acts 2:38; Jer. 17:9; Rom. 8:7; Job 42:6; 2 Cor. 7:10)
+- [ ] Believing the Gospel—know and retain the true message of the Good News of the coming Kingdom of God (Mark 1:14-15; 2 Cor. 4:4; Matt. 13:11)
+- [ ] Honouring My Baptism—Keep the old man buried and discontinue the actions that put me under the death penalty, which Christ paid for with a brutal and humiliating death (Rom. 6:23; Col. 2:12; Rom. 6:4; 1 Pet. 3:21; 2 Cor. 5:17; Matt. 3:16)
+- [ ] Obedience—continue not in habitual sins and obey God’s law and the Ten Commandments (1 John 3:4; Is. 59:2; John 8:11; Jer. 10:23; Prov. 7:2; Deut. 5:10; John 14:15; 1 John 2:4; Rom. 13:9; 3:20; 5:13; 1 Cor. 4:4)
+- [ ] Loving God Exceedingly and Above All—make God preeminent, with nothing or no one being higher in priority than Him (Luk. 14:26; Deut. 6:5; Luk. 10:27; Ex. 20:1-17)
+- [ ] Carrying My Cross Daily—be willing to suffer to obey God, denying myself, even to death (John 19:17; Matt. 16:24-26; Luke 14:27; Mark 8:34-37; Matt. 10:38; 2 Tim. 3:12; Acts 14:22)
+- [ ] Willingness to Forsake All That I Have—to put God first, be willing to forsake my wealth and possessions, however difficult, to demonstrate my priorities and set my mind on things above (Luk. 13:33; 12:15; Mark 10:17-21; Col. 3:1-3; Matt. 13:44)
+- [ ] Lived the Beatitudes (To Live the Law on Autopilot)
+- [ ] Spiritually Poor—Beg God Always (To Inherit the Kingdom of Heaven)
+- [ ] Troubled By My Sins and the Abominations In the World—Sigh and Cry (To Be Comforted)
+- [ ] Be Lowly—Act Humbly (To Inherit the Earth)
+- [ ] Constant Desire for the Things of God—Always Hunger and Thirst for Lawfulness (To Be Filled)
+- [ ] A Compassionate, Generous and Forgiving Attitude—Overlook Offence and Live the Give Way of Life (To Obtain Mercy)
+- [ ] Purity In Doctrine, Thought, Motive, Conduct, Speech, and Appearance—Pursue Genuineness and Sincerity Always (To See God)
+- [ ] Peacemaking—Bring Calmness In Volatile Situations I Find Myself In, or Walk Away If Necessary (To Be Called the Child of God)
+- [ ] Willingness to Suffer Wrongfully for Obeying God—Rejoice and Be Exceedingly Glad When Persecuted, Reviled, or Evil spoken Of Falsely (For a Great Reward In Heaven)
+- [ ] Adhered to the spirit of the Law (To Be a Light of the World and Salt of the Earth) Matt. 5:13-48; 6:1-34; 7:1-29
+- [ ] Being the Salt and Light of the World—Be an Example of Good Works to Those Watching (To Glorify My Father Who Is In Heaven)
+- [ ] Going beyond the physical observance of the law
+- [ ] Avoiding anger toward and insulting brethren in my heart without cause
+- [ ] Reconciling quickly with offended brethren
+- [ ] Avoiding looking at woman lustfully or entertaining lustful thoughts or desires
+- [ ] Dealing honestly, with integrity, and keeping my word always
+- [ ] Resisting not evil or seeking not retribution, but showing love always, to strangers and even to my enemies
+- [ ] Being charitable without seeking others’ attention
+- [ ] Communication, properly and often, with the Father
+- [ ] Fasting properly
+- [ ] Having a proper perspective on money and material goods
+- [ ] Seeking the Kingdom of God first and His righteousness
+- [ ] Avoiding judging others
+- [ ] Handling carefully the truths of God
+- [ ] Trusting God for spiritual needs
+- [ ] Avoiding false prophets
+- [ ] Building my life on Christ’s sayings
+- [ ] Produced the fruit of the Spirit
+- [ ] Love (affection, benevolence, charity, outgoing concern for others, the give way of life, obedience of God’s Commandments)
+- [ ] Joy (cheerfulness, calm delight, gladness, joyfulness)
+- [ ] Peace (prosperity, quietness, rest, set at one again)
+- [ ] Longsuffering (longanimity, forbearance, fortitude, patience)
+- [ ] Gentleness (usefulness, moral excellence in character or demeanour, goodness, kindness)
+- [ ] Goodness (virtue - strength, valour, commendable traits/qualities, conforming to standards of right, capacity to act, beneficence, performing acts of kindness, tender-heartedness)
+- [ ] Faith (persuasion, credence - belief that something is true, moral conviction of religious truth or the truthfulness of God, especially in reliance upon Christ for salvation, abstractly constancy in such profession, the system of religious truth, assurance, belief, believe, fidelity)
+- [ ] Meekness (gentleness, humility)
+- [ ] Temperance (self-control, continence)
+- [ ] Abounded in faith add-ons
+- [ ] Virtue (manliness, valour, excellence and praiseworthiness).
+- [ ] Knowledge (knowing and understanding Christ, the truth and doctrines, God's plans and moral wisdom (living out this knowledge and God's will))
+- [ ] Temperance (self-control and continence over desires, passions, sensual appetites and thoughts)
+- [ ] Patience (cheerful or hopeful endurance, constancy, patient continuance/waiting)
+- [ ] Godliness (the fear of God, piety, holiness)
+- [ ] Brotherly kindness (fraternal affection, brotherly love, love of the brethren)
+- [ ] Charity (love, affection, and benevolence, that is broader and unconditional, including strangers and enemies)
+- [ ] Character
+- [ ] Conducted 3x daily, fiery, prayerful, and corrective Bible studies
+- [ ] AM Bible study
+- [ ] Daytime Bible study
+- [ ] Evening Bible study
+- [ ] Practiced daily, round-the-clock, contemplative and reflective meditation session(s)
+- [ ] AM meditation
+- [ ] Daytime meditation
+- [ ] Evening meditation
+- [ ] Prayed fervently 3x daily 
+- [ ] AM prayer
+- [ ] Daytime prayer
+- [ ] Evening prayer
+- [ ] Sought God's guidance, help, and success in everything throughout each day
+- [ ] Instant prayer throughout each day
+- [ ] Self-afflicted in spiritual fasting
+- [ ] Self-afflicted in spiritual fasting at least once a month
+- [ ] Self-afflicted in extended spiritual fasting at least once a quarterly
+- [ ] Obeyed God’s Commandments, statutes, precepts and laws
+- [ ] Obey the 1st Commandment: Have no other gods besides the Eternal
+- [ ] Obey the 2nd Commandments: You shall not make unto you any graven image
+- [ ] Obey the 3rd Commandment: You shall not take the Name of the LORD in vain
+- [ ] Obey the 4th Commandment: Six days to do all my work, and on the seventh day to remember the Sabbath to keep it holy—demonstrate to God my willingness to honour Him and walk in His ways, and that I know that He is the LORD who sanctifies me, by keeping the rest command and the sign that identifies the people who seek to obey Him (Ex. 16:4-5; Ez. 20:11-13, 19-21)
+- [ ] Obey the 5th Commandment: Honour your father and your mother; that your days may be long upon the land which the LORD your God gives you— regardless of age, honour and support my parents until the end of their lives, and respect the elderly and all authority
+- [ ] Obey the 6th Commandment: You shall not kill—or commit murder, which is a willful, deliberate, and malicious act, as opposed to an action resulting in accidental death
+- [ ] Obey the 7th Commandment: You shall not commit adultery—protect the honour and sanctity of marriage, and the entire family unit
+- [ ] Obey the 8th Commandment: You shall not steal—respect the property and possessions of others, and conduct business God's way, in honesty, fairness, and justice, in all dealings, and every facet of finances and accounting
+- [ ] Obey the 9th Commandment: You shall not bear false witness—all manner of lying and deceit—every form, including outright lying, false advertising, slander, shading the truth, even exaggerating, as well as false testimony in a court of law	
+- [ ] Obey the 10th Commandment: You shall not covet—desire or lust for something pleasant or of precious value (mate, servants, house, oxen, ass, or anything) that someone else possesses	
+- [ ] Obey God’s Tithing and Financial Laws
+- [ ] Refrain from Eating Unclean Foods
+- [ ] Keep Hair Length Laws
+- [ ] Obey Laws of Dating, Courtship, Marriage, Divorce, Re-Marriage and Child-Rearing
+- [ ] Obey the Laws of the Land and Civil Authority
+- [ ] Obey the Laws of Healthful Living and Healing
+- [ ] Observe God's Holy Days
+- [ ] Obey God’s Laws of Agriculture
+- [ ] Overcame and endured all trials, tests, temptations, and sins
+- [ ] Worked daily on overcoming and enduring all trials, tests, temptations, and sins
+- [ ] Worked daily on overcoming business risks, obstacles, and weaknesses
+- [ ] Was always ready to help daily
+- [ ] Worked diligently and with excellence at Chrysalinks Group
+- [ ] Earned towards the R60k monthly revenue target
+- [ ] Reserved funds towards, or drew, R8k salary, 20% commission, and R8k-R16k quarterly bonuses
+- [ ] Lived sacrificially
+- [ ] Support God's Work daily
+- [ ] Support brethren and/or strangers daily
+- [ ] Support God's government and follow its authority in the Church daily
+- [ ] Embrace hardness like a soldier daily
+- [ ] Doctrinal Purity & Truth
+- [ ] Wrote out by hand all the Bible Introduction Course verses on paper and filed them in plastic pocket books, to review them yearly
+- [ ] Wrote out all the Bible Introduction Course scriptures by hand and filed them in plastic pockets
+- [ ] Reviewed all the handwritten Bible Introduction Course scriptures at least once in a year
+- [ ] Mastered all fundamental and other pertinent doctrines, and all difficult questions by going through all of them twice a year
+- [ ] Wrote down by hand all fundamental and other pertinent doctrines, and all difficult questions not covered in Bible Introduction Course
+- [ ] Went through all fundamental and other pertinent doctrines, and all difficult questions annually

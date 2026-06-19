@@ -1,0 +1,190 @@
+---
+type: checklist
+color: white
+labels: ["08. Spiritual", "04. Execution", "00b. Daily Important Events & Appointments", "12c. Sales", "10. Financial", "09. Material", "12. Business"]
+pinned: True
+archived: False
+created: 2026-02-08T15:28:53.629000
+updated: 2026-06-12T09:03:22.538000
+---
+
+# Important Events & Appointments 2026 
+
+- [ ] January
+- [ ] June
+- [ ] Mon Sunset, 15-Tue Sunset, 16 June 2026: Tammuz 1 New Moon
+- [ ] - Finalise arrangements to observe it together with Delano
+- [ ] - Alert Tammie of our coming at Anka's Kitchen
+- [ ] - Observe Tammuz 1 New Moon with a special meal
+- [ ] 17 June 2026, 18h30-20h30: SA Spokesman Club 
+- [ ] - Prepare my Lesson 8: Book Review speech
+- [ ] ** Complete reading "The 4-Hour Work Week" book
+- [ ] ** Keep adding meat to my speech
+- [ ] ** Finalise and practise my speech on "The 4-Hour Work Week" book
+- [ ] - Prepare to attend Club for the evening (start from 17h30)
+- [ ]    ** Dress up for Club
+- [ ]    ** Prepare materials, desk and chair for Club
+- [ ]    ** Join Microsoft Teams by 18h15 
+- [ ] - Participate in Club session from 18h30 - 21h00
+- [ ] July
+- [ ] 1 July 2026, 18h30-20h30: SA Spokesman Club 
+- [ ] 8 July 2026, 18h30-20h30: SA Spokesman Club 
+- [ ] 15 July 2026, 18h30-20h30: SA Spokesman Club 
+- [ ] 22 July 2026, 18h30-20h30: SA Spokesman Club 
+- [ ] August
+- [ ] 5 August 2026, 18h30-20h30: SA Spokesman Club 
+- [ ] 12 August 2026, 18h30-20h30: SA Spokesman Club
+- [ ] 19 August 2026, 18h30-20h30: SA Spokesman Club  
+- [ ] September
+- [ ] 12 September 2026: Trumpets
+- [ ] - Set aside extra 10% monthly for Trumpets offerings, meal, and transport
+- [ ] - Read Trumpets literature 
+- [ ] 21 September 2026: Atonement
+- [ ] - Set aside extra 10% monthly for Atonement offerings and transport 
+- [ ] - Read Atonement day literature 
+- [ ] 23 September 2026: Final Preparation for the FOT
+- [ ] - Pack for the FOT
+- [ ] 24 September 2026: Travelling to FOT/Wilderness
+- [ ] - Organise bus tickets 
+- [ ] - Organise an Uber/Bolt ride to Park Station
+- [ ] - Bus travel to Feast site 
+- [ ] - Arrange pick up spot and time of arrival
+- [ ] 25 September 2026: FOT Opening Night
+- [ ] - Request assistance and save 2nd tithe and extra funds for FOT transport R1,700 (Uber/Bolt to and from Park Station R300, bus ticket R1,400), accommodation (R6,300), clothes R2,100 (dry clean R500, toe-cap dress shoes R800, light jacket R300, socks R200, work pants R300), activities R700 (extra meals, family day, dinner dance), groceries R1,000 (food for the road R300, rotisserie chicken R100, braai meat R150, seed bread R30, sunflower seeds R40, ACV R40, peanuts R60, avocados R60, bananas R40, peanut butter R50, sour milk R40, cookies/muffins R40); outings R300, gifts R300
+- [ ] - Prepare for choir 
+- [ ] - Read FOT literature 
+- [ ] - Book in at FOT accommodation
+- [ ] - Register for FOT
+- [ ] - Freshen up and dress up for Opening Night Service
+- [ ] - Attend Opening Night Service
+- [ ] - Prepare offering for FOT 1st Day
+- [ ] 26 September 2026: FOT 1st Day (Holy Day)
+- [ ] - Set aside extra 10% monthly for FOT 1st Day offering and meal
+- [ ] - Wake up, fix my bed, read my Bible and pray
+- [ ] - Freshen and dress up
+- [ ] -Go for breakfast
+- [ ] - Go to meeting hall and enjoy pre-service fellowship
+- [ ] - Attend AM service
+- [ ] - Enjoy luncheon and more fellowship
+- [ ] - Attend PM service 
+- [ ] - Post-service fellowship
+- [ ] - Go back to my room, PM activities
+- [ ] - Have supper, Bible study, prayer, and sleep
+- [ ] 27 September 2026: FOT 2nd Day 
+- [ ] - Wake up, fix my bed, read my Bible and pray
+- [ ] - Freshen and dress up
+- [ ] - Go for choir practise
+- [ ] -Go for breakfast
+- [ ] - Go to meeting hall and enjoy pre-service fellowship
+- [ ] - Attend service
+- [ ] - Enjoy luncheon and more fellowship
+- [ ] - Attend PM service 
+- [ ] - Post-service fellowship
+- [ ] - Go back to my room, PM activities
+- [ ] - Have supper, Bible study, prayer, and sleep
+- [ ] 28 September 2026: FOT 3rd Day
+- [ ] 29 September 2026: FOT 4th Day
+- [ ] 30 September 2026: FOT 5th Day
+- [ ] - Set aside extra 10% monthly for LGD offering and meal
+- [ ] October
+- [ ] 1 October 2026: FOT 6th Day
+- [ ] 2 October 2026: FOT 7th Day
+- [ ] 3 October 2026: Last Great Day (Holy Day)
+- [ ] 4 October 2026: Travelling back from FOT
+- [ ] November 
+- [ ] December
+- [ ] 
+- [ ] Status Indicators:
+- [ ] 9-10: 🏆 
+- [ ] 7-8: 🟢
+- [ ] 5-6: 🟡
+- [ ] 3-4: 🟠
+- [ ] 0-1: 🔴
+- [ ] N/A: ⚪ 
+- [ ] Not Started: ⚫ 
+- [x] 🟢 February
+- [x] 🟢 4 February 2026, 18h30-20h30: SA Spokesman Club 
+- [x] 🟢 9 Feb. 2026, Evening: Family Meeting (Access to Wifi Discussion)
+- [x] 🟢 11 February 2026, 18h30-20h30: SA Spokesman Club 
+- [x] 🟢 18 February 2026, 18h30-20h30: SA Spokesman Club 
+- [x] 🟢 March
+- [x] 🟢 4 March 2026, 18h30-20h30: SA Spokesman Club
+- [x] 🟢 8 March 2026, 19h00-21h30: International Spokesman Club
+- [x] 🔴 11 March 2026, 18h30-20h30: SA Spokesman Club  (Missed due to power failure)
+- [x] 🟢 14 March 2026: Sabbath Service Songleading
+- [x] (Cancelled) 15 March 2026, 10h00-17h00: Social, Walter Sisulu Botanic Gardens
+- [x] 🟢 18 March 2026, 18h30-20h30: SA Spokesman Club 
+- [x] 🟢 31 March 2026, Sunset: Passover 
+- [x] 🟢 April
+- [x] 🟢 1 April 2026, 18h30-20h30: NTBMO 
+- [x] 🟢 2 April 2026, 10h30-16h30: FDUB
+- [x] 🟢 3 April 2026, Whole Day: 2nd DUB
+- [x] 🟢 4 April 2026, Whole Day: 3rd DUB 
+- [x] 🟢 5 April 2026, Whole Day: 4th DUB 
+- [x] 🟢 6 April 2026, Whole Day: 5th DUB 
+- [x] 🟢 7 April 2026, Whole Day: 6th DUB 
+- [x] 🟢 8 April 2026, 10h30-16h30 : LDUB 
+- [x] 🔴 15 April 2026, 18h30-20h30: SA Spokesman Club 
+- [x] 🟢 - Prepare assignment for 22 April 2026 Club
+- [x] 🔴 - Prepare for Delano's Lesson 7 evaluation
+- [x] 🔴 - Prepare to attend Club on the day (from 17h30) and join Microsoft Teams by 18h15)
+- [x] 🔴 - Participate in Club session from 18h30 - 21h00
+- [x] 🟢 17-18 April 2026, Sunset-Sunset: New Moon Iyyar 
+- [x] 🟢 - Organise R100 to buy brown rice, soup mix and  lentils
+- [x] 🟢 - Prepare brown rice for potluck
+- [x] 🟢 22 April 2026, 18h30-20h30: SA Spokesman Club 
+- [x] 🟢 May
+- [x] 🟢 3 May 2026, 10h00-16h00: Social, Pretoria Botanical Gardens
+- [x] 🟢 Sun, 10 May 2026, 14h00-16h00: Goal-to-10 BizInception Coaching Program Presentation
+- [x] 🟢 - Prepare Khotso's Goal-to-10 BizInception Coaching Program Presentation
+- [x] 🟢 - Conduct the Goal-to-10 BizInception Coaching Program Presentation with Khotso on WhatsApp
+- [x] 🟢 Tue, 12 May 2026, 16h00-16h15: Goal-to-10 BizInception Coaching Program Quotation/Payment Discussion
+- [x] 🟢 13 May 2026, 18h30-20h30: SA Spokesman Club 
+- [x] 🟢 - Read manuals on topics and lesson # 8 
+- [x] 🟢 - Prepare topics 
+- [x] 🟢 - Prepare evaluation script for lesson # 8
+- [x] 🟢 - Conduct final preparations and attend Spokesman Club session
+- [x] 🟢 19-20 May 2026 (Sunset-Sunset): Sivan New Observation
+- [x] 🟢 - Organise R100 for Sivan New Moon special meal with Delano (meal sponsored by Delano)
+- [x] 🟢 - Conclude plans to get together for Sivan New Moon special meal with Delano
+- [x] 🟢 - Go for a special meal at Anka's Kitchen to observe Sivan New Moon
+- [x] 🟢 20 May 2026, 18h30-20h30: SA Spokesman Club 
+- [x] 🟢- Read manual on toastmaster duties 
+- [x] 🟢 - Get speech titles and hobbies from Delano, Mr Marais, and Ronald, and prepare toastmaster script to introduce speakers and evaluators
+- [x] 🟢 - Prepare club assignments for 3 June 2026
+- [x] 🟢 - Conduct final preparations and attend Spokesman Club session
+- [x] 🟢 - Post assignments for 3 June in Club's WhatsApp group 
+- [x] 🟢 5-25 May 2026 FOT 2026 Online Registration 
+- [x] 🟢 - Complete FOT 2026 Online Registration Form 
+- [x] 🟢 23 May 2026: Sabbath
+- [x] 🟢 - Buy special meal ingredients (brown rice, soup mix, lentils, sardines, and beetroot)
+- [x] 🟢 - Prepare rice and beetroot salad for special meal
+- [x] 🟢 - Prepare Sabbath clothes
+- [x] 🟢 - Prepare Sabbath songs
+- [x] 🟢 - Travel to Sabbath venue and attend services
+- [x] 🟢 - FOT Assistance Discussions with Mr Grey
+- [x] 🟢 23-24 May 2026 (Sunset-Sunset): Pentecost
+- [x] 🟢 - Organise R300 (R20) for holy offerings R100, meal(s) R100 (Church assisted), and transport (Delano's still carrying the cost)
+- [x] 🟢 - Read literature for Pentecost
+- [x] 🟢 - Prepare clothes for Pentecost
+- [x] 🟢 - Attend Pentecost services 
+- [x] 🟢 - Travel back from venue
+- [x] 🟢 30 May 2026: Sabbath
+- [x] 🟢 - Prepare Sabbath clothes
+- [x] 🟢 - Prepare Sabbath songs
+- [x] 🟢 - Travel to Sabbath venue and attend services (song-leading)
+- [x] 🟢 - Get feedback from Mr. Grey on FOT assistance request
+- [x] 🟢 - Travel back home from Sabbath services
+- [x] 🟢 3 June 2026, 18h30-20h30: SA Spokesman Club 
+- [x] 🟢 - Prepare Lesson 8 speech 
+- [x] 🟢 - Prepare club assignments for 10 June 2026 
+- [x] 🟢 - Conduct final preparations and attend Spokesman Club session 
+- [x] 🟢 10 June 2026, 18h30-20h30: SA Spokesman Club 
+- [x] 🟢 - Prepare assignments for 17 June 2026 Club
+- [x] 🟢 - Prepare for Delano's Lesson 9 evaluation
+- [x] 🟢 - Prepare to attend Club for the evening (start from 17h30)
+- [x] 🟢    ** Dress up for Club
+- [x] 🟢    ** Prepare materials, desk and chair for Club
+- [x] 🟢    ** Join Microsoft Teams by 18h15 
+- [x] 🟢 - Participate in Club session from 18h30 - 21h00
+- [x] 🟢 - Prepare assignments for 1 July 2026 Club 

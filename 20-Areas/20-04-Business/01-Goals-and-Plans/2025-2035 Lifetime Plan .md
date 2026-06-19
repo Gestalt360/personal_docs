@@ -1,0 +1,168 @@
+---
+type: checklist
+color: white
+labels: ["08. Spiritual", "10. Financial", "01. Goals & Plans", "09. Material", "12. Business"]
+pinned: True
+archived: False
+created: 2026-02-08T12:22:24.649000
+updated: 2026-05-05T10:05:18.684000
+---
+
+# 2025-2035 Lifetime Plan 
+
+- [ ] Vision
+- [ ] Deemed worthy to escape; went in first; received salvation; working with incomplete saints and hundreds of billions en route to trillions; have eternal life; received rulership in the first dominion; became part of the 144,000 firstfruits, kingly priest, and Christ's bride (the New Jerusalem); became part of God's Family and a God-Being
+- [ ] Mission (2025-2035)
+- [ ] Winning God's approval daily through:
+- [ ] - Deep conversion and Christlike-character development (stayed in the faith, acted Christlike, and became Christlike)
+- [ ] - Purification by fire/trials (practised all that was required of me)
+- [ ] - Doctrinal purity (had full knowledge of the present truth; knew, understood, trusted, and practised all the Church's present truths as revealed through Go's apostle)
+- [ ] Always relied on and gave thanks to God for my daily basic needs, relationships, health and safety, material blessings and successes, and creative self-expression, and was content with all that I had
+- [ ] - Always relied on and gave thanks to God for provision of my daily basic needs of food, water, clothes, shelter, and transport
+- [ ] - Always relied on and gave thanks to God for help with health and safety through daily 30 minute walks; wholesome foods; meat; physical fasting; nutritional supplements; rest and sleep; personal hygiene; safety consciousness; a positive outlook; overcoming and resourcefulness; and herbal remedies
+- [ ] - Always relied on and gave thanks to God for help with meeting my obligations and commitments in my relationships with or in DCM; kids; parents, friends, and relatives
+- [ ] - Always relied on and gave thanks to God for His recognition and validation with all material successes and blessings, achievements, career advances, and positions of responsibility 
+- [ ] - Always relied on and gave thanks to God for the enjoyment of creative self-expression in reading, music, writing, travelling
+- [ ] Relied on God to generate sufficient income monthly to have enough time and focus to stay close to God; provide for my needs and those of my loved ones; support the Work; assist brethren in need; and give to the stranger in need God occasionally sends my way
+- [ ] - Relied on God for generating R60k in business revenues, drawing R8k basic salary, 20% commission, and quarterly performance bonuses (R8k-R16k) so that I always have sufficient time and focus to stay close to Him and financially provide for my needs and those of my loved ones, support the Work, assist brethren in need, and give to the stranger in need that God sends my way occasionally 
+- [ ] - Relied on God for exercising stewardship through hard work, gainful employment, wise counsel, and initiative in task completions and always doing the right things privately
+- [ ] - Relied on God for always maintaining a 3-month budget
+- [ ] - Relied on God for always having an up-to-date monthly personal net worth statement
+- [ ] - Relied on God for credit management 
+- [ ] - Relied on God for always giving accurate and timely tithes and offerings
+- [ ] - Relied on God for always reflecting His character as I carry His Name by being rich in the right things
+- [ ] Developed a recurring income-generating asset of a book of over 9.6k domains, to assist me with supporting the Work and funding my goals and plans, while helping lifestyle entrepreneurs 10x their customer bases and revenues to fund their dreams and goals
+- [ ] - Assist over 100k lifestyle entrepreneurs 10x their revenues and customer bases and fund their dreams and goals through the BizBuilding Program and BizBuilder App
+- [ ] - Built a book of over 9.6k domains to generate R480k/year (@R50/domain net profit) to fund my goals and plans, and set aside R30 per domain to support the work (R180k/year) through running a free 1-pager website for 5 accepted referrals and lifetime hosting campaign and upselling domains 
+- [ ] ================
+- [ ] 3-5 Year Priorities (2028-2030)
+- [ ] Spiritual Priorities
+- [ ] Achieved deep conversion and Christlike character development by staying in the faith, acting Christlike, and becoming Christlike. 
+- [ ] - Stayed eligible for salvation
+- [ ] - Lived out the Beatitudes to live out the Law on autopilot
+- [ ] - Adhered to the spirit of the Law (To Be a Light of the World and Salt of the Earth) Matt. 5:13-48; 6:1-34; 7:1-29—Tracker
+- [ ] - Produced the fruit of the Spirit (Gal.5:22-23)—Tracker
+- [ ] - Abounded in faith add-ons—Tracker (2 Pet. 1:1-10)
+- [ ] Purified by and through fire/trials by practising all that was required of me) 
+- [ ] - Conducted 3x daily, fiery, prayerful, and corrective Bible studies—Tracker
+- [ ] - Practiced daily, round-the-clock, contemplative and reflective meditation session(s)
+- [ ] - Prayed fervently 2x daily and sought God's guidance and help in everything throughout each day
+- [ ] - Sought God's guidance, help, and success in everything throughout each day
+- [ ] - Self-afflicted in spiritual fasting
+- [ ] - Obeyed God’s Commandments, statutes, precepts and laws
+- [ ] - Was always ready to help daily
+- [ ] - Lived sacrificially
+- [ ] Doctrinal purity (had full knowledge of the present truth; knew, understood, trusted, and practised all the Church's present truths as revealed through Go's apostle) 
+- [ ] - Wrote out by hand all the Bible Introduction Course verses on paper and filed them in plastic pocket books, to review them daily
+- [ ] - Master all fundamental and other pertinent doctrines, and all difficult questions by completing a review of all of them at least once a year
+- [ ] Material Priorities
+- [ ] Always relied on and gave thanks to God for provision of my daily basic needs of food, water, clothes, shelter, and transport 
+- [ ] - Always relied on and gave thanks to God for provision of my daily food needs of 3-square and balanced-diet meals
+- [ ] - Always relied on and gave thanks to God for provision of my daily water needs for drinking, cooking, and washing
+- [ ] - Always relied on and gave thanks to God for provision of my daily needs for clothes that are appropriate for every occasion, classics of good quality and fit, and clean and neat
+- [ ] - Always relied on and gave thanks to God for provision my daily needs of shelter from the storms and elements, that rent and expenses were paid for in full and timely; had sufficient space, amenities and furnishings; was well-maintained and clean; was sufficiently-resourced with all necessities; and that eventually was my own
+- [ ] - Always relied on and gave thanks to God for provision of my transport needs local, Sabbath, holy days, recreational, and long-distance needs, whether public, rented, or private
+- [ ] Always relied on and gave thanks to God for help with health and safety through daily 30 minute walks; wholesome foods; meat; physical fasting; nutritional supplements; rest and sleep; personal hygiene; safety consciousness; a positive outlook; overcoming and resourcefulness; and herbal remedies 
+- [ ] - Always relied on and gave thanks to God for physical fitness through daily 30-minute brisk walks to stay physically-fit, complemented by leg exercises and dumb bell sets
+- [ ] - Always relied on and gave thanks to God for the provision of wholesome food that are 60% natural, uncooked or slightly cooked meals made up of vegetables and fruits; whole, unrefined, unprocessed, and locally produced or grown foods; pure natural or distilled or filtered water with added trace elements; sour milk from raw milk; natural, raw, unprocessed honey; and cold-pressed vegetable oils
+- [ ] - Always relied on and gave thanks to God for the provision of meat that is organic red meat or chicken with red wine or ACV, and fresh fish, taken with quality dry white table wine
+- [ ] - Always relied on and gave thanks to God for help with physical fasting through juice fasting for 7 days quarterly, using alkali-forming fruits and vegetable juices
+- [ ] - Always relied on and gave thanks to God for the provision of nutritional supplements of natural multivitamins/multiminerals; vitamin C with bioflavonoid complex (crystals); potassium chloride (as a salt substitute); Biogen Supreme B Complex (Vitamin B12 with Methylcobalamin and not cyanocobalamin); Magnesium Citrate; Vitamin D with K2; Folate (s-methyltetrahydrofolate); Apple Cider Vinegar; MSM; digestive enzymes, and vitality foods (dark chocolate, garlic, rosemary, avocado, pumpkin seeds, sunflower seeds, almond nuts, olive oil, ginger, spinach/kale, beetroot, organic eggs, cinnamon, turmeric, bicarbonate of soda, broccoli/cabbage, grapefruit, green tea, lemons, apples, bananas, blueberries)
+- [ ] - Always relied on and gave thanks to God for rest and sleep through the weekly Sabbath rest, 7-8 hours sleep daily, New Moon observations monthly, and annual holy days
+- [ ] - Always relied on and gave thanks to God for personal hygiene through clean and orderly living quarters; pleasant body odour; hair, nails, dental, and breath grooming; and clean and appropriate dress for every occasion
+- [ ] - Always relied on and gave thanks to God for safety consciousness by concentration and focus on the task at hand; wisdom and planning ahead for trips; familiarity with basic first aid; safe driving habits; and anticipating and avoiding potential hazards
+- [ ] - Always relied on and gave thanks to God for a positive outlook encompassing a positive mental attitude (a positive, optimistic hope, mixed with the faith of Christ, and peace from being); meditating on God's truths, good and wholesome things, character building things, praiseworthy things, and overall spiritual mindedness); fearing God and departing from sin; a merciful and forgiving attitude; keeping my words; serving and giving; recreational activities; and a strong work ethic
+- [ ] - Always relied on and gave thanks to God for overcoming and resourcefulness 
+- [ ] - Always relied on and gave thanks to God for herbal remedies, "The How to Herb Book" by Keith and Gordon, 1994; Prescriptions for Nutritional Healing: by Dr James Balch and Phyllis Balch, 2000 (3rd Ed); Echinacea; Olive Leaf; Ginger
+- [ ] Always relied on and gave thanks to God for the help with meeting my obligations and commitments in my relationships pertaining DCM, kids, parents, friends, and relatives 
+- [ ] - Always relied on and gave thanks to God for help with meeting my obligations and commitments pertaining to DCM pursuant to getting the outside work done
+- [ ] - Always relied on and gave thanks to God for help with meeting my obligations and commitments pertaining to providing support and being the father Mfundo, Khethiwe, Siphokazi, and Nkanyiso need
+- [ ] - Always relied on and gave thanks to God for helping with meeting my obligations and commitments pertaining to honouring my father and mother through financial support and communication
+- [ ] - Always relied on and gave thanks to God for the help with meeting my obligations and commitments pertaining to being a worthy friend to Delano, Khotso, Dunisani, and Mike
+- [ ] - Always relied on and gave thanks to God for the help with meeting my obligations and commitments pertaining to my siblings and relatives
+- [ ] Always relied on and gave thanks to God for His recognition and validation with all material successes and blessings, achievements, career advances, and positions of responsibility
+- [ ] - Always relied on and gave thanks to God for all qualifications and accreditations
+- [ ] - Always relied on and gave thanks to God for all accomplishments and awards 
+- [ ] - Always relied on and gave thanks to God for IT and entrepreneurship careers; 
+- [ ] - Always relied on and gave thanks to God for book authorship 
+- [ ] - Always relied on and gave thanks to God for ownership of Chrysalinks Group 
+- [ ] - Always relied on and gave thanks to God for all Church responsibilities
+- [ ] Always relied on and gave thanks to God for the enjoyment of creative self-expression in reading, music, writing, travelling, DIY projects, and personal food production 
+- [ ] - Always relied on and gave thanks to God for the enjoyment of reading by creating a personal library of edifying, exciting and informative books that replace the screen for entertainment, winding, and getting informed about subjects
+- [ ] - Always relied on and gave thanks to God for the enjoyment of music through an intensive study of music theory, practical music lessons, voice training and singing, and choir mastership
+- [ ] - Always relied on and gave thanks to God for the enjoyment of writing through book writing of the 10x BizBuilding Book Series (Startup Success Essentials for Lifestyle Entrepreneurs for fundraising for the Work, the Becoming a Known Brand for Lifestyle Entrepreneurs, the Building a Full Operation for Lifestyle Entrepreneurs, and the Corporate Building for Lifestyle Entrepreneurs
+- [ ] - Always relied on and gave thanks to God for the enjoyment of travelling through quarterly visits to Swaziland, Durban, FOT, and Cape Town through the BlackBrick Investment Scheme
+- [ ] Financial Priorities
+- [ ] Relied on God for generating R60k in business revenues, drawing R8k basic salary, 20% commission, and quarterly performance bonuses (R8k-R16k) so that I always have sufficient time and focus to stay close to Him and financially provide for my needs and those of my loved ones, support the Work, assist brethren in need, and give to the stranger in need that God sends my way occasionally 
+- [ ] - Relied on God for help with working in quietness and eating my own bread
+- [ ] - Relied on God for help with giving where I see an a need
+- [ ] - Relied on and asked God for help with my daily bread and show faith by my diligence and earning an income daily
+- [ ] - Relied on God for help with providing for my needs, supporting the girls with their needs, and support my parents with their needs
+- [ ] - Relied on God for help with paying my taxes timely and in full
+- [ ] - Relied on God for help with paying all bills on time and in full
+- [ ] - Relied on God for help with living within my means and being content with all that I have
+- [ ] - Relied on God for help with paying all debts and owing no one
+- [ ] Relied on God for exercising stewardship through hard work, gainful employment, wise counsel, and initiative in task completions and always doing the right things privately
+- [ ] - Relied on God for help with having a high-work ethic, gainful employment, and carrying out all my duties at Chrysalinks Group 
+- [ ] - Relied on God for help with always seeking wise counsel and guidance with my finances
+- [ ] - Relied on God for help with taking initiative in task completions and always doing the right things privately 
+- [ ] Relied on God for always maintaining a 3-month budget 
+- [ ] - Relied on God for help with always creating and maintaining a budget for each quarter
+- [ ] Relied on God for always tracking spending throughout each month
+- [ ] - Relied on God for help with always tracking spending for each week of every month
+- [ ] Relied on God for always having an up-to-date personal net worth statement 
+- [ ] - Relied on God for help with always preparing and keeping an up-to-date personal net worth statement monthly
+- [ ] Relied on God for credit management
+- [ ] - Relied on God for help with living with credit and not by credit, through only borrowing for necessities
+- [ ] - Relied on God for help with always making timely debt repayments
+- [ ] Relied on God for always giving accurate and timely tithes and offerings 
+- [ ] - Relied on God for help with accurate and timely payments of my regular tithe
+- [ ] - Relied on God for help with accurate and timely payments of my second tithe 
+- [ ] - Relied on God for help with accurate and timely payments of my third tithe or, in non-third-tithe years, use the 10% for extra offerings, holy day offerings, and for other spiritual expenses
+- [ ] - Relied on God for help with quickly identifying excess funds and give them to the Work (as Common or extra offerings), instead of hoarding them or piling up excess stuff or the latest-and-shiniest 
+- [ ] Relied on God for always reflecting His character as I carry His Name by being rich in the right things
+- [ ] - Relied on God for help with always being rich in good works
+- [ ] - Relied on God for help with always being rich in faith
+- [ ] - Relied on God for help with always being rich in joy
+- [ ] - Relied on God for help with always being rich in generosity
+- [ ] - Relied on God for help with always being rich in knowledge
+- [ ] - Relied on God for help with always being rich in utterance
+- [ ] - Relied on God for help with always being rich in diligence
+- [ ] - Relied on God for help with always being rich in love towards brethren
+- [ ] - Relied on God for help with always being rich in grace
+- [ ] Business Priorities
+- [ ] Assist over 100,000 lifestyle entrepreneurs 10x their revenues and customer bases to fund their dreams and goals through the BizBuilding Program and BizBuilder App 
+- [ ] - Developed the BizBuilding Program to help entrepreneurs 10x their revenues and customer bases
+- [ ] - Develop the BizBuilder Platform to make the BizBuilding Program easy to access, follow, and use and to provide internal capabilities to achieve all business goals
+- [ ] - Assist the first 10,000 lifestyle entrepreneurs 10x their customer bases and achieve their dream income to fund their dreams and goals through a channel of referral and service delivery partners, using the BizBuilding Program and BizBuilder Platform
+- [ ] Built a book of over 9,600 domains to generate R480,000/year (@R50/domain net profit) to fund my goals and plans, and set aside R30 per domain to support the work (R180,000/year) through running a free 1-pager website for 5 referrals campaign and upselling domains
+- [ ] - Signed up the first 480,000 cohort of domain customers through a FREE 1-Pager Website and Free Lifetime Hosting Campaign to anyone (for 5 referrals to the same offer, generating +R300k/year (@R50/domain net) to fund my goals and plans [FREE 1-Pager Website Campaign... should be willing to have their domain hosted in our Cloudflare service @R197/year]
+- [ ] - Set aside R30/domain sold, transferred in, or renewed (R180k/year) to support the Work of the RCG as a CSI initiative directly or through the Chrysalinks Foundation 
+- [ ] - Built and kept capital reserves of R240,000, an equivalent of the business' baseline budget, in a long-term interest-bearing investment account, and maintained a line of credit (LOC) of R120,000 to keep monthly cashflows stable, and paid it off annually with interest from cash reserves
+- [ ] ================
+- [ ] Life's Review
+- [ ] Victories & Major Milestones I'm Grateful For/Timeline:
+- [ ] - 1972 - 1988 (Swaziland): 
+- [ ] - 1989 - 1990 (Dondonald):
+- [ ] - 1991 - 1994 (Pimville):
+- [ ] - 1995 - 2000 (Protea/Swaziland):
+- [ ] - 2001-2003 (Savoy/Bagleyston)
+- [ ] - 2004-2014 (Ormonde/Randburg/Northwold/Little Falls/Radiokop/Honeydew Manor)
+- [ ] - 2015-2026 (Spruitview/Marshalltown/Bruma/Riverside/Fontainebleau/Teresapark/Pta/Spruitview)
+- [ ] Obstacles/Setbacks/Mistakes: 
+- [ ] - 1972 - 1988 (Swaziland): 
+- [ ] - 1989 - 1990 (Dondonald):
+- [ ] - 1991 - 1994 (Pimville):
+- [ ] - 1995 - 2000 (Protea/Swaziland):
+- [ ] - 2001-2003 (Savoy/Bagleyston)
+- [ ] - 2004-2014 (Ormonde/Randburg/Northwold/Little Falls/Radiokop/Honeydew Manor)
+- [ ] - 2015-2026 (Spruitview/Marshalltown/Bruma/Riverside/Fontainebleau/Teresapark/Pta/Spruitview) 
+- [ ] Major Relationships
+- [ ] - 1972 - 1988 (Swaziland): 
+- [ ] - 1989 - 1990 (Dundonald):
+- [ ] - 1991 - 1994 (Pimville):
+- [ ] - 1995 - 2000 (Protea/Swaziland):
+- [ ] - 2001-2003 (Savoy/Bagleyston)
+- [ ] - 2004-2014 (Ormonde/Randburg/Northwold/Little Falls/Radiokop/Honeydew Manor)
+- [ ] - 2015-2026 (Spruitview/Marshalltown/Bruma/Riverside/Fontainebleau/Teresapark/Pta/Spruitview) 
+- [ ] Thoughts/Ideas:

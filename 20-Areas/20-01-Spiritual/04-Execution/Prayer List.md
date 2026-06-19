@@ -1,0 +1,764 @@
+---
+type: checklist
+color: white
+labels: ["08. Spiritual", "04. Execution"]
+pinned: True
+archived: False
+created: 2023-11-05T17:24:35.682000
+updated: 2026-02-09T14:15:43.145000
+---
+
+# Prayer List
+
+- [ ] Praise/Adoration (Psalms, Hymns)
+- [ ] Thanksgiving
+- [ ] (i) Creation/Creator: 
+all that there is, my existence for God's purposes, being fearfully and wonderfully made, all my body parts and functions that work well, all that is there in nature to learn from, enjoy, and use
+- [ ] (ii) Sustenance/Sustainer & Provision/Provider: 
+consciousness, breath, air, water, food, clothes, sleep, shelter, warm bed to sleep in, protection from elements
+- [ ] (iii) God's Law/Law-Giver: 
+precious Commandments, statutes, ordinances and precepts 
+- [ ] (v) Sanctification/Sanctifier: 
+gift of the Holy Spirit, God's way of life, tools of Christian growth, body of Christ, God's government 
+- [ ] (vi) Healing/Healer: 
+past healings, relatively good health, 
+- [ ] (vii) Protection/safety, defence and avenging (Protector, Defender & Avenger): 
+deliverance from harm and trials, peace and safety 
+- [ ] (viii) Grace, Mercy, Goodness, Guidance and Love (Gracious, Merciful and Good Father, Who Is Slow to Anger and Quick to Forgive, My Guide and Love): 
+abundance, blessings, new mercies daily, corrections, discipline, chastisement, scourgings, forgiveness, help with overcoming, not treating me according to my many sins
+- [ ] (ix) Rulership/King: 
+sovereignty, authority
+- [ ] (x) Today's mercies:
+- [ ] Intercessions
+- [ ] (i) Coming Kingdom:
+speed up the day; to be deemed worthy to escape, to yield my will to God's will so ultimately His will is done on earth as it is in heaven 
+- [ ] (ii) God's Work:
+Mr Pack; ministry and staff; more workers; operations and results; Oshivambo and Oshiherero language translator; our support (personally, fundraising through domains and book sales); protection; events and activities; the elderly and infirm
+- [ ] (iii) Prayer Requests: 
+- [ ] -- Baby Abby Toro: heart surgery
+- [ ] -- Mr Harry Reich: spinal and back problems requiring back surgery
+- [ ] -- Mr Dee Scott: Parkinson's and degenerative disc diseases
+- [ ] -- Mrs Heidi Naman: spinal stenosis
+- [ ] -- Mr Drew Elekis: cysts all over the body
+- [ ] -- Mrs Margaret Garner: stage 4 COPD
+- [ ] -- Mrs Shirley Dors: quadruple bypass surgery
+- [ ] -- Ms Maria Melendez: acute pains, hip replacement surgery
+- [ ] -- Mrs Gloria Charlton: recovery from surgery to remove ovarian mass
+- [ ] -- Mrs Laurie Cimino: triple negative breast cancer potentially terminal, 6 months of chemo
+- [ ] -- Mrs Patricia Roe: severe spinal problems, suffocation sensation, intense pain, occasional paralysis
+- [ ] -- Mrs Mary Prevo: severe stroke on the right side of the brain, memory loss, dementia, low energy, and significant confusion
+- [ ] -- Mr Jonathan Mincey: extremely low blood pressure, passing out, falling and temporary blindness
+- [ ] -- Mr Rick Pendley: prostate cancer spread to the bones
+- [ ] -- Ms Johana Duarte: leukemia
+- [ ] -- Mr Dan Barth: stage 4 prostate cancer spread to the bones
+- [ ] -- Mrs Vickie Palmer: bacteria and sepsis in the spine
+- [ ] -- Mrs Judy Nail: melanoma on her face
+- [ ] -- Mr John Lynch: fluid retention, difficulty breathing, low haemoglobin, chronic fatigue, and severe nausea
+- [ ] -- Mr Clemens Polek: excessive lead and heavy metals in the body above toxic level causing pain all over the body, 12 weeks chelation therapy
+- [ ] -- Mrs. Diana Wysong,  lost her sight several years ago, living with diabetes for over 30 years, suffering from stage-5 kidney failure, preparing to begin home dialysis, will involve several hours of treatment several times each week, also suffering from congestive heart failure. and currently, her heart is only functioning at 13 percent. Treating these two diseases together is difficult. One requires more fluids, while the other requires less.
+- [ ] -- Mr. Desmond Gilbert: prostate cancer diagnosis
+- [ ] -- Ms. Sheila Johnson: Cushing's disease and symptoms that may be caused by a tumor, insomnia, sleepy in the day, panic attacks, difficulty breathing, high blood sugar levels and unexplained rashes. July 27, 2024 Update: has suffered a setback by experiencing a severe episode of atrial fibrillation that resulted in a stroke that temporarily paralyzed the entire left side of her body, and she needs total care at the present time as she cannot do much for herself
+- [ ] - Mrs Nancy Oettel: lump on left breast, unexplained rush on her body, and losing hair (undiagnosed)
+- [ ] -- Mrs Judy Storm: stage 3-B lung cancer, undergoing radiation treatment (update 6/4/24: went in for a follow-up CAT scan and it was completely clear, with no sign of cancer at all—also diabetic, and it has affected her kidneys, and now diagnosed with stage 5 kidney disease and must undergo dialysis three times a week); (update 27/07/2024: kidney dialysis is progressing well, though time-consuming and leaves her a bit weak,  recently fell and fractured her pelvis in three places, and  is currently in the hospital being treated
+- [ ] -- Mrs Claire Rondeau: malignant cyst found in her breast, chosen medication
+- [ ] -- Mr Chet Kennedy: congestive heart failure and fluid buildup in his chest, making breathing difficult (update 13/4/24: coughing through the night has stopped; feeling much stronger and no longer experiencing shortness of breath; and sleeping through the night without oxygen
+- [ ] -- Mr. Paul Tipton: congestive heart failure with fluid around his heart, a high heart rate, and kidney issues, along with a UTI
+- [ ] -- Mr. Jared Williams: several health issues, including severe cramping sensation in his right leg from a string of blood clots, literal wasp-stinging sensation in his fingertips from extreme carpal tunnel, stabbing pain, nausea from a recurring ulcer, and a heart murmur
+- [ ] -- Mrs Vanessa Colon: back has gotten worse with the slipping/bulging of L5 vertebrae has progressed from grade 1 to grade 3 and has been diagnosed with spinal stenosis—sciatic nerve pain, muscle weakness, spasms, and numbness in left leg and arm and has made walking incredibly difficult; may require back surgery
+- [ ] -- Mrs Keri Pentland: lump in one of her breasts, either a cyst or rare form of cancer—waiting for further testing
+- [ ] -- Mr. Laurence (Larry) Webb, a prospective member, following a fall, suffered a heart attack and is in the hospital, and he is now stable and undergoing several tests to determine how it has affected his heart. Also, he is still recovering from serious health issues with his bladder and kidneys.
+- [ ] -- Mr. Ken Russell is scheduled for surgery as one of his carotid arteries is blocked, causing vertigo (dizziness and nausea) as well as difficulty walking and sleeping. He may also need a new heart valve. In addition, he has suspected kidney stones.
+- [ ] Mrs. Russell has difficulty breathing and edema in her legs that cause her to struggle to walk, even with a cane, as well as problems sleeping. She also suffers from hemorrhaging.
+- [ ] Ms. Zaida Salinas, was admitted to the hospital after collapsing at work, and tests revealed she experienced a mini stroke and reduced kidney function.
+- [ ] Mrs. Kimberly Fair-Grace: suffering from spinal stenosis, which causes intense pain, numbness and tingling in her legs, making it difficult for her to attend Sabbath services
+- [ ] Mr. Dorrington Milliner: was urinating with blood, admitted to the hospital again due to symptoms of anemia, the doctor had planned surgery to address the bloody urination, but this latter development was not favorable for the surgery until he was stable enough to withstand the procedure. In previous years, been diagnosed with high blood pressure and was on medication. Further investigation now reveals his blood pressure was very low, has been sent home to return later for further tests to determine the stability of his health before continuing with the medical procedure to stop the bloody urination. Mr. Milliner is 84 years old and has been experiencing impaired vision and numerous health issues for a couple of years.
+- [ ] (iv) Brethren's Trials:
+- [ ] -- Miss Kunene: Funds, car troubles, health, success with learner training efforts to obtain qualification, relationship with Walter
+- [ ] -- Pearl: healing from hereditary health challenges, a successful start to their marriage with Shane
+- [ ] -- Mr Machaba: good health, relationship with Lola, opportunities to raise funds and a R50k to pay off overdraft and all arrears, ability to live within his pension, and keep up with payment arrangement in the meantime, fix his laptop
+- [ ] -- Mr and Mrs Viljoen: good health, financial wisdom, blessings on the current opportunity to generate an income 
+- [ ] -- Andria, Mike and Matthew: acceleration in the processing and approval of permanent visa application to immigrate into Canada
+- [ ] -- Aunty Pat: sustained good health, and peaceful and cordial relationship with her son
+- [ ] -- Cheryl: complete health from her fits and seizures
+- [ ] -- Gafane: complete recovery from hip replacement surgery 
+- [ ] -- Mike van Rensburg and family: good health 
+- [ ] (v) My family (provision, protection and guidance):
+- [ ] -- My children to flourish and not lack, better relations with them
+- [ ] -- Mfundo and Nkanyiso: protection from reoccurrence of psychotic episodes, business to attract sufficient clients and income, to get timely payments, and for us to buy land together to put up rooms for rentals
+- [ ] -- Khethiwe: for her to study and get qualifications, have a profession and build a career; to get a job and take care of her own needs; restore relations with her mother and sister; overcome addictions; to personally have sufficient funds for me to send her and initiate interactions
+- [ ] -- Siphokazi: to personally have sufficient funds to assist with her needs monthly expenses, to get her learners and drivers licence, to find a suitable job, for us to work together at Chrysalinks Consulting
+- [ ] -- Pat: to be in good health and to manage her emotions, and for us to maintain peaceful relations for the sake of the girls
+- [ ] -- Mom: good health; safety; sufficiency to provide for her needs, necessities, commitments and obligations; for me to have sufficient funds to support her monthly and to get to see her soon
+- [ ] -- Dad: good health; safety; sufficiency to provide for his needs, necessities, commitments and obligations; and a sppedy recovery from the effects of losing mom
+- [ ] -- Faka: assistance with dental troubles; sufficient clients, orders, capacity to deliver with excellence and diligence, and income to cater for her needs, necessities, commitments and obligations; and to take care of her kids
+- [ ] -- Half siblings and extended family: good health, success in all endeavours and work; help with all challenges face
+- [ ] (vi) Authorities everywhere God's people are and where His Work is headquartered: 
+guidance to engender conditions of peace, order and stability; for the Work to flourish; to be able to work, earn sufficiently to support our needs and those of our loved ones, the Work, brethren and strangers in need of our help; 
+- [ ] (vii) Our country: 
+deliverance from all her maladies that create sore trial conditions, including those seeking her harm, instigate instability and unrest, speak with swelling words and act with impunity, engage in low intensity warfare, commit acts of subversion and sabotage, load-shedding, high levels of corruption, murder, violence, rapes, robberies, petty crimes, unemployment, a poorly performing economy, poor service delivery, and state of dysfunction everywhere; the leaders that have emerged through the GNU to be the right leaders chosen by God to help the country overcome its many challenges, by taking care of infrastructure (using the right expertise and allocating adequate funds to build and maintain it); by ensuring of the enforcement, execution and administration of all laws and policies; and by providing stable governments locally, provincially, and nationally
+- [ ] Supplications
+- [ ] (i) Daily Needs:
+- [ ] -- Replenishment of God's Spirit to full capacity; personal increase to full measure allowable to man; the full complement of the fruit of the Spirit; the gift of Abraham's faith; our faith collectively and individual to not fail but for it to hold and grow
+- [ ] -- Growth in the right knowledge of right and wrong, understanding to depart from evil, discernment to make right judgements, and wisdom to fear God (Solomon's)
+- [ ] -- A yielded, mouldable, teachable, leadable, and repentant attitude, that accepts God's corrections and remains useful tools for His plans and purposes
+- [ ] -- To put on the full armour of light with all aspects in the best of conditions (doctrinal purity, knowledge of the true Gospel and readiness to do the Work, obedience of God's Commandments, confidence and constant meditation on our salvation and successfully putting on Christlikeness, constant dependence and full trust on God without evidence, fiery and corrective Bible studies and internalising of God's Word, and fervent and instant prayers)
+- [ ] -- Protection from all harm; personal peace, order and stability; favour, goodness and love
+- [ ] -- A healthy 3-square meal for today with all the nutrients and nourishment our bodies need
+- [ ] -- To lean not on our own understanding, but to acknowledge and call on God for directions all day long
+- [ ] -- Not to grieve, quench or insult the Holy Spirit, lest God withdraws it and leaves us reprobates and castaways
+- [ ] -- Personally for all the energy, drive and dedication I need to make the day a success, for clear eyes, and a cheerful, well-rested, and healthy demeanour
+- [ ] -- Guidance, help, and success with finding sufficient client numbers, generating R36k/mo. revenues, drawing R16k/mo. salary, and setting aside and drawing a sufficient reward incentive from surpluses quarterly to cover budgetary shortfalls; delivering with excellence and diligence to clients; getting high satisfaction scores, great reviews, and great referrals; to start paying everyone I owe; and to honour God with my substance
+- [ ] (ii) Pressing Needs:
+- [ ] -- Chirwa to have the means and to pay me urgently the whole outstanding R7.5k for August 2024 invoices  
+- [ ] -- To complete creating company profiles for En Masse Group and get paid the remaining R2,5k
+- [ ] -- To work on En Masse Group Operational Discipline Program weekly, for Chirwa to be able to pay the R4k/week fee, and for him to pay the R8,997 for LockStep System Customisation, 33.3% end of July (paid), 33.3% end of August, and 33.3% end of September 
+- [ ] -- For En Masse Technologies to get 3-4 extra sites every month, and En Masse Capital to get more funding customers to raise enough funds to pay off all debts, including the GEP debt, and re-access GEP project and working capital funding
+- [ ] To pay back urgently R1,805 for 2nd tithe
+- [ ] -- R130 for Pentecost meal, and R70 for LDUB meal payment
+- [ ] -- Get started with Khotso on the Sales Readiness Program for Plumtree Consulting
+- [ ] -- To prepare and send a Winnerpreneurs Referral Partner Program proposal to Dunisani, for him to agree to become a referral partner, and for him to refer sufficient client numbers
+- [ ] -- To complete creating plans and setting up personal and business systems in Clickup, and to raise the R400 monthly personal and business subscription fee for Clickup
+- [ ] -- Funds to buy winter and work clothes (fleece jacket, jersey,  long johns, long-sleeved vests, long-sleeved golf t-shirts, short-sleeve golf t-shirt, work pants, track pants, brown dress shoes, semi-formal shoes, casual shoes, socks, gloves/mittens, winter gown, and winter pyjamas)
+- [ ] -- R2,100 for household expenses (Meat R1,700 (10kg chicken R600, organs meat R500, read meat R200, russians R210, 60s eggs R200); maintenance R200; vegetables R220 (onions R80, tomatoes, R60, potatoes (R80))
+- [ ] -- R350 for personal weekly for groceries/healthy food (6s organic eggs R30, oats R40, yoghurt R30, rye bread R40, sunflower seeds R30, sardines R60, avocados R30, baby spinach/green herbs R20, bananas R50, blueberries R20)
+- [ ] -- R300 for monthly groceries (flaxseed oil R40, almonds R60, pumpkin seeds R40, lemons R15, ACV R40, honey R80, paper towels R25) 
+- [ ] -- R200 for monthly Sabbath transport
+- [ ] -- R200 for Emakhonkhosi family club contributions
+- [ ] -- Healing for growths on both thumbs and bleeding piles
+- [ ] -- Funds (R2.5k-R3k) to buy a new pair of multifocal eyeglasses
+- [ ] -- R250 to renew driver's license, R150 to get new ID, and R600 for passport
+- [ ] -- Grow in my music and choir mastership abilities, be ready for the Feast choir, and to have a successful performance of our song 
+- [ ] -- Get all cavities filled, including on the right molars; get amalgams and stains removed; get chirps and cracks fixed; get new crowns where necessary; and get implants on the gaps
+- [ ] -- +R700 to buy a hard drive for laptop and R5k for a Lenovo M11+ tab, with a keyboard and stylus
+- [ ] -- To raise R500 to send to Siphokazi, R500 to send to mom,  R500 to send to Khethiwe
+- [ ] -- Funds to pay Walter his R3.7k 
+- [ ] -- Attend to SARS tax affairs and receive leniency on all, including the R2.5k, penalties
+- [ ] -- To submit all annual returns, pay the required R750 and get  Chrysalinks Consulting company registration reinstated by CIPC 
+- [ ] -- Overcome LPM, and get consistent and disciplined with day plan execution
+- [ ] -- Grow in giving, serving, walking in the fear of God, walking with God daily, seeking His will in everything diligently and relentlessly, obeying Him wholeheartedly, and letting His peace rule in my heart
+- [ ] (iii) Other Important Needs:
+- [ ] -- Resources and the wisdom to produce most of my food (planting pots, potting soil and compost, a mobile rack, and gardening tools)
+- [ ] -- R3,5k for an office desk, chair, credenza, and study lamp
+- [ ] -- To save R20k for accommodation rent deposit and reserves
+- [ ] -- £175 for CIMA registration and to study towards and successfully obtain the CIMA diploma to be able to sign off financial statements
+- [ ] -- Get my watch fixed
+- [ ] -- Refund Dr Sbu for undelivered GBP, 1-pager website, and hosting
+- [ ] -- Guidance, resources and assistance to complete all preparations for dating and courtship 
+- [ ] -- Update my wardrobe to meet ambassadorial and professional standards (light grey v-neck pullover; navy blue fleece jacket; 2 premium quality and 2 more high-quality dress shirts; 6 vests; brown and black pairs of toecap dress shoes; tracksuit jacket; sneakers, soccer shoes; charcoal suit; grey tie and black bowtie; sunglasses; reversible black/brown dress belt; black jeans belt; brown jeans belt)
+- [ ] -- Funeral covers for my kids, parents, and siblings, income cover, life cover, hospital cover/medical insurance
+- [ ] -- Be able to have quarterly medical and dental checkups
+- [ ] -- To enroll for, study towards, and obtain the Ambassador College Diploma
+- [ ] -- R150k for a car
+- [ ] -- R500k for a 2-bedroom apartment
+- [ ] -- Funds to buy house furniture & furnishings (kitchen table, air-fryer, sleeper couch, headboard, water filter, washing basket, fridge, fan, side tables, side lamps, bedding, lace curtains, shower curtain, rugs, folding chairs, cushions, ironing board, washing rack, slow and/or pressure cooker, decor (large wall mirror and wall mural))
+- [ ] -- R5k for backup power/build salt-based battery and solar panel
+- [ ] Confessions:
+- [ ] (i) Trespasses: 
+- [ ] - (for the day):
+- [ ] --- Getting distracted after waking up
+- [ ] --- Missing Bible studies and prayers
+- [ ] --- Worrying and being fearful
+- [ ] --- Not keeping my word
+- [ ] --- LPM
+- [ ] --- Not serving, giving or communicating 
+- [ ] --- Living the way of get
+- [ ] --- Sloppy and disheveled dress code
+- [ ] --- Not fixing my dental issues
+- [ ] --- Not paying tithes in full or timely and using tithes I've set aside
+- [ ] --- Not repaying my debts
+- [ ] --- Not paying bills on time
+- [ ] --- Not dealing with reality
+- [ ] --- Serious or unhappy demeanour
+- [ ] --- Covetousness
+- [ ] --- Pride
+- [ ] --- Critical and judgemental thoughts 
+- [ ] --- Not anticipating and mitigating risk timely
+- [ ] --- Not supporting my mom 
+- [ ] --- Not developing my talents and using them effectively to support the Work
+- [ ] --- Lack of joy, peace, usefulness, excellence, and temperance
+- [ ] --- Not managing my finances properly
+- [ ] --- Not filing or paying my taxes
+- [ ] --- Not delivering diligently and excellently to clients
+- [ ] --- Not assisting Siphokazi and Khethiwe financially
+- [ ] --- Not actively internalising God's Word
+- [ ] --- Not managing the business properly 
+- [ ] --- Not putting my full and absolute trust in God
+- [ ] (ii) Repentance: 
+Help to see ourselves as God sees us; to receive His gift of repentance; and to take heed of His corrections by self-correcting and not His intervention with sore trials
+- [ ] (iv) Deliverance: 
+from Satan, society and self; from all sore trials, all temptations and all evil; not to be led to any temptation; and to stay on the straight and narrow
+- [ ] (iii) Mercifulness: 
+to forgive all who trespass against us; to habour no anger, resentment, unforgiveness, grudges or bitterness in our hearts; to be quick to forgive and slow to anger; and to not offend anyone
+- [ ] Worship:
+- [ ] (iii) Surrender: 
+for the day to successfully offer our bodies as living sacrifices that are pure, holy and acceptable to God, as our spiritual act of worship and reasonable service
+- [ ] (i) Growth: 
+in God's knowledge, fear, righteousness, and grace
+- [ ] (ii) Comprehension of God's Greatness:
+to learn to ascribe accordingly to God all that He is, does and own forever; for all reverence, exaltation, magnification, honour, glory, praise, worship, dominion, power, authority, and the kingdom are His forever
+- [x] (iv) Redemption/Redeemer:
+Christ's sacrifice, my calling at this dispensation of God's Work after being chosen from the foundation of the world, learning God's truths, baptism, and remission of my sins
+- [x] Mon-Tue, 5-6 August 2024 Gratitude List: - Chirwa's call and affirmation of Tuesdays and Wednesdays as Operational Discipline Program consultation days; - Call with Siphokazi and her willingness to come onboard with sales 
+- Call with Chriwa and the affirmation of Tuesdays and Wednesdays as the consultation days for the Operational Discipline Program
+- Call with Siphokazi, and her willingness to come onboard at Chrysalinks Consulting as a sales representative 
+- [x] Wed-Thu, 31 Jul-01 Aug 3024 - Chirwa paying R4k - Tshipi-Noto sending requested documents to IUA to get dad's claim finalised and paid - Assisting dad to send thank you messages to all who paid a major role in Mom's funeral 
+- [x] Sat-Sun, 15-16 June 2024 Gratitude List: - Mr Machaba's assistance with transport to and from Sabbath service; Being able to contribute to potluck; - All the visitors we had for services and Pentecost; - Instructive sermonette on enhancing daily peace and sermon on emotional maturity by Mr Holcombe; -Edifyng fellowship; - Delightful potluck and take away; -Abounding energy levels; - Preparing songs
+- [x] Sun-Thu, 8-13 June 2024: - All airtime for data bought during the week, - Progress achieved in getting planning done in Clickup and setting the business system outline, - NB!!! Bongi's call and her freewill assistance with R500 and of R50 airtime
+- [x] Fri-Sat, 7-8 June 2024: - Buying R20 airtime and milk; - The bit I was able to do on Clickup Planner; - Observing Sivan New Moon; Re-listening to TGUS Pt. 514 & 515
+- [x] Mon-Tue, 3-4 June 2024 Gratitude List: 
+- Buying R50 airtime for data; 
+- Getting started with writing Bible Introduction Course scriptures
+- Inspiration to simplify Chrysalinks Consulting by eliminating the creation of divisions, and the associated workload, by turning them into products and services, and removing the need to change the name to Chrysalinks Investments
+- Being able to take a break for a midday Bible study, knocking off for a walk, and resisting the angst to take up work again, but instead doing my evening Bible study
+-- Listening to TGUS Pt. 515
+-- Staying the landlord from demanding payment so far
+- [x] Sat-Sun, 1-2 June 2024: - Mr Machaba's assistance with transport to and from services; - Assistance with song-leading; - More members in attendance; Very instructional sermon from Mr Grey on recognising Christ through power and authority residing in His Body; - Chirwa paying the R1,000
+- [x] Sun-Mon, 19-20 May 2024 Gratitude List
+- Inspiration to use tags to organise my day plan routines
+- NB!! Chirwa's call, project plan and website opportunities
+
+- [x] Mon-Tue, 20-21 May 2024 Gratitude List
+- Chirwa sending the Dept of Education cabling project documents for project plan creation
+- Buying bread, sour milk, and bananas to break the fast
+- A successful extended-fast
+- Listening to the TGUS Pt. 513
+- [x] Tue-Wed, 21-22 May 2022 Gratitude List:
+- Completing the cabling project plan for En Masse Technologies and sending it to Chirwa
+- Completing setting up a third of my personal plan on Clickup
+- Being spared from serious damages to the laptop after dropping it
+- Tentative website, LockStep system, and Fractional COO program opportunity with Chirwa
+- [x] Wed-Thu, 22-23 May 2024 Gratitude List
+- Buying bread, avocados, and sunlight bar soap
+- Buying 5GB data bundle
+- [x] Tue-Wed, 4-5 June 2024 Gratitude List:
+- Assistance with buying back time after a late start of the day (knocking off and going for a walk, exercising, taking a shower, doing laundry, and doing the BIC)
+- Finding a scenic walking route
+- Inspiration to simplify my morning routine
+- Bongi and Gafane reaching out
+- Still having a reprieve from the landlord's demand for payment
+- [x] Wed-Thu, 5-6 June 2024 Gratitude List
+- Progress made on the planner in Clickup
+- Taking my daily walking exercise to Checkers and buying milk, bread and serviettes
+- Coming back and doing my dumbbells and calf exercises
+- Washing some of my clothes
+- Taking a shower
+- Responding to almost everyone I owed a response to
+- Miraculously buying 1GB data bundle using Telkom app without internet access
+- Writing down Bible Introduction Course verses
+- The landlord not kicking up a farce after requesting that he give me until the end of the week to pay the rent
+- Waking up at 5:30 am and completing my Bible study in time for me to have my prayer early enough to start my workday almost on time
+- [x] Thu-Fri, 6-7 June 2024 Gratitude List:
+- NB!! Khotso's call, domain, and company registration opportunities!!!
+- R20 Telkom airtime and 1GB data purchase
+- Progress made on Clickup Planner Setup
+- Communicating with Gafane
+- ANC's proposal of a government of national unity to drive the country forward
+- [x] Fri-Sat, 14-15 June 2024 Gratitude List:
+- Putting together the Sales Readiness Program Delivery Process
+- Buying food, airtime/data, and potluck
+- NB!!! Dunisani responding with R150 assistance enabling me to have funds for the holy day meal, potluck, offering, and petrol contribution
+- Khotso's response and promise to send funds on the weekend
+
+- [x] Sun-Fri, 16-21 June 2024 Gratitude List
+- Mr Machaba's assistance with transport to and from Pentecost services
+- Being able to withdraw R100 for Pentecost offering, R50 to assist with petrol, and to also buy milk
+- Very instructive and exhortative Pentecost offertory message, sermonette, and sermon
+- Delicious Pentecost luncheon, lively fellowship, hanging out with the international brethren and Mr Grey buying me a drink, and the delicious take-aways
+- Getting to buy data and being able to work
+- GNU, the speaker of the house of parliament, premiers and their cabinets, and the president's election and inauguration
+- The landlord's patience with me and him giving me a few more days to raise and pay rent
+- NB!!! Finally getting the planner completely done!
+- [x] Fri-Sat, 21-22 June 2024 Gratitude List
+- Getting started with the day plan execution and completing it
+- Buying food (oats, bread, milk, and avocados)
+- The landlord holding his peace for now and allowing me to observe the Sabbath without too much angst
+- [x] Sat-Sun, 22-23 June 2024 Gratitude List
+- Mr Machaba's assistance with transport to and from services
+- Mike's understanding on delayed R500 loan repayment
+- Corrective sermonette by Mr Sarrocco on faithfulness on minor matters to be trusted with true riches, especially in keeping time and my word, and an inspiring sermon by Mr Denee on the parallels of Solomon's kingdom and God's Kingdom
+- Everyone who prepared and contributed to a delicious potluck, great fellowship, and being able to take some takeaway with
+- The landlord still keeping his peace, allowing me to put in more work on En Masse's company profiles
+- Coming back from services and working on completing my day plan
+- Being able to get an R20 advance to replenish my depleted data with another 1GB
+- Restful sleep
+- Mapping out Chrysalinks Consulting's ecosystem and identifying its core offer (Operational Discipline Program for tech-savvy solo entrepreneurs)
+- Defining daily metrics to track
+- [x] Sun-Mon, 23-24 June 2024 Gratitude List:
+- Getting all the draft content for the En Masse Group company profiles done
+- Getting a further R10 airtime advance from Telkom to buy 1GB of data as I was running out
+- Getting more grace with the landlord still keeping his peace and not coming hard on the outstanding rent yet
+- [x] Mon-Tue, 24-25 June Gratitude List
+- Complete Lesson 2 of the Bible Introduction Course
+- Landlord keeping quiet after requesting his patience in replying to his enquiry for rent payment
+- Answered prayer for an airtime advance to buy data of R20
+- Progress made in creating En Masse Group profiles in Canva
+- [x] Tue-Wed, 25-26 June 2024 Gratitude List
+- Bringing back power soon after praying yesterday, and in the middle of the night
+- Revising and simplifying further my personal and business budgets
+- Reminder that I'm in a war, and inspiration to get spiritually violent again
+- Reminder to use the Taxtim application for financial education and support, expense tracking, and tax submissions
+- Finding a library nearby I can use when without internet
+- Buying an 330MB of data for R5, avoiding quickly running out still losing the R9.85 airtime
+- [x] Thu-Fri, 27-28 June 2024 Gratitude List
+- Completing the En Masse Technologies company profile and sending it to Chirwa
+- Gugu's help with R350 for data, which will assist with today's eventualities
+- Delano's help with receiving funds from Gugu, and him making an instant clearance at his cost
+- [x] Fri-Thu, 28 June-4 July 2024 Gratitude List
+- NB!! God's orchestration and intervention that I come to Spruitview, through stepmom's terminal illness, avoiding a homelessness crisis, and also the potential sense of guilt and regret of her passing away while we were estranged!!
+- The priviledge and opportunity of serving and showing outgoing concern my stepmom
+- Contributing to potluck
+- Mr Machaba's assistance with transport (with all my bags) to services
+- Delano's assistance with transport, with all my bags, to Spruitview
+- NB!! My dad's warm reception, acceptance, and agreeing with my request to stay at home, and the many ways God's provides for my needs and stability through that (shelter (no threat of losing it), food, washing machine, internet access, cooked meals, people to serve and help daily)!!
+- NB!! Finding Chirwa at his office on Monday, the immediate R1.5k order for and delivery of cash flow projections, him and his staff accepting the Fractional COO proposal!!
+- [x] Fri-Sat, 5-6 July 2024 Gratitude List
+- Buying oats and milk
+- Arranging transport for Sabbath with Delano
+- Listening to TGUS Pt. 521 and a large part of 522
+- Putting songs together
+- [x] Sat-Sun, 6-7 July 2024 Gratitude List:
+- Delano coming to fetch me from Spruitview for Sabbath services and dropping me off after services
+- Instructive sermonette from Mr Garb about dealing generously in business by giving more than expected, and sermon from Dr Viljoen about seeking and reflecting God's glory
+- Delicious and abundant meals shared during potluck, and great fellowship
+- Assistance and success with song leading
+- Sam Malatsi joining us for FOT accommodation in our unit
+- [x] Fri-Sat, 2-3 August 2024 Gratitude List:
+- Being able to give dad R2k to pay mom's helper (Lindiwe)
+- Buying food and roll on
+- Welcoming the Sabbath at the park watching a beautiful sunset
+- Completing listening to TGUS series parts 525 and part 526
+- [x] Sat/Sun, 18-19 May 2024:
+-- Mr Machaba's recovery, assistance with transport to and from Sabbath services
+-- Mike's forbearance of my delayed R500 loan repayment
+-- Encouraging sermonette by Mr. Grey on having the same mind of Christ through doctrinal purity and service, and sermon by Dr. Viljoen on combating loneliness, including the reminder that God is with me always and will never leave or forsake me
+-- Everyone's contribution to a delightful potluck and fellowship
+-- Decision to embark on an extended fast for the quarter (to petition God for William's favourable response to the FraCOO program proposal and a breakthrough financially to pay Mfundo and Mike, outstanding rent, buy food, and have sufficiency through the winter months
+- [x] Thu-Fri, 23-24 May 2024 Gratitude List
+- Buying milk
+
+- [x] Wed-Thu, 26-27 June 2024 Gratitude List
+- Getting R20 airtime advance for data from the R19 airtime I bought
+- Creating my personal readiness, wellness, execution, overcoming, performance tracking, and guidance systems on Clickup
+- Creating the business reason for being and 1-3 years goals
+- Waking up on time today
+- Inspiration to consider asking the family to place a container room in Mzimhlophe
+
+- [x] Thu-Fri, 4-5 July 2024 Gratitude List
+- Getting and successfully completing the R397 Canva website domain mapping opportunity for Perfect Carpet Cleaners
+- Conducting a successful and peaceful dialogue on household budgetary needs and responsibilities with Dad, Lungile and Mbongeni
+- [x] Sun-Mon, 7-8 July 2024 Gratitude List:
+- Completig Lesson 3 of the Bible Introduction Course
+- Further breaking down the business goals, plans and projects
+- Mbongeni's help with making oats when it was difficult to leave the bedroom to make food
+- Doing laundry
+- Getting assistance from Mbongeni and Lungile with cutting my hair
+- Getting to see my half-sister, Fikile, again
+- [x] Sat-Sun, 3-4 August 2024 Gratitude List:
+- Assistance with preparing songs
+- Being able to contribute R100 for petrol to Delano, his assistance with transport to and from Sabbath services, and him dropping me at Fresh's family home for condolences 
+- Contributing R100 towards supporting Fresh's family during their bereavement
+- God's assistance with songleading
+- Instructive sermonette about proselytising from Mr Lydick and an exhortative sermon from Mr Winkfield about maintaining hope in difficult cifrcumstances
+- Every contribution to a sumptious potluck and robust fellowship
+- [x] Mon-Tue, 8-9 July 2024 Gratitude List:
+- Completing setting up on Clickup business goals, plans, and projects
+- Receiving Pillar Magazine and Feast Brochure
+- Bongi's return as a customer
+- Retrieving lead generation system content and starting on setting it up on Clickup
+- Communicating with Kishore
+- [x] Sat/Sun, 11-12 May 2024 Gratitude List:
+-- Mr Machaba's assistance with transport to and from Sabbath services
+-- Assistance with song-leading
+-- Edifying sermonette (involving God in my decision-making) and sermon (being useful tools to God)
+-- All the delightful potluck contributions and  bonding fellowship
+-- Inspiration for packaging the FraCOO platform and Winnerpreneurship Partner Program
+-- Buying milk
+-- Listening to TGUS Pt. 512 and getting more understanding on the nature of the 7-year kingdom
+- [x] Fri, 3 May 2024 Gratitude List 
+-- Chirwa's R500 assistance
+-- Being able to buy a charger (immediately after losing the last one), 2 x milk, bananas, and sunlight bar soap
+-- Getting laundry done
+-- Meeting Chirwa to discuss potential Group COO position and equity in his group
+-- Bongi engaging with potential customers already
+- [x] Tue, 26/03/2024
+- Call with Bongi
+- Setting up sync between Airtable and Google Sheet
+- Listening to TGUS Pt. 500
+- [x] Wed, 27/03/2024
+- NB!!! Chirwa making ISO 9001 Implementation Coordination Offer at R2k/week or R8k/month!!!
+- Finding Century 21 sales training manual to help structure and create all campaign service delivery processes and content 
+- Inspiration to use Customer Development and Customer Creation frameworks for the Road to 10 Customers In 30 Days Campaign
+- [x] Sat, 30/03/2024
+-- A great relief and peace emanating from the inspiration on how to handle the potential fallout from the rent arrears
+-- Not looking haggard after battling with sleep
+- [x] Sat, 30/03/2024
+- Mr Machaba's assistance with transport and from service
+- Being able to contribute to potluck
+- Corrective and inspiring messages on recounting and being grateful about all God's benefits, and discerning the Body of Christ 
+- One of my best songleading duties
+- Edifying fellowship and tasty potluck, take-away and source
+- Buying bread
+- Conducting a fast 
+- Inspiration on restructuring and working on the planner, personal readiness, personal wellness, and spiritual execution
+- [x] Tue: 09/04/2024
+- Mr Machaba's assistance with transport to and from Sabbath services
+- Being able to contribute towards petrol
+- Being able to contribute towards potluck
+- Instructive sermonette on tools to use to avoid falling and sermon on being a waiter/servant Christian 
+- Reconfiguring planner and 
+
+- [x] Sun, 28 April 2024
+-- Completing breaking down Critical Plans into Critical Projects and divided them to different urgency levels, and start on my first day plan
+-- Preparing songs
+-- Completing listening to TGUS Pt. 510
+- [x] Sat, 4 May 2024 Gratitude List 
+-- Successful meeting with Chirwa and the preliminary agreement on coming in as a Fractional COO, which gets the Fragro division up and running immediately
+-- Buying potluck and sweet potatoes
+-- Ispiration to bring Bongi into the Winnerpreneurship program as its first partner
+- [x] Fri, 10 May 2024 Gratitude List
+-- Loans from Mfundo and Mike, and R500 payment from Bongi to be able to pay R3k and gain a few more days of shelter 
+-- Incorporating new Fractional COO Program inspiration into Fragro planning
+-- Potential clients from Bongi
+-- Listening to and gaining new knowledge from TGUS Pt. 511
+-- Completing planning, including also for the business
+- [x] Fri, 29/03/2024
+- Finding content for training growth hackers to build their own affiliated businesses, and for customers to start, grow and scale their businesses, simplying my revenue model in the process and allowing the business to be scalable, instead of selling my expertise
+- Inspiration for new business model
+-Thu, Campaign Readiness Call with Bongi
+- Thu, call from Mfundo, re-engaging after over 4 months
+- Buying bread, sour milk and potluck
+- Getting back to my senses on handling R8k potential income from Chirwa
+- [x] Mon, 25/03/2024
+- Finding Airtable as an alternative to Streak, the ease of importing content from Streak, and setting up my personal planner
+- Mr Machaba's assistance with transport to and from Sabbath services, and the petrol lasting enough for him to get home
+- Being able to contribute to potluck
+- Great messages, fellowship and potluck
+- The water and milk take-away
+- Buying bread for the week
+- [x] -- Mr Barry Edison: stage 4 lymphoma (healed)
+- [x] -- Mr Mario Furtado: cancer spread to the liver and bones, 3-6 months to live (passed away)
+- [x] -- Successful preparations for their (Pearl's) wedding with Shane (answered, 28/02/2024)
+- [x] -- Delano: to be on top of his work to meet all deadlines
+- [x] -- Siphokazi to pass her matric very well (answered Jan 2024)
+- [x] -- Malondi to overcome her struggle with depression
+- [x] -- Re-engaging with Kagiso
+- [x] -- Bongi wanting her daughter on the customer growth campaign
+- [x] -- Dr Nkhumeleni responding 
+- [x] Releasing tithes over to the Church
+- [x] -- Buying toiletries and sour milk  (Fri, 09/02/2024)
+- [x] -- Bringing order to, simplifying, and streamlining the business workfow(Fri, 09/02/2024)
+- [x] -- Completing the business annual and quarterly action plan (Fri, 09/02/2024)
+- [x] - Inspiration to prepare sweet potatoes for and being able to contribute to potluck (Sat, 10/02/2024)
+- [x] Mr Machaba's assistance with transport to and from service (Sat, 10/02/2024)
+- [x] - Zethu's maturity and courage to take up directly with me the issue of me expressing my concern about her to Aunty Pat (Sun, 11/02/2024)
+- [x] - Mr Machaba's assistance with transport to and from Sabbath services, and him being willing to wait for 2-3 weeks to get his laptop fixed
+- [x] Mon, 09/03/2024 Mercies
+- Started work at 08h30
+- Followed up with Dunisani on campaign quote decision (no response)
+- Follow up with Chirwa on campaign deposit decision (still deliberating)
+- Downloading LinkedIn connections database and starting to identify potential leads and adding them to the prospecting pipeline
+- Compile personal network list on Streak prospecting 
+- Set aside tithe from cash inflow
+- Knocking off at 17h30, exercising and taking a walk
+- Checking how Keith and Mr Botha are doing
+- [x] Tue, 12/02/2024 Gratitude List:
+- Listening to TGUS 498 and observing the New Moon Bible
+- Checking if perfectcarpetcleaners.com has expired, informing Sibusiso and sending him a renewal quote
+- Completing developing the lead generation system (Assign accountabilities; Determine the timing; Identify required resources; Determine how to quantify system; Establish standards; Document system; Start system tests)
+- Buying sour milk
+- Reaching out to Edward and Mr Viljoen
+- [x] Sat, 16/03/2024 Gratitude List
+- Mr Machaba's assistance with transport to and from services
+- Corrective sermons
+- Great fellowship, potluck, take-away and water
+- Priviledge of being able to contribute to potluck
+- Buying bread and sour milk
+- Setting up routine tasks on the Planner for the whole week
+
+- [x] Mon, 18/03/2024 Gratitude List
+- Completing the creation of the lead conversion system and workflows
+- Response from Dunisani on his inability to pay for DWY campaign deposit
+- Planning session with Bongi
+- Completing setting up the customer fulfilment system pipelines on Streak
+- [x] Tue, 19/03/2024 Gratitude List
+- Starting fast
+- Getting blueprint and domain registration customer fulfilment systems done
+- [x] Wed, 20/03/2024 Gratitude List
+- Completing fast
+- Getting CRM setup, online customer fulfilment systems pipelines setup, along with benchmarks
+- Completing planning with Bongi and generating her website content
+- [x] Thu, 21/03/2024 Gratitude List:
+- Getting CRM setup, online store creation, blog setup, and customer portal customer fulfilment systems pipelines setup, along with benchmarks
+- Buying sour milk, bread, sweet potatoes, sunlight bar soap and peanuts
+- Getting laptop working again
+- Waking up at 6am
+- [x] -- Completing the scalable business building system and almost all the processes (Thu, 08/02/2024)
+- [x] -- Talking to Bongiwe and her agreeing to take up the Road to 10 Customers In 30 Day DWY Campaign and willingness to pay the 10% deposit (Wed, 07/02/2024)
+- [x] -- Kagiso reaching out (Wed, 07/02/2024)
+- [x] Incredible sermonette and sermon (Sat, 10/02/2024)
+- [x] - Buying water and sunflower seeds (Sun, 11/02/2024)
+- [x] - Successful setup, service, and song-leading
+- [x] -- Lebohang Mkize accepting a discovery call and providing her contact numbers (Wed, 07/02/2024) 
+- [x] -- Landlord accepting (silently) my request for an extension to the payment deadline until the end of the week (Mon, 05/02/2024)
+- [x] Awesome potluck, takeaway and fellowship (Sat, 10/02/2024)
+- [x] - Great sermons, potluck, fellowship and take-away
+- [x] -- Discovering a better way to handle business emails by using Brevo to send and ImprovMX to receiving using the business domain and Gmail (Wed, 07/02/2024)
+- [x] Buying bread and avocados, especially with the account balance negative due to bank penalties I was not aware of (Sat, 10/02/2024)
+- [x] - Buying bread
+- [x] -- Getting back to morning routine (doing laundry, freshening and dressing up, getting the bed done, cleaning the floor, Bible study and praying) (Wed, 07/02/2024)
+- [x] Getting Jan-Mar action plan broken down into projects, and breaking down the top projects into key activities and deliverables (Sat, 10/02/2024)
+- [x] - Finding the Open Bible that promises to be the most important Bible I've ever had and the exciting opportunities it presents for powerful Bible studies
+- [x] Paying over tithes (Sat, 10/02/2024)
+- [x] NB!!! Bongi paying her R1,200 deposit for the Road to 10 Customers In 30 Days DWY Campaign (Sun, 11/02/2024)!!!
+- [x] Cleaning the room (Sun, 11/02/2024)
+- [x] Washing laundry (Sun, 11/02/2024)
+- [x] Reviewing sermonette notes (Sun, 11/02/2024)
+- [x] -- Complete setting up all the tools and resources to get Chrysalinks Consulting ready to generate the target sales and sign up the target number of customers, including bringing all my work from Streak into Airtable
+- [x] To get ready and getting started with Bongi's Road to 10 Customers In 30-Days DWY Campaign, and to get her first client this week (speedy recovery for her brother and sister-in-law)
+- [x] -- Pay over urgently the outstanding R265  first tithe and R295 3rd tithe 
+- [x] -- Prepare songs, have a laptop for services tomorrow, and successful song leading
+- [x] -- To calculate and pay tithes for February 2024
+- [x] -- To get hold of Khotso and for him to be willing to release the R4,333 instalment this week
+- [x] -- For Lebohang Mkize to accept the quote, sign up and pay the deposit for the Road to 10 Customers In 30-Days DWY Campaign (Lost)
+- [x] -- Mrs Theresa Hutchinson: tumours in pancreas and liver (Died, 25/05/2024)
+- [x] -- Mrs Margo King: returned breast cancer, undergoing chemotherapy (passed away)
+- [x] -- Little Sem Agustin Leon: he was recently hospitalized due to dengue fever and difficulty breathing and further studies revealed a small tumor in his heart’s left ventricle (Not serious)
+- [x] -- Mrs Precious Zarate: Ovarian growth, referred to an OB-GYN for ultrasound and biopsy (UPDATE 06/07/2024: biopsy results showed that the cyst found in ovary was benign, and she only needed treatment for the ovarian infection and medication to dissolve the cyst)
+- [x] -- Zethu: spiritual health and soundness to not abort, but deal with setbacks, and start attending services (left the Church)
+- [x] -- help with completing the current TESA project with all issues ironed out, and to get paid the remaining tranche (? project ended Dec 2023)
+- [x] -- Siphokazi: for her protection during her 8-week stay and to succeed in the aviation course; for her to have successfully registered, prepared and wrote her English paper in May
+- [x] -- Dad: to have a restoration of our relationship
+- [x] -- My stepmom's health travails: relief from the pain, relative sanity, ability for everyone assisting her to cope, and my dad to be able to sleep (Passed away 19/07/2024)
+- [x] -- To bill Chirwa for all work done to this point and get paid immediately
+- [x] -- Help with song leading
+- [x] -- Power to be restored urgently
+- [x] -- Buy toothpaste and milk
+- [x] -- For a good payment offer from Chirwa for the site surveys and project management work he wants me to do
+- [x] -- Buy bread, sour milk, and banana to break fast
+- [x] -- Buy avocados, bread, sunlight bar soap
+- [x] -- To complete preparing the cabling project plan
+- [x] -- For Chirwa to send project plan information and 
+- [x] -- For Chirwa to urgently pay the R1,500 for the  En Masse Technologies and En Masse Aviation cash flow projections, and the R500 for the En Masse Technologies company profile
+- [x] -- Sufficient data (Vodacom 100GB + 100GB for R349)
+- [x] -- To successfully fetch all important possessions from the room at 470 Flowers Street and for  BNN Properties to take furniture in lieu of payment for  the outstanding R13.5k rent arrears  
+- [x] -- R140 for Pentecost meal and R100 for offering
+- [x] -- For Chirwa to set up En Masse Capital
+- [x] -- To pay back urgently R65 for regular tithe, R65 for 3rd tithe
+- [x] -- R500 to pay back Mike's loan
+- [x] -- Chirwa to approve  the Fractional COO Program for En Masse Group, and for work to commence at R2k/week one day's work or R8k/month
+- [x] -- Khotso to send the promised R1k for company and domain registration
+- [x] -- Sign up Bongi for Winnerpreneurs Partner Program as a referral partner,  and getting to service her current prospects
+- [x] -- Assistance with dental troubles (filling for right molars cavities and all decays and chirps;  successful removal of amalgams and stains; to raise funds (R80k) for implants, reshaping and cleaning)
+- [x] Wed-Thu, 31 Jul-01 Aug 2024 Regrets - LPM!!!
+- [x] Sat-Sun, 15-16 June 2024 Regrets: - Lustful desires; - Anxiety; - Sleeping after midnight and waking up fatigued and with painful eyes; - Excessive watching of news videos
+- [x] Sun-Mon, 2-3 June 2024 Regrets List: - LPM, - Missing daily Bible studies and prayers, - Debilitating disappointment with not gett
+- [x] Fri-Sat, 7-8 June 2024: - Wayward thoughts; - impure dreams; losing sleep and battling to wake up; apprehensive feelings taking away joy and peace 
+- [x] Sun-Mon, 2-3 June 2024 Regrets: - Not getting a lot done yesterday; - squandering R45 of airtime; - sleeping after 12am, waking up late and starting work late; - Bad attitude after Delano said "no" to my request for R20 airtime; - Missing daytime Bible study and evening Bible study and prayer; sexual angst from frustration and fatigue 
+- [x] Sat/Sun, 18-19 May 2024 Regrets:
+-- Sleeping late with the lights on and electronic devices on the bed
+-- Missing Sat evening Bible study and prayer
+-- Wasting time reading through very long SABC WhatsApp news update headlines before prayer
+-- Anxious thoughts
+- [x] Sat, 23/03/2024 Regrets List
+- Wasting time on the screen after waking up
+- Missing daytime and evening Bible studies, and evening prayer
+- Lack of joy and peace
+- Preoccupation with and working on finding a substitute for Streak CRM during the Sabbath
+- [x] Mon, 25/03/2024 Regrets List
+- Wasting time on the screen after waking up
+- Missing all Bible studies and prayer on Sunday
+- Lack of joy and peace
+- Sleeping late, waking up late, and starting work very late
+- Wrong thoughts that led to critical, judgemental and self-pitying thoughts and bad attitude
+- [x] Sat, 30/03/2024 
+-- Constantly thinking about the business throughout the Sabbath evening and morning
+- [x] Sat-Sun, 6-7 July 2024 Regrets:
+- Judgmental and critical thoughts
+- Causing Mr Grey discomfort by correcting some of his statements
+- Lustful urges
+- Covetous thoughts re: bag
+- [x] Fri-Sat, 5-6 July 2024 Regrets:
+- Impure looks at woman in public
+- Not getting gainful employment tasks done (slackness and not managing my time properly)
+- [x] Tue-Wed, 25-26 June 2024 Regrets
+- Battling to falling asleep after going to bed early, eventually sleeping after 02h00, battling to wake up from 06h30 and only fully waking up at 07h15, wasting over 30 mins on newsfeeds, completing my morning routine very late, and starting my day and work late
+- Not taking a shower or freshening up
+- [x] Mon-Tue, 24-25 June 2024 Regrets
+- Responding to the landlord with half truths and misleading inferences (that there are absolute payments I'm waiting for)
+- Working until early morning hours, going to bed after 3am, waking up after 8:15am, struggling to stay awake, wasting time on news feeds, still not done with morning routines, and will start work very late again
+- Battling with sexual urges
+
+- [x] Sun-Mon, 23-24 June 2024 Regrets List:
+- Working until 3 am, waking up fatigued after 9 am, finishing my morning routine, and starting work after 1 pm
+- [x] Sat-Sun, 22-23 June Regrets:
+- Wanning energies and red eyes that affected interpersonal interactions
+- Sleeping after 1 am, waking up fatigued and late, and still wasting time on the screen/news feeds
+- Impure dream
+- Completing my morning routine very late and having very little time to work on pressing matters
+- [x] Fri-Sat, 21-22 June 2024 Regrets
+- Completing Sabbath preparations on the Sabbath
+- Excessive time spent on YT timeline and watching a secular video on psychology
+- Taking too long reviewing my day plan and sleeping after 3am
+- Wasting time on the screen after waking
+- Lustful urges and wayward thoughts
+- [x] Sun-Fri, 16-21 June 2024 Regrets
+- LPM
+- Missing Bible studies and prayers Monday-Thursday
+- Not washing, wearing the same clothes, smelling and letting the bedding be filthy 
+- Barely sleeping at night, battling to stay awake in the day, getting little else done other than working on the planner
+- Not paying for Pentecost meal as I've promised Mr Grey
+- Not getting Chirwa's company profiles done so that I could be paid and pay rent on the time promised
+- [x] Thu-Sat, 13-15 June 2024 Regrets:
+- Committing LPM again!!!
+- Missing Bible study and prayer
+- Spending the whole Sabbath evening on Parliament proceedings/politics videos, and evening falling asleep while videos continued playing
+- Not completing all preparations before the start of the Sabbath
+- Being unclean and unkempt physically
+- [x] Thu-Fri, 6-7 June 2024 Regrets List
+- Missing evening prayer
+- Working until after midnight and falling asleep while working, with the lights on and laptop on my lap
+- Impure dream
+- Waking up late, fatigued, emotionally heavy, and struggling to stay awake
+- Wasting time on news headlines
+- Completing morning routine in the mid-afternoon, and hardly having any sufficient time for work
+- [x] Wed-Thu, 5-6 June 2024 Regrets List:
+- Starting work late
+- Anxious care about internet access and rent
+- [x] Tue-Wed, 4-5 June 2024 Regrets List:
+- Getting little business work done 
+- Still battling with wasting time after waking up, staying awake during Bible study, praying too late in the day, and starting work very late
+- Anxious care causing difficulty in sleeping, resulting in falling asleep at almost 3 am, battling to wake up, and struggling with fatigue
+- Fatigue-and-angst-induced sexual urges 
+- [x] Sat-Sun, 1-2 June 2024 Regrets: - lustful desires and dreams; carnal-mindedness; apprehensive and anxious thoughts; sleeping after 2am and struggling with fatigue
+- [x] Fri-Sat, 24-25 May 2024 Regrets:
+- Going to, sleeping after 1am, and waking up after 8am struggling with migraine symptoms
+- Anxiety because of lack of funds 
+- Lustful thoughts/desires
+- [x] Wed-Thu, 21-22 May 2024 Regrets:
+- Impure dream
+- Falling asleep with lights on and laptop on the bed, dropping it, waking up after 3am, working, falling asleep after 5:30am, waking up after 8am, wasting time on news headlines, reading my Bible late, and starting my day very late
+- Stressing about Chirwa's delayed response on the cabling project plan
+- [x] Mon-Tue, 20-21 May 2024 Regrets:
+- Falling asleep after 11 pm and waking up after 2 am, working until after 4 am, falling asleep and waking up after 7 am, and starting my day and work very late 
+
+- [x] 19-20 May 2024 Regrets:
+-- Sleeping after midnight, battling to wake up on time, wasting time on news headlines, praying at almost 1 pm, and starting my day very late
+- [x] Sun, 12 May 2024
+--  Not looking well-rested
+-- Sleeping after 12 pm with light and laptop on top of the bed, battling to sleep properly, waking up late
+-- Watching YT the whole night
+-- Battling with lustful urges and looking at provocative (not pornographic) online images of women lustfully
+-- Not completing the Fractional COO Program Proposal for En Masse Group
+-- Being so low on funds and ending up using R42 from 2nd tithe funds
+-- Still not having settled Mike's and Mfundo's R500 each debt
+- [x] Frid, 10 May 2024 Regrets List
+-- Missing Bible studies and prayers for the best part of the week
+-- Not keeping my word with Chirwa to send him proposal
+-- Missing out on concluding deal with Chirwa, starting work and getting paid
+-- Not keeping my word to pay back Mfundo and Michael
+-- Lustful thoughts and desires
+-- Working through the night and sleeping late
+-- Physical uncleanness
+- [x] Sat, 4 May 2024 Regrets List 
+-- Excessive time spent meditating on material things on the Sabbath (even though it's inspired by Scripture)
+-- Missing midday Bible study and evening prayer
+- [x] Sun, 31/03/2024
+- Missing last evening's and this morning's prayer 
+- Wayward and anxious thoughts
+- Looking at news and YT feed during fasting
+- Working from bed throughout the day
+- [x] Sun-Mon, 7-8 July 2024 Regrets:
+- Missing all prayers and midday and evening Bible studies
+- Not washing
+- [x] Wed-Thuu, 27-28 June 2024 Regrets
+- Missing yesterday's AM and evening prayer, and evening Bible study
+- Not working on completing Chirwa's profiles, prolonging my financial and rent trial
+- Spending too long on meditation and now late for work
+
+- [x] Thu-Fri, 22-23 May 2024 Regrets:
+- Missing Bible studies and prayers yesterday and today
+- Worrying about payment and more projects from Chirwa
+- Not delightfully welcoming the Sabbath 
+- Lustful desires
+- [x] Sun, 28 April 2024
+-- Missing AM and midday Bible studies, and AM prayer
+-- Not being instant in prayer
+-- Sending work-related message to Chirwa a few minutes into the Sabbath
+-- Spending a lot of time on the Day Plan during the Sabbath
+-- Lustful dreams and desired 
+- [x] Fri, 3 May 2024 Regrets List
+-- Missing Bible study and prayers yesterday and the previous day
+-- Lustful eye and desires
+-- Anxious, critical and judgemental thoughts
+-- Not keeping my word with the landlord and not paying the agreed upon R3k
+-- Sleeping very late and battling to wake up on time
+-- Not being very productive in my work days
+- [x] Mon-Tue, 8-9 July 2024 Regrets
+- Missing all prayers and midday and evening Bible studies
+- Not washing
+- Still not having kept my word to assist with funds for paying ESKOM, and buying food
+- Not keeping my word to fixing Perfect Carpet Cleaners Canva website domain mapping
+- [x] Tue, 26/03/2024 Regrets List
+- Missing main prayer and midday and evening Bible studies yesterday
+- Waking up and working on exporting data out of Streak, praying late and starting work late
+- Lack of joy and peace
+- Wayward and anxious thoughts
+- [x] - Mercy and help to depart from: 
+- [x] Thu-Fri, 27-28 June 2024 Regrets
+- Missing daytime and evening Bible studies
+- [x] Wed-Fri, 3-4 Regrets
+- Missed Bible studies and prayers
+- Judgmental and critical thoughts and words against anyone
+- Lustful looks at women or lustful thoughts
+- [x] --- Working until early hours of the morning
+- [x] --- Sleeping late and waking up late
+- [x] --- Starting work late
+- [x] --- Being slack and slothful
+- [x] --- Not eating healthy
+- [x] --- Uncleanness
+- [x] --- Not actively straightening my doctrinal knowledge
+- [x] --- Estrangement from my kids
+- [x] Sun, 10/03/2024
+-- Missing midday Bible study
+-- LPM
+-- Waking up at 10:30 and not getting much done
+--  Getting distracted with YT and news after waking up
+- [x] -- Missing Bible study and prayer on Thu, 08/02/2024
+- [x] Fri, 22/03/2024 Regrets List
+- Wasting time on the screen after waking up
+- Missing daytime and evening Bible studies, and evening prayer
+- Lack of joy and peace
+- [x] Thu, 21/03/2024 Regrets List
+- Waking up late 
+- Wasting time on the screen after waking up
+- Starting work late
+- Missing evening Bible study
+- Lack of joy and peace
+- [x] Wed, 20/03/2024 Regrets List
+- Waking up late 
+- Wasting time on the screen after waking up
+- Starting work late
+- Missing evening Bible study and prayer
+- Lack of joy and peace
+- [x] Tue, 19/03/2024 Regrets List
+- Waking up late 
+- Wasting time on the screen after waking up
+- Starting work late
+- Missing main prayer and midday and evening Bible studies
+- Lack of joy and peace
+- [x] -- Fri, 16/03/2024
+--- Missing main prayers on my knees on Thu and Fri
+--- Battling with wayward, lustful and inappropriate thoughts for the Sabbath
+--- Lack of joy and peace 
+- [x] --- Expressing concern about Zethu to Aunty Pat and causing both of them deep offence (Sun, 11/02/2024)
+- [x] -- Battling with unbridled lustful desires (Sat, 10/02/2024)
+- [x] Sat, 09/03/2024
+-- Missing midday Bible study
+-- Starting work late
+-- Roving eye at the shops
+-- Lustful and worldly dream
+-- Cutting my hair too short
+-- Wayward, vain and anxious thoughts
+- [x] -- Judgemental and critical thoughts toward brethren (Sat, 10/02/2024)
+- [x] -- Missing morning prayer and Bible study  (Fri, 09/02/2024)
+- [x] --- Waking up 8am and having a late start to my workday (Mon, 12/02/2024)

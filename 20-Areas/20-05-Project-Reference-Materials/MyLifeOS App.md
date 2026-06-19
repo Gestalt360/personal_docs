@@ -1,0 +1,3 @@
+MyLifeOS Desktop App: 
+Client_ID: YOUR_CLIENT_ID_HERE
+Client_Secret: YOUR_CLIENT_SECRET_HERE

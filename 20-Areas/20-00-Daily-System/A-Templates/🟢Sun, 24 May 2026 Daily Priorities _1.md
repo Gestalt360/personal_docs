@@ -1,0 +1,128 @@
+---
+type: checklist
+color: white
+labels: ["00. Templates", "00d. Daily Priorities"]
+pinned: False
+archived: False
+created: 2026-05-24T00:37:26.885000
+updated: 2026-05-25T09:18:50.668000
+---
+
+# 🟢Sun, 24 May 2026 Daily Priorities 
+
+- [ ] 🟢 Put on the full armour of light
+- [ ] ⚪ Monthly spiritual fast
+- [ ] 🟢 Attend to Housekeeping & Personal Care
+- [ ] ⚪ Chores (cleaning, laundry)
+- [ ] ⚪ Errands
+- [ ] 🟠 Attend to personal health matters
+- [ ] ⚪ Do exercises
+- [ ] ⚪ 15-minutes backward brisk walks
+- [ ] ⚪ Leg exercises and dumbbell sets 
+- [ ] ⚪ 3-4 AM Zone 2 training sessions of 45-60 minutes per week
+- [ ] ⚪ 1-2 PM HIIT training sessions of 20-30 minutes per week (take adequate protein 2-3 hours prior)
+- [ ] 🔴 Take wholesome foods and water
+- [ ] 🔴 60% natural, uncooked or slightly cooked meals made up of vegetables and fruits
+- [ ] 🔴 Whole, unrefined, unprocessed, and locally produced or grown foods
+- [ ] 🔴 Sour milk from raw milk
+- [ ] 🔴 Cold-pressed vegetable oils
+- [ ] 🔴 Organic red meat or chicken with red wine or ACV, and fresh fish, taken with quality dry white table wine
+- [ ] 🔴 Conduct physical fasting quarterly and 20-24 hour intermittent fasting daily
+- [ ] 🔴 Only eat between 15h00-19h00 
+- [ ]  🔴 Juice fasting for 7 days quarterly, using alkali-forming fruits and vegetable juices
+- [ ] 🔴 Take nutritional supplements 
+- [ ] 🔴 Natural multivitamins/multiminerals
+- [ ] 🔴 Vitamin C with bioflavonoid complex (crystals)
+- [ ] 🔴 Potassium chloride (as a salt substitute)
+- [ ] 🔴 Biogen Supreme B Complex (Vitamin B12 with Methylcobalamin and not cyanocobalamin)
+- [ ] 🔴 Magnesium Citrate
+- [ ] 🔴 Vitamin D with K2
+- [ ] 🔴 Folate (s-methyltetrahydrofolate)
+- [ ] 🔴 MSM
+- [ ] 🔴 Digestive enzymes, 
+- [ ] 🔴 Vitality foods (dark chocolate, pormegranates, garlic, rosemary, avocado, pumpkin seeds, sunflower seeds, almond nuts, olive oil, ginger, spinach/kale, beetroot, organic eggs, cinnamon, turmeric, bicarbonate of soda, broccoli/cabbage, grapefruit, green tea, lemons, apples, bananas, blueberries, aged parmesan cheese, green peas, wheatgerm, mushrooms, walnuts, green tea, apple cider vinegar, sour milk/plain yoghurt)
+- [ ] ⚪ Take a break for have a special meal, rest, and catch up on sleep through the weekly Sabbath rest
+- [ ] ⚪ Take a break and enjoy a special meal during monthly New Moon observances
+- [ ] 🔴 Give the body a cold exposure and heat stress treatment 4-7 times a week
+- [ ] 🔴 - Take a cold shower/bath 4-7x a week (10-15 degrees)
+- [ ] 🔴 - Use the sonar 4-7x a week (80-90 degrees)
+- [ ] 🔴 Familiarity with basic first aid
+- [ ] ⚪ Safe driving habits
+- [ ] 🔴 Keeping my word
+- [ ] 🔴 Use herbal remedies
+- [ ] 🔴 "The How to Herb Book" by Keith and Gordon, 1994; Prescriptions for Nutritional Healing: by Dr James Balch and Phyllis Balch, 2000 (3rd Ed)
+- [ ] 🔴 Echinacea
+- [ ] 🔴 Olive Leaf
+- [ ] Status Indicators
+- [ ] 9-10: 🏆 
+- [ ] 7-8: 🟢
+- [ ] 5-6: 🟡
+- [ ] 3-4: 🟠
+- [ ] 0-1: 🔴
+- [ ] N/A: ⚪ 
+- [ ] Not Started: ⚫ 
+- [x] 🟢 Doctrinal purity Bible study/sermon notes review
+- [x] 🟢Obedience Bible study & self-examination
+- [x] 🟢Grounded on the true Gospel or Good News of the soon-coming KoG (prophecy series and scripture review)
+- [x] 🟡 Exercise God's Spirit
+- [x] 🟢 Love (affection, benevolence, charity, outgoing concern for others, give way of life)—small, daily acts—offering encouragement, showing patience, serving others without seeking recognition—and going out of my way to help other people (Dad, Mom, Mfundo, Khethiwe, Siphokazi, Nkanyiso, brethren, siblings, relatives, and the odd neighbour God sends my way), instead of focusing on my own wants and needs 
+- [x] 🟡 Joy (cheerfulness, calm delight, gladness, joyfulness)—based on contentment with what I have and gratitude for God's foreknowing, predestinating, calling, justifying, sanctifying, and (in the soon-coming koG) glorifying me), and playing my part wholeheartedly 
+- [x] 🟡 Peace (prosperity, quietness, rest, set at one again)—remain peaceful in situations that provoke stress or frustration, and being in harmony with God, His laws, and others to the best of my abilities 
+- [x] 🟡 Longsuffering (longanimity, forbearance, fortitude, patience)—the ability to endure challenges and respond to things like delays, disappointments, and difficult people with calmness and composure, instead of getting stressed, reacting with frustration, or compromising
+- [x] 🟡 Gentleness (usefulness, moral excellence in character or demeanour, goodness/good-heartedness, kindness/generosity) 
+- [x] 🟡 Goodness (qualities of virtue (character, courage, prudence, hope, and a strong/unbending backbone), beneficence (to act for the benefit of others), and uprightness (to act with integrity, fairness, and righteousness) 
+- [x] 🟢 Faith (persuasion, credence - belief that something is true, moral conviction of religious truth or the truthfulness of God, especially in reliance upon Christ for salvation, abstractly constancy in such profession, the system of religious truth, assurance, belief, believe, fidelity)—be persuaded and assured by, believe, have deep convictions and commitment, have confidence and rely on, and act consistently, faithfully, and constantly, on what God says and promises 
+- [x] 🟢 Meekness (gentleness, humility)—gentleness and humility, by eschewing pride and arrogance, but having a modest view of my importance, maintaining a calm (composed) and patient disposition (and thoughtful rather than impulsive responses) in the face of adversity and provocation, and exhibiting strength through restraint and willingness to accept situations without resorting to defensiveness, aggression, retaliation, or resentment 
+- [x] 🟡 Temperance (self-control, continence)—moderation, self-control, and restraint in my actions, desires, and appetites; manage my desires, particularly concerning indulgence in pleasures such as food, drink, and other forms of gratification; avoid excess and extremes, promoting a balanced approach to life, including eating, drinking, spending, and even emotional responses; and regulate my impulses and desires, by making conscious choices rather than acting on whims. 
+- [x] 🟢 Unwavering belief in God's existence and confidence that He will reward me according to His promises as I diligently seek 
+- [x] 🟢 - Whole Bible study for God's promises/blue highlight verses 
+- [x] 🟡 - Completion of daily priorities
+- [x] 🟢 Memory verses:
+- [x] 🟢 Heb. 10:26-33, "26 For if we sin wilfully after that we have received the knowledge of the truth, there remaineth no more sacrifice for sins,   27 But a certain fearful looking for of judgment and fiery indignation, which shall devour the adversaries.   28 He that despised Moses' law died without mercy under two or three witnesses:   29 Of how much sorer punishment, suppose ye, shall he be thought worthy, who hath trodden under foot the Son of God, and hath counted the blood of the covenant, wherewith he was sanctified, an unholy thing, and hath done despite unto the Spirit of grace?   30 For we know him that hath said, Vengeance belongeth unto me, I will recompense, saith the Lord. And again, The Lord shall judge his people.   31 It is a fearful thing to fall into the hands of the living God.   32 But call to remembrance the former days, in which, after ye were illuminated, ye endured a great fight of afflictions;
+- [x] 🟢 33 Partly, whilst ye were made a gazingstock both by reproaches and afflictions; and partly, whilst ye became companions of them that were so used."
+- [x] 🟢 Phil 4:11-13, "11 Not that I speak in respect of want: for I have learned, in whatsoever state I am, therewith to be content.  12 I know both how to be abased, and I know how to abound: every where and in all things I am instructed both to be full and to be hungry, both to abound and to suffer need.  13 I can do all things through Christ which strengtheneth me."
+- [x] 🟢 Deut 8:1-11, "1 All the commandments which I command thee this day shall ye observe to do, that ye may live, and multiply, and go in and possess the land which the Lord sware unto your fathers.  2 And thou shalt remember all the way which the Lord thy God led thee these forty years in the wilderness, to humble thee, and to prove thee, to know what was in thine heart, whether thou wouldest keep his commandments, or no.  3 And he humbled thee, and suffered thee to hunger, and fed thee with manna, which thou knewest not, neither did thy fathers know; that he might make thee know that man doth not live by bread only, but by every word that proceedeth out of the mouth of the Lord doth man live.  4 Thy raiment waxed not old upon thee, neither did thy foot swell, these forty years.  5 Thou shalt also consider in thine heart, that, as a man chasteneth his son, so the Lord thy God chasteneth thee.   
+- [x] 🟢 6 Therefore thou shalt keep the commandments of the Lord thy God, to walk in his ways, and to fear him.  7 For the Lord thy God bringeth thee into a good land, a land of brooks of water, of fountains and depths that spring out of valleys and hills;  8 A land of wheat, and barley, and vines, and fig trees, and pomegranates; a land of oil olive, and honey;  9 A land wherein thou shalt eat bread without scarceness, thou shalt not lack any thing in it; a land whose stones are iron, and out of whose hills thou mayest dig brass.  10 When thou hast eaten and art full, then thou shalt bless the Lord thy God for the good land which he hath given thee.  11 Beware that thou forget not the Lord thy God, in not keeping his commandments, and his judgments, and his statutes, which I command thee this day:"
+- [x] 🟡 Prayers (AM, Daytime, and Evening)
+- [x] 🟢Important Event or Appointment
+- [x] 🟢 - Read literature for Pentecost
+- [x] 🟢- Attend Pentecost services 
+- [x] 🟢- Travel back from venue
+- [x] 🟢 Pleasant body odour (freshen and dress up)
+- [x] 🟢 Personal grooming (hair, nails, teeth, breath, clothes)
+- [x] 🟢 Constantly ask God for help and success
+- [x] 🟢 Instant prayers throughout the day
+- [x] 🟠 Pure natural or distilled or filtered water with added trace elements
+- [x] 🟢 Natural, raw, unprocessed honey
+- [x] 🟡 Have sufficient rest and sleep
+- [x] 🟡 7-8 hours sleep daily (6 hours)
+- [x] 🟡 Take a break and enjoy a special meal, rest, and recharge during the 7 annual holy days
+- [x] 🟢 Be safety conscious
+- [x] 🟢 Concentration and focus on the task at hand
+- [x] 🟢 Wisdom and planning ahead for trips
+- [x] 🟢 Anticipating and avoiding potential hazards
+- [x] 🟡 Maintain a positive outlook encompassing a positive mental attitude
+- [x] 🟡 A positive, optimistic hope, mixed with the faith of Christ, and peace from being in harmony with God's Laws
+- [x]  🟡 A spiritual-mindedness from meditating on God's truths, good and wholesome things, character-building things, and praiseworthy things 
+- [x] 🟡 Fearing God and departing from sin
+- [x] 🟢 A merciful and forgiving attitude
+- [x] 🟢 Serving and giving
+- [x] 🟢 Recreational activity and 'downtime' to unwind
+- [x] 🟢 A strong work ethic
+- [x] 🟢 Overcoming & resourcefulness
+- [x] 🟡 A determination and resolve to overcome all  sins, weaknesses, trials, temptations, and obstacles
+- [x] 🟢 Always seeking solutions, and refusing to accept defeat or give up
+- [x] 🟡 Live sacrificially
+- [x] 🟠 Supported the Work in prayer, extra offerings, fundraising campaigns, personal fundraising (referral commission, domain sales, and book sales), and/or translator app development
+- [x] 🟠 Gave alms (prayer, material and/or financial support for Dad, Mom, Mfundo, Khethiwe, Siphokazi, Nkanyiso, brethren, and the odd neighbour brings my way)
+- [x] 🟡 Served (communication, physical help, visits, and/or hospitality, for Dad, Mom, Mfundo, Khethiwe, Siphokazi, Nkanyiso, brethren, and the odd neighbour brings my way)
+- [x] 🟢 Endured hardness like a soldier and worked on overcoming all trials, tests, temptations, sins, weaknesses, risks, and obstacles 
+- [x] 🟡 Personal Success
+- [x] 🟠 Spiritual, Material & Financial Goals & Plans: ((Daily: weekly plan review, day plan review, next day plan); (Weekly: monthly plan review; weekly plan review; new week plan); (Monthly: quarterly plan review; critical actions, projects and tasks review; monthly plan review; new weekly plan) (Quarterly: annual plan review; quarterly plan review; new quarterly plan, critical actions, projects and tasks); (Annually: lifetime plan review; annual plan review; new annual plan) 
+- [x] 🟢Spiritual, Material, & Financial Education, Skills Development & Traits Development 
+- [x] 🟠 Spiritual, Material, & Financial Wellness Indicators Review 
+- [x] 🟢Spiritual, Material, & Financial Execution
+- [x] 🟢Spiritual, Material, & Financial Overcoming
+- [x] 🟠 Spiritual, Material, & Financial Performance Tracking
+- [x] 🟢Spiritual, Material, & Financial Guidance
+- [x] 
