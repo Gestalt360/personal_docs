@@ -40,7 +40,7 @@ function CompletionBadge({ note, onToggle, onRate }: {
   onRate: (r: CompletionRating) => void;
 }) {
   const ratings: CompletionRating[] = ['orange', 'yellow', 'lightgreen', 'darkgreen'];
-  const colors = { orange: '#fbbc04', yellow: '#fff475', lightgreen: '#ccff90', darkgreen: '#4caf50' };
+  const colors: Record<string, string> = { none: '#e8eaed', orange: '#fbbc04', yellow: '#fff475', lightgreen: '#ccff90', darkgreen: '#4caf50' };
 
   if (note.status === 'completed') {
     return (

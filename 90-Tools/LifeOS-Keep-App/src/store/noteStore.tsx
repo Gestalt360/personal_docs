@@ -44,6 +44,7 @@ interface NoteStoreActions {
   getTemplates: () => Promise<NoteTemplate[]>;
   createTask: (params: { title: string; due?: string; notes?: string }) => Promise<{ success: boolean; task?: any; error?: string }>;
   listTasks: () => Promise<{ success: boolean; tasks?: any[]; error?: string }>;
+  updateTask: (taskId: string, updates: any) => Promise<{ success: boolean; task?: any; error?: string }>;
   deleteTask: (taskId: string) => Promise<{ success: boolean; error?: string }>;
   selectFolder: () => Promise<string | null>;
   getAppPath: () => Promise<string>;
@@ -337,6 +338,11 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
     return await api.tasks.delete(taskId);
   }, [api]);
 
+  const updateTask = useCallback(async (taskId: string, updates: any) => {
+    if (!api) return { success: false, error: 'API not available' };
+    return await api.tasks.update(taskId, updates);
+  }, [api]);
+
   const selectFolder = useCallback(async () => {
     if (!api) return null;
     return await api.dialog.selectFolder();
@@ -409,6 +415,11 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
     removeDependency,
     toggleHabitCompletion,
     rollupProgress,
+    archiveNote,
+    unarchiveNote,
+    trashNote,
+    restoreNote,
+    togglePin,
     setView,
     setActiveLabel,
     setSearchQuery,
@@ -419,6 +430,7 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
     getTemplates,
     createTask,
     listTasks,
+    updateTask,
     deleteTask,
     selectFolder,
     getAppPath,
