@@ -1,0 +1,9 @@
+# LifeOS Keep — ignore build artifacts
+node_modules/
+dist/
+dist-electron/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,35 +1,29 @@
-# ── Large/Generated ──
-.tools/
-.toolsvenv/
-node_modules/
-dist/
-dist-electron/
-*.exe
-*.zip
-*.7z
-*.dll
-*.pak
-*.bin
-__pycache__/
-*.pyc
-.env
-.takeout/
-nul
+# LifeOS Personal Docs
 
-# ── OS ──
+# Ignore system files
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# ── IDE ──
-.idea/
-.vscode/
-*.swp
-*.swo
+# Ignore sensitive config
+99-Meta/.env
 
-# ── Logs / Temp ──
-*.log
-vite-output.log
-vite-error.log
-vite-exit-code.log
-vite-spawn-error.log
+# Ignore tool downloads
+.tools/*.zip
+
+# Ignore auto-generated manifests (keep latest, archive old)
+99-Meta/keep_sync_manifest_*.json
+
+# Ignore temp files
+*.tmp
+*.bak
+~$*
+
+# Keep everything else tracked
+!00-Inbox/
+!10-Projects/
+!20-Areas/
+!30-Resources/
+!40-Archive/
+!90-Tools/
+!99-Meta/
