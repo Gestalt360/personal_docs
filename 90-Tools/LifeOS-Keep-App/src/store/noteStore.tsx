@@ -388,7 +388,7 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
         )
       );
     } else if (state.view === 'notes') {
-      result = state.notes.filter(n => !n.isArchived && !n.isTrashed && n.type === 'text' || n.type === 'checklist' || n.type === 'task');
+      result = state.notes.filter(n => !n.isArchived && !n.isTrashed && (n.type === 'text' || n.type === 'checklist' || n.type === 'task'));
     } else {
       result = state.notes.filter(n => !n.isArchived && !n.isTrashed);
     }

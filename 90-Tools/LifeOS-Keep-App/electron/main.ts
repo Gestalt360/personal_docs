@@ -47,7 +47,7 @@ function createWindow() {
   });
 
   if (isDev) {
-    mainWindow.loadURL('http://localhost:5173');
+    mainWindow.loadURL('http://localhost:5175');
     mainWindow.webContents.openDevTools();
   } else {
     mainWindow.loadFile(path.join(__dirname, '../dist/index.html'));
@@ -325,7 +325,7 @@ ipcMain.handle('git:sync', async () => {
     const path = require('path');
     
     const scriptPath = path.join(__dirname, '..', '..', 'git-sync.mjs');
-    const repoUrl = 'https://github.com/Gestalt360/lifeos-keep-notes.git';
+    const repoUrl = 'https://github.com/Gestalt360/personal_docs.git';
     // Clone into personal_docs/GitHub-Keep-Notes (inside the personal_docs folder)
     const clonePath = path.join(__dirname, '..', '..', 'GitHub-Keep-Notes');
     

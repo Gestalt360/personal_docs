@@ -1,0 +1,32 @@
+appId: com.lifeos.keep
+productName: LifeOS Keep
+copyright: Copyright © 2024 LifeOS
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist-electron/**/*
+  - dist/**/*
+  - package.json
+  - '!**/*.map'
+  - '!**/node_modules/**/*.{md,txt,ts,d.ts}'
+win:
+  target:
+    - zip
+    - portable
+  signAndEditExecutable: false
+  verifyUpdateCodeSignature: false
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+mac:
+  target:
+    - dmg
+  category: public.app-category.productivity
+linux:
+  target:
+    - AppImage
+  category: Office
+electronDownload:
+  cache: ./.electron-cache
+forceCodeSigning: false
