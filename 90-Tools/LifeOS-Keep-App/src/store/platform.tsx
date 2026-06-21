@@ -380,6 +380,108 @@ class BrowserPlatform implements PlatformAPI {
   };
 }
 
+// ── Capacitor Platform ─────────────────────────────────────────────
+
+declare const Capacitor: any;
+
+/**
+ * Capacitor (mobile) platform — inherits browser capabilities (IndexedDB,
+ * fetch, localStorage) and adds native overrides for notifications,
+ * file system access, and app info.
+ */
+class CapacitorPlatform extends BrowserPlatform {
+  constructor() {
+    super();
+  }
+
+  override dialog = {
+    selectFolder: async () => {
+      try {
+        if ((window as any).Capacitor?.Plugins?.Filesystem) {
+          const result = await Capacitor.Plugins.Filesystem.pickFolders?.();
+          if (result?.folders?.[0]) return result.folders[0].name;
+        }
+      } catch { /* fallback */ }
+      try {
+        const handle = await (window as any).showDirectoryPicker?.();
+        if (handle) return handle.name;
+      } catch { /* ignore */ }
+      return null;
+    },
+  };
+
+  override app = {
+    getPath: async (_name: string) => {
+      try {
+        if ((window as any).Capacitor?.Plugins?.Filesystem) {
+          const dir = await Capacitor.Plugins.Filesystem.getUri({ path: _name, directory: 'DATA' });
+          return dir.uri || 'capacitor';
+        }
+      } catch { /* fallback */ }
+      return 'capacitor';
+    },
+    getVersion: async () => {
+      try {
+        if ((window as any).Capacitor?.Plugins?.App) {
+          const info = await Capacitor.Plugins.App.getInfo();
+          return info.version || '1.1.0';
+        }
+      } catch { /* fallback */ }
+      return '1.1.0';
+    },
+    gitSync: async () => {
+      if (githubSync.isAuthenticated) {
+        const allNotes = await storage.getAllNotes();
+        return githubSync.syncNotes(allNotes);
+      }
+      return {
+        success: false,
+        error: 'GitHub not connected. Open Sync Settings to configure.',
+      };
+    },
+  };
+
+  async scheduleReminder(noteId: string, title: string, body: string, date: Date) {
+    try {
+      if ((window as any).Capacitor?.Plugins?.LocalNotifications) {
+        await Capacitor.Plugins.LocalNotifications.schedule({
+          notifications: [{
+            id: this.hashId(noteId),
+            title,
+            body,
+            schedule: { at: date },
+            smallIcon: 'ic_stat_icon_configurable',
+            iconColor: '#16A34A',
+            actionTypeId: '',
+            extra: { noteId },
+          }],
+        });
+        return true;
+      }
+    } catch (err) {
+      console.error('[Capacitor] Failed to schedule reminder:', err);
+    }
+    return false;
+  }
+
+  async cancelReminder(noteId: string) {
+    try {
+      if ((window as any).Capacitor?.Plugins?.LocalNotifications) {
+        await Capacitor.Plugins.LocalNotifications.cancel({ notifications: [{ id: this.hashId(noteId) }] });
+      }
+    } catch { /* ignore */ }
+  }
+
+  private hashId(s: string): number {
+    let hash = 0;
+    for (let i = 0; i < s.length; i++) {
+      hash = ((hash << 5) - hash) + s.charCodeAt(i);
+      hash |= 0;
+    }
+    return Math.abs(hash) % 2147483647;
+  }
+}
+
 // ── React Context ───────────────────────────────────────────────────
 
 const PlatformContext = createContext<PlatformAPI | null>(null);
@@ -390,6 +492,10 @@ export function PlatformProvider({ children }: { children: React.ReactNode }) {
     if (electronAPI?.note?.getAll) {
       console.log('[Platform] Detected Electron environment');
       return new ElectronPlatform(electronAPI);
+    }
+    if ((window as any).Capacitor?.isNativePlatform?.()) {
+      console.log('[Platform] Detected Capacitor (mobile) environment');
+      return new CapacitorPlatform();
     }
     console.log('[Platform] Detected Browser (PWA) environment');
     return new BrowserPlatform();

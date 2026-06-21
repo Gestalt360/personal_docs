@@ -1,0 +1,14 @@
+{
+  "appId": "dev.sipho.lifeoskeep",
+  "appName": "LifeOS Keep",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon_configurable",
+      "iconColor": "#16A34A"
+    }
+  }
+}

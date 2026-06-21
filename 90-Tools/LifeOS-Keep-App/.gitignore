@@ -19,3 +19,7 @@ Thumbs.db
 *.key
 *.pem
 **/secret*
+
+# Capacitor native platforms
+android/
+ios/

@@ -9,12 +9,13 @@ import NoteEditor from './components/NoteEditor';
 import TemplateModal from './components/TemplateModal';
 import GoalsTree from './components/GoalsTree';
 import HabitTracker from './components/HabitTracker';
-import { Lightbulb, Archive, Trash2, Bell, LayoutGrid, X, Target, Flame, CheckSquare } from 'lucide-react';
+import { Lightbulb, Archive, Trash2, Bell, LayoutGrid, X, Target, Flame, CheckSquare, Menu } from 'lucide-react';
 
 function AppContent() {
   const { view, filteredNotes, isLoading, searchQuery } = useNoteStore();
   const [editingNote, setEditingNote] = useState<string | null>(null);
   const [showTemplates, setShowTemplates] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const viewTitle = {
     notes: 'Notes',
@@ -119,12 +120,41 @@ function AppContent() {
 
   return (
     <div className="flex h-screen w-screen bg-gray-100">
-      <Sidebar onTemplateClick={() => setShowTemplates(true)} />
-      
+      {/* Mobile overlay */}
+      {sidebarOpen && (
+        <div
+          className="fixed inset-0 bg-black/30 z-30 md:hidden"
+          onClick={() => setSidebarOpen(false)}
+        />
+      )}
+
+      {/* Sidebar — hidden on mobile by default, slides in when open */}
+      <div className={`${
+        sidebarOpen ? 'translate-x-0' : '-translate-x-full'
+      } fixed md:relative md:translate-x-0 z-40 md:z-0 transition-transform duration-300 ease-in-out`}>
+        <Sidebar onTemplateClick={() => { setShowTemplates(true); setSidebarOpen(false); }} />
+      </div>
+
       <div className="flex-1 flex flex-col min-w-0">
+        {/* Mobile header with hamburger */}
+        <div className="md:hidden flex items-center gap-3 px-4 pt-3 pb-2">
+          <button
+            onClick={() => setSidebarOpen(true)}
+            className="p-2 hover:bg-gray-200 rounded-lg"
+          >
+            <Menu size={22} className="text-gray-700" />
+          </button>
+          <div className="flex items-center gap-2">
+            <div className="w-6 h-6 bg-amber-400 rounded flex items-center justify-center">
+              <Lightbulb size={14} className="text-white" />
+            </div>
+            <span className="font-bold text-base">LifeOS Keep</span>
+          </div>
+        </div>
+
         <SearchBar />
-        
-        <div className="flex-1 overflow-y-auto px-6 py-4">
+
+        <div className="flex-1 overflow-y-auto px-3 md:px-6 py-4">
           {/* View header */}
           {renderViewHeader()}
 
@@ -156,12 +186,12 @@ function AppContent() {
             </div>
           )}
 
-          {/* Projects View (reuses the grid with filter) */}
+          {/* Projects View */}
           {!isLoading && view === 'projects' && filteredNotes.length > 0 && (
             <MasonryGrid notes={filteredNotes} onEdit={handleEditNote} />
           )}
 
-          {/* Default views (notes, archive, trash, search, label, reminders) */}
+          {/* Default views */}
           {!isLoading && !['goals', 'habits', 'projects'].includes(view) && filteredNotes.length === 0 && (
             renderEmptyState()
           )}
