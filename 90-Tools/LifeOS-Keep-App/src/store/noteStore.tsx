@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import type { Note, NoteColor, NoteTemplate, TaskStatus, CompletionRating } from '../types/note';
+import { usePlatform } from './platform';
 
 interface NoteStoreState {
   notes: Note[];
@@ -37,8 +38,8 @@ interface NoteStoreActions {
   setView: (view: NoteStoreState['view']) => void;
   setActiveLabel: (label: string | null) => void;
   setSearchQuery: (query: string) => void;
-  exportToMarkdown: (path: string) => Promise<{ success: boolean; error?: string }>;
-  importFromMarkdown: (path: string) => Promise<{ success: boolean; imported?: number; error?: string }>;
+  exportToMarkdown: (path?: string) => Promise<{ success: boolean; error?: string }>;
+  importFromMarkdown: (path?: string) => Promise<{ success: boolean; imported?: number; error?: string }>;
   saveTemplate: (template: Partial<NoteTemplate>) => Promise<NoteTemplate | undefined>;
   deleteTemplate: (id: string) => Promise<void>;
   getTemplates: () => Promise<NoteTemplate[]>;
@@ -46,6 +47,7 @@ interface NoteStoreActions {
   listTasks: () => Promise<{ success: boolean; tasks?: any[]; error?: string }>;
   updateTask: (taskId: string, updates: any) => Promise<{ success: boolean; task?: any; error?: string }>;
   deleteTask: (taskId: string) => Promise<{ success: boolean; error?: string }>;
+  checkAuth: () => Promise<{ authenticated: boolean }>;
   selectFolder: () => Promise<string | null>;
   getAppPath: () => Promise<string>;
   getVersion: () => Promise<string>;
@@ -54,6 +56,8 @@ interface NoteStoreActions {
 const NoteStoreContext = createContext<(NoteStoreState & NoteStoreActions & { filteredNotes: Note[] }) | null>(null);
 
 export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
+  const platform = usePlatform();
+
   const [state, setState] = useState<NoteStoreState>({
     notes: [],
     labels: [],
@@ -64,62 +68,52 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
     isLoading: true,
   });
 
-  const api = (window as any).electronAPI;
-
   const loadNotes = useCallback(async () => {
-    if (!api) return;
     setState(s => ({ ...s, isLoading: true }));
-    const notes = await api.note.getAll();
-    const labels = await api.note.getLabels();
-    const templates = await api.note.getTemplates();
+    const notes = await platform.storage.getAll();
+    const labels = await platform.storage.getLabels();
+    const templates = await platform.storage.getTemplates();
     setState(s => ({ ...s, notes, labels, templates, isLoading: false }));
-  }, [api]);
+  }, [platform]);
 
   useEffect(() => {
     loadNotes();
   }, [loadNotes]);
 
   const createNote = useCallback(async (note: Partial<Note>) => {
-    if (!api) return;
-    const created = await api.note.create(note);
+    const created = await platform.storage.create(note);
     await loadNotes();
     return created;
-  }, [api, loadNotes]);
+  }, [platform, loadNotes]);
 
   const updateNote = useCallback(async (note: Note) => {
-    if (!api) return;
-    const updated = await api.note.update(note);
+    const updated = await platform.storage.update(note);
     await loadNotes();
     return updated;
-  }, [api, loadNotes]);
+  }, [platform, loadNotes]);
 
   const deleteNote = useCallback(async (id: string) => {
-    if (!api) return;
-    await api.note.delete(id);
+    await platform.storage.delete(id);
     await loadNotes();
-  }, [api, loadNotes]);
+  }, [platform, loadNotes]);
 
   const getNote = useCallback(async (id: string) => {
-    if (!api) return undefined;
-    return await api.note.get(id);
-  }, [api]);
+    return await platform.storage.get(id);
+  }, [platform]);
 
   const getArchived = useCallback(async () => {
-    if (!api) return [];
-    const notes = await api.note.getAll();
+    const notes = await platform.storage.getAll();
     return notes.filter((n: Note) => n.isArchived && !n.isTrashed);
-  }, [api]);
+  }, [platform]);
 
   const getTrashed = useCallback(async () => {
-    if (!api) return [];
-    const notes = await api.note.getAll();
+    const notes = await platform.storage.getAll();
     return notes.filter((n: Note) => n.isTrashed);
-  }, [api]);
+  }, [platform]);
 
   const getWithReminders = useCallback(async () => {
-    if (!api) return [];
-    return await api.note.getReminders();
-  }, [api]);
+    return await platform.storage.getReminders();
+  }, [platform]);
 
   const getTree = useCallback(() => {
     const buildTree = (parentId: string | null = null): Note[] => {
@@ -155,16 +149,14 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
   }, [state.notes]);
 
   const updateProgress = useCallback(async (id: string, progress: number) => {
-    if (!api) return;
     const note = state.notes.find(n => n.id === id);
     if (!note) return;
     const updated = { ...note, progress, updatedAt: new Date().toISOString() };
-    await api.note.update(updated);
+    await platform.storage.update(updated);
     await loadNotes();
-  }, [api, loadNotes, state.notes]);
+  }, [platform, loadNotes, state.notes]);
 
   const updateStatus = useCallback(async (id: string, status: TaskStatus) => {
-    if (!api) return;
     const note = state.notes.find(n => n.id === id);
     if (!note) return;
     const updated: Note = {
@@ -174,51 +166,46 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
       progress: status === 'completed' ? 100 : status === 'not_done' ? 0 : note.progress,
       updatedAt: new Date().toISOString(),
     };
-    await api.note.update(updated);
+    await platform.storage.update(updated);
     await loadNotes();
-  }, [api, loadNotes, state.notes]);
+  }, [platform, loadNotes, state.notes]);
 
   const updateRating = useCallback(async (id: string, rating: CompletionRating) => {
-    if (!api) return;
     const note = state.notes.find(n => n.id === id);
     if (!note) return;
     const updated = { ...note, completedRating: rating === 'none' ? undefined : rating, updatedAt: new Date().toISOString() };
-    await api.note.update(updated);
+    await platform.storage.update(updated);
     await loadNotes();
-  }, [api, loadNotes, state.notes]);
+  }, [platform, loadNotes, state.notes]);
 
   const toggleCompletion = useCallback(async (id: string) => {
-    if (!api) return;
     const note = state.notes.find(n => n.id === id);
     if (!note) return;
     const isCurrentlyCompleted = note.status === 'completed';
     const newStatus: TaskStatus = isCurrentlyCompleted ? 'not_done' : 'completed';
     await updateStatus(id, newStatus);
-  }, [api, updateStatus, state.notes]);
+  }, [updateStatus, state.notes]);
 
   const addDependency = useCallback(async (noteId: string, dependsOnId: string) => {
-    if (!api) return;
     const note = state.notes.find(n => n.id === noteId);
     if (!note) return;
     const deps = note.dependOn || [];
     if (deps.includes(dependsOnId)) return;
     const updated = { ...note, dependOn: [...deps, dependsOnId], updatedAt: new Date().toISOString() };
-    await api.note.update(updated);
+    await platform.storage.update(updated);
     await loadNotes();
-  }, [api, loadNotes, state.notes]);
+  }, [platform, loadNotes, state.notes]);
 
   const removeDependency = useCallback(async (noteId: string, dependsOnId: string) => {
-    if (!api) return;
     const note = state.notes.find(n => n.id === noteId);
     if (!note) return;
     const deps = (note.dependOn || []).filter(d => d !== dependsOnId);
     const updated = { ...note, dependOn: deps.length > 0 ? deps : undefined, updatedAt: new Date().toISOString() };
-    await api.note.update(updated);
+    await platform.storage.update(updated);
     await loadNotes();
-  }, [api, loadNotes, state.notes]);
+  }, [platform, loadNotes, state.notes]);
 
   const toggleHabitCompletion = useCallback(async (id: string) => {
-    if (!api) return;
     const note = state.notes.find(n => n.id === id);
     if (!note) return;
     
@@ -247,39 +234,34 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
       completedAt: newDates.join(','),
       updatedAt: new Date().toISOString(),
     };
-    await api.note.update(updated);
+    await platform.storage.update(updated);
     await loadNotes();
-  }, [api, loadNotes, state.notes]);
+  }, [platform, loadNotes, state.notes]);
 
   const archiveNote = useCallback(async (id: string) => {
-    if (!api) return;
-    await api.note.archive(id);
+    await platform.storage.archive(id);
     await loadNotes();
-  }, [api, loadNotes]);
+  }, [platform, loadNotes]);
 
   const unarchiveNote = useCallback(async (id: string) => {
-    if (!api) return;
-    await api.note.unarchive(id);
+    await platform.storage.unarchive(id);
     await loadNotes();
-  }, [api, loadNotes]);
+  }, [platform, loadNotes]);
 
   const trashNote = useCallback(async (id: string) => {
-    if (!api) return;
-    await api.note.trash(id);
+    await platform.storage.trash(id);
     await loadNotes();
-  }, [api, loadNotes]);
+  }, [platform, loadNotes]);
 
   const restoreNote = useCallback(async (id: string) => {
-    if (!api) return;
-    await api.note.restore(id);
+    await platform.storage.restore(id);
     await loadNotes();
-  }, [api, loadNotes]);
+  }, [platform, loadNotes]);
 
   const togglePin = useCallback(async (id: string) => {
-    if (!api) return;
-    await api.note.pin(id);
+    await platform.storage.pin(id);
     await loadNotes();
-  }, [api, loadNotes]);
+  }, [platform, loadNotes]);
 
   const setView = useCallback((view: NoteStoreState['view']) => {
     setState(s => ({ ...s, view, activeLabel: null, searchQuery: '' }));
@@ -293,70 +275,62 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
     setState(s => ({ ...s, searchQuery: query, view: query ? 'search' : 'notes' }));
   }, []);
 
-  const exportToMarkdown = useCallback(async (path: string) => {
-    if (!api) return { success: false, error: 'API not available' };
-    return await api.sync.exportToMarkdown(path);
-  }, [api]);
+  const exportToMarkdown = useCallback(async (path?: string) => {
+    return await platform.sync.exportToMarkdown(path);
+  }, [platform]);
 
-  const importFromMarkdown = useCallback(async (path: string) => {
-    if (!api) return { success: false, error: 'API not available' };
-    const result = await api.sync.importFromMarkdown(path);
+  const importFromMarkdown = useCallback(async (path?: string) => {
+    const result = await platform.sync.importFromMarkdown(path);
     if (result.success) await loadNotes();
     return result;
-  }, [api, loadNotes]);
+  }, [platform, loadNotes]);
 
   const saveTemplate = useCallback(async (template: Partial<NoteTemplate>) => {
-    if (!api) return;
-    const created = await api.note.saveTemplate(template);
+    const created = await platform.storage.saveTemplate(template);
     await loadNotes();
     return created;
-  }, [api, loadNotes]);
+  }, [platform, loadNotes]);
 
   const deleteTemplate = useCallback(async (id: string) => {
-    if (!api) return;
-    await api.note.deleteTemplate(id);
+    await platform.storage.deleteTemplate(id);
     await loadNotes();
-  }, [api, loadNotes]);
+  }, [platform, loadNotes]);
 
   const getTemplates = useCallback(async () => {
-    if (!api) return [];
-    return await api.note.getTemplates();
-  }, [api]);
+    return await platform.storage.getTemplates();
+  }, [platform]);
 
   const createTask = useCallback(async (params: { title: string; due?: string; notes?: string }) => {
-    if (!api) return { success: false, error: 'API not available' };
-    return await api.tasks.create(params);
-  }, [api]);
+    return await platform.tasks.create(params);
+  }, [platform]);
 
   const listTasks = useCallback(async () => {
-    if (!api) return { success: false, error: 'API not available' };
-    return await api.tasks.list();
-  }, [api]);
+    return await platform.tasks.list();
+  }, [platform]);
 
   const deleteTask = useCallback(async (taskId: string) => {
-    if (!api) return { success: false, error: 'API not available' };
-    return await api.tasks.delete(taskId);
-  }, [api]);
+    return await platform.tasks.delete(taskId);
+  }, [platform]);
+
+  const checkAuth = useCallback(async () => {
+    return await platform.tasks.checkAuth();
+  }, [platform]);
 
   const updateTask = useCallback(async (taskId: string, updates: any) => {
-    if (!api) return { success: false, error: 'API not available' };
-    return await api.tasks.update(taskId, updates);
-  }, [api]);
+    return await platform.tasks.update(taskId, updates);
+  }, [platform]);
 
   const selectFolder = useCallback(async () => {
-    if (!api) return null;
-    return await api.dialog.selectFolder();
-  }, [api]);
+    return await platform.dialog.selectFolder();
+  }, [platform]);
 
   const getAppPath = useCallback(async () => {
-    if (!api) return '';
-    return await api.app.getPath('userData');
-  }, [api]);
+    return await platform.app.getPath('userData');
+  }, [platform]);
 
   const getVersion = useCallback(async () => {
-    if (!api) return '';
-    return await api.app.getVersion();
-  }, [api]);
+    return await platform.app.getVersion();
+  }, [platform]);
 
   const filteredNotes = React.useMemo(() => {
     let result = state.notes;
@@ -432,6 +406,7 @@ export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
     listTasks,
     updateTask,
     deleteTask,
+    checkAuth,
     selectFolder,
     getAppPath,
     getVersion,

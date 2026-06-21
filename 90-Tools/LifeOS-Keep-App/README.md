@@ -1,100 +1,223 @@
-# LifeOS Keep App
+# LifeOS Keep App v1.1.0
 
-A Google Keep clone built for your LifeOS system. Desktop app with bidirectional sync to your `personal_docs` folder.
+A **full-featured Google Keep clone** with PARA folder sync, goal hierarchy, habit tracking, project management, and Google Tasks integration. Desktop app for the LifeOS productivity system.
 
-## Features
+Built with Electron 28 + React 18 + TypeScript + Vite + Tailwind CSS.
 
-- **Masonry grid** — all notes visible in one canvas, just like Google Keep
-- **Text & checklist notes** — with strikethrough on checked items
-- **12 colors** — full Keep color palette
-- **Labels** — matches your actual Google Keep taxonomy (01–14 + sub-labels)
+---
+
+## ✨ Features
+
+### 📝 Core Note-Taking
+- **Masonry grid** — all notes visible in a canvas, pinned notes first
+- **Text & checklist notes** — with strikethrough on completed items
+- **Draggable checklists** — reorder items, nest sub-tasks (@hello-pangea/dnd)
+- **12 Google Keep colors** — full color palette with picker
+- **50+ PARA-compatible labels** — matches your Google Keep taxonomy (00–14 + sub-labels)
 - **Pin, archive, trash** — full lifecycle management
-- **Templates** — pre-built templates matching your system (10 Daily Questions, Daily Priorities, Gratitude List, etc.)
-- **Search** — real-time search across titles, content, labels
-- **Bidirectional sync** — export notes to `personal_docs` as Markdown, import from Markdown
-- **Offline-first** — works without internet, syncs when you choose
+- **Inline Markdown preview** — renders headings, lists, links, checkboxes via react-markdown + GFM
+- **Search** — real-time by title, content, labels
 
-## Tech Stack
+### 🎯 Goal Hierarchy (Visual Goal Tree)
+- **Vision → 3-5 Year → Annual → Quarterly → Monthly → Weekly → Daily** cascade
+- Collapsible tree view of all goals
+- Progress rollup (children auto-summarize to parent)
+- Dependency tracking (blockers)
+- Completion ratings (orange/yellow/lightgreen/darkgreen)
+- Templates for every level
 
-- Electron 28 + Vite + React 18 + TypeScript
-- Tailwind CSS
-- JSON file storage (no database needed)
-- Markdown export/import for `personal_docs` sync
+### 🔥 Habit Tracker
+- Daily habit logging with streak counting
+- Best streak tracking
+- Completion status: pending / done / not done
 
-## Your Label Taxonomy (from Google Keep)
+### 📋 Project Management
+- Projects with task checklists
+- Auto-complete children option
+- Progress percentage (manual or auto from checklists)
 
-| Number | Area | Sub-areas |
-|--------|------|-----------|
-| 00 | Daily System | Templates, Daily Pressing Needs, Gratitude Lists, Daily Events & Appointments, Daily Priorities |
-| 01 | Goals & Plans | |
-| 02 | Readiness (Educ., Skills, & Traits) | |
-| 03 | Wellness Indicators | |
-| 04 | Execution | |
-| 05 | Overcoming | |
-| 06 | Performance Tracking | |
-| 07 | Guidance & Oversight | |
-| 08 | Spiritual | Conversion, Character, Doctrinal Purity |
-| 09 | Material | Basic Needs, Safety & Health, Relational, Achievements, Self-Expression |
-| 10 | Financial | Income Generation, Stewardship, Budgeting, Spending Tracking, Net Worth, Credit, Tithes, True Riches |
-| 12 | Business | Product Development, Marketing, Sales, Order Fulfillment, Customer Support, Customer Satisfaction, Customer Success, Finance Management, HR, Operations, Strategic Management, Admin, Legal, Corporate Governance |
-| 13 | Project Reference Materials | |
-| 14 | General Reference Material | |
+### 🔔 Google Tasks Reminders
+- Create reminders with date/time picker
+- List view of all upcoming reminders
+- Bidirectional sync via `gws` CLI
 
-## Installation
+### 🔄 Bidirectional Markdown Sync
+- Export notes as individual `.md` files to `personal_docs` PARA structure
+- Import Markdown files back into Keep
+- Folder structure: `Inbox`, `Areas`, `Projects`, `Resources`, `Archive`
+
+### 🖥️ System Tray
+- Minimize to tray — app stays running in background
+- Quick Note hotkey: `Ctrl+Shift+N`
+- Context menu: Open, Quick Note, Quit
+
+### 🤖 Git Auto-Sync (Hermes Cron)
+- Cron job pushes note changes to GitHub every 30 minutes
+- `git-sync.mjs` — pull → commit → push pipeline
+- `auto-sync.mjs` — export notes to PARA Markdown structure
+- Falls back through `~/.bashrc` → `.env` for GITHUB_PAT
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Desktop shell | Electron 28 |
+| UI | React 18 + TypeScript |
+| Build | Vite 5 + vite-plugin-electron |
+| Styling | Tailwind CSS 3 |
+| Storage | JSON file (Electron userData) |
+| Drag & drop | @hello-pangea/dnd |
+| Markdown | react-markdown + remark-gfm |
+| Task sync | gws CLI (Google Tasks) |
+| Icons | lucide-react |
+| Packaging | electron-builder 24 |
+
+---
+
+## 📦 Quick Start
 
 ```bash
-cd "C:\Users\SiphoH\source\personal_docs\90-Tools\LifeOS-Keep-App"
+cd C:\Users\SiphoH\source\personal_docs\90-Tools\LifeOS-Keep-App
+
+# Install dependencies
 npm install
+
+# Development (Electron + Vite hot-reload on port 5175)
 npm run dev
-```
 
-## Building for Production
-
-```bash
+# Production build (Vite + electron-builder)
 npm run build
 ```
 
-Outputs:
-- Windows: `.exe` installer in `dist/`
-- macOS: `.dmg` in `dist/`
-- Linux: `.AppImage` in `dist/`
+---
 
-## Sync with personal_docs
-
-The app can export all notes to Markdown files in your `personal_docs` structure:
-
-1. Click **Sync** in the sidebar
-2. Select **Export to Markdown** — saves to your chosen folder
-3. Select **Sync to personal_docs** — directly exports to `20-Areas/` with your label structure
-
-## File Structure
+## 📁 Project Structure
 
 ```
 LifeOS-Keep-App/
-├── electron/          # Main process, IPC, storage
-│   ├── main.ts        # Window, IPC handlers
-│   ├── preload.ts     # Secure bridge
-│   └── db.ts          # JSON storage + Markdown sync
-├── src/
-│   ├── components/    # React UI components
-│   ├── store/         # Note context + actions
-│   └── types/         # TypeScript types
-└── package.json
+├── electron/              # Main process
+│   ├── main.ts            # Window, IPC handlers, tray, gTasks, git sync
+│   ├── preload.ts         # Secure context bridge (electronAPI)
+│   └── db.ts              # JSON NoteStore + Markdown export/import
+├── src/                   # Renderer (React)
+│   ├── App.tsx            # Main app layout + view routing
+│   ├── main.tsx           # Entry point
+│   ├── index.css          # Tailwind + custom styles
+│   ├── components/        # 14 React components
+│   │   ├── Sidebar.tsx    # Navigation + quick actions
+│   │   ├── SearchBar.tsx  # Real-time search
+│   │   ├── CreateNote.tsx # Note creation (text/checklist)
+│   │   ├── MasonryGrid.tsx# Responsive masonry layout
+│   │   ├── NoteCard.tsx   # Note preview card
+│   │   ├── NoteEditor.tsx # Full note editor modal
+│   │   ├── DraggableChecklist.tsx # Drag-reorderable checklist
+│   │   ├── TasksPanel.tsx # Google Tasks reminders panel
+│   │   ├── GoalsTree.tsx  # Visual goal hierarchy tree
+│   │   ├── HabitTracker.tsx # Habit streak tracker
+│   │   ├── TemplateModal.tsx # Templates browser
+│   │   ├── ColorPicker.tsx # 12-color picker
+│   │   └── LabelManager.tsx # Label management
+│   ├── store/
+│   │   └── noteStore.tsx  # React Context store (40+ actions)
+│   └── types/
+│       └── note.ts        # TypeScript types + constants
+├── assets/
+│   ├── icon.png           # App icon (512x512)
+│   └── icon.ico           # Windows icon
+├── dist/                  # Vite build output
+├── dist-electron/         # Electron build output
+├── release/               # electron-builder artifacts
+│   ├── LifeOS Keep 1.1.0.exe         # Portable Windows exe
+│   ├── LifeOS Keep-1.1.0-win.zip     # Windows ZIP distribution
+│   └── win-unpacked/                  # Unpacked app
+├── git-sync.mjs           # Git auto-sync script
+├── auto-sync.mjs          # PARA markdown auto-sync
+├── electron-builder.yml   # Cross-platform packaging config
+├── vite.config.ts         # Vite + Electron plugin config
+├── tailwind.config.js     # Tailwind configuration
+├── postcss.config.js      # PostCSS configuration
+└── tsconfig.json          # TypeScript configuration
 ```
 
-## Data Storage
+---
 
-Notes are stored in Electron's `userData` folder:
-- Windows: `%APPDATA%/lifeos-keep/notes.json`
-- macOS: `~/Library/Application Support/lifeos-keep/notes.json`
-- Linux: `~/.config/lifeos-keep/notes.json`
+## 🏗️ Build Artifacts
 
-## Keyboard Shortcuts
+| Platform | File | Size |
+|----------|------|------|
+| Windows (portable) | `release/LifeOS Keep 1.1.0.exe` | ~68 MB |
+| Windows (ZIP) | `release/LifeOS Keep-1.1.0-win.zip` | ~103 MB |
+| macOS | `release/LifeOS Keep-1.1.0.dmg` | via electron-builder |
+| Linux | `release/LifeOS Keep-1.1.0.AppImage` | via electron-builder |
+
+---
+
+## 🔑 Environment Variables
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `GITHUB_PAT` | For auto-sync | GitHub Personal Access Token with repo scope |
+
+---
+
+## ⏰ Cron Job (Hermes)
+
+The auto-sync cron job (`lifeos-keep-auto-sync`) runs `lifeos-keep-sync.sh` every 30 minutes:
+1. Sources `~/.bashrc` and `.env` for `GITHUB_PAT`
+2. Runs `git-sync.mjs` to pull → commit → push changes
+3. Silent when nothing has changed (no-agent mode)
+
+To re-enable after adding your PAT:
+```bash
+hermes cron list                         # find the job ID
+hermes cron run --job-id <id>            # test it
+hermes cron update --job-id <id> --pause false  # if paused
+```
+
+---
+
+## 🖥️ System Requirements
+
+- **OS:** Windows 10+, macOS 12+, Linux (x64)
+- **RAM:** 256 MB minimum
+- **Storage:** 250 MB for app + data
+
+---
+
+## ⌨️ Keyboard Shortcuts
 
 | Shortcut | Action |
 |----------|--------|
 | `Escape` | Close note editor |
+| `Ctrl+Shift+N` | Quick Note (global hotkey) |
 | `Ctrl+F` | Focus search |
+| *(more to come)* | |
 
 ---
-*Built for LifeOS — your personal productivity system*
+
+## 🔧 Configuration
+
+### Google Tasks Sync
+The app uses `gws` CLI (`google-workspace` CLI tool) for Google Tasks integration. The binary is auto-detected:
+1. `../../.tools/gws.exe` (relative to project)
+2. Electron userData
+3. Bundled in production
+4. System PATH
+
+### Data Location
+Notes stored in Electron's `userData`:
+- **Windows:** `%APPDATA%/lifeos-keep/notes.json`
+- **macOS:** `~/Library/Application Support/lifeos-keep/notes.json`
+- **Linux:** `~/.config/lifeos-keep/notes.json`
+
+---
+
+## 📜 License
+
+MIT — Built for LifeOS / Gestalt360
+
+---
+
+*Last updated: June 2026 · Version 1.1.0*

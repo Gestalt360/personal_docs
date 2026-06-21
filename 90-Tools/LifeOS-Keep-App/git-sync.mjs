@@ -51,19 +51,20 @@ async function main() {
   }
   console.log(`[git-sync] ✅ GITHUB_PAT found (${pat.length} chars)`);
 
+  // Build authenticated remote URL once, reuse everywhere
+  const authedUrl = `https://${GITHUB_USER}:${pat}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git`;
+
   // 2. Ensure the directory exists
   if (!fs.existsSync(DOCS_ROOT)) {
     console.log(`[git-sync] 📁 ${DOCS_ROOT} does not exist. Cloning...`);
     const parent = path.dirname(DOCS_ROOT);
     fs.mkdirSync(parent, { recursive: true });
-    const cloneUrl = `https://${pat}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git`;
-    shell(`git clone "${cloneUrl}" "${DOCS_ROOT}"`);
+    shell(`git clone "${authedUrl}" "${DOCS_ROOT}"`);
     console.log(`[git-sync] ✅ Cloned ${GITHUB_USER}/${GITHUB_REPO}`);
   } else if (!fs.existsSync(path.join(DOCS_ROOT, '.git'))) {
     console.log(`[git-sync] 📁 ${DOCS_ROOT} exists but is not a git repo. Initializing...`);
     shell(`cd "${DOCS_ROOT}" && git init -b ${BRANCH}`);
-    const cloneUrl = `https://${pat}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git`;
-    shell(`cd "${DOCS_ROOT}" && git remote add ${REMOTE} "${cloneUrl}"`);
+    shell(`cd "${DOCS_ROOT}" && git remote add ${REMOTE} "${authedUrl}"`);
     shell(`cd "${DOCS_ROOT}" && git config user.email "lifeos@sipho.dev"`);
     shell(`cd "${DOCS_ROOT}" && git config user.name "LifeOS Keep"`);
     // Pull latest
@@ -71,16 +72,17 @@ async function main() {
     console.log(`[git-sync] ✅ Repo initialized`);
   }
 
-  // 3. Configure git identity and credentials for this session
+  // 3. Configure git identity for this session
   shell(`cd "${DOCS_ROOT}" && git config user.email "lifeos@sipho.dev"`);
   shell(`cd "${DOCS_ROOT}" && git config user.name "LifeOS Keep"`);
-  shell(`cd "${DOCS_ROOT}" && git config credential.helper '!f() { echo "password=${pat}"; }; f'`);
 
   // 4. Check if remote exists
   const remotes = shell(`cd "${DOCS_ROOT}" && git remote`);
   if (!remotes?.includes(REMOTE)) {
-    const cloneUrl = `https://${pat}@github.com/${GITHUB_USER}/${GITHUB_REPO}.git`;
-    shell(`cd "${DOCS_ROOT}" && git remote add ${REMOTE} "${cloneUrl}"`);
+    shell(`cd "${DOCS_ROOT}" && git remote add ${REMOTE} "${authedUrl}"`);
+  } else {
+    // Ensure remote URL has auth token
+    shell(`cd "${DOCS_ROOT}" && git remote set-url ${REMOTE} "${authedUrl}"`);
   }
 
   // 5. Pull latest

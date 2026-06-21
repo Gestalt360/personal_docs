@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NoteStoreProvider, useNoteStore } from './store/noteStore';
+import { PlatformProvider } from './store/platform';
 import Sidebar from './components/Sidebar';
 import SearchBar from './components/SearchBar';
 import CreateNote from './components/CreateNote';
@@ -193,8 +194,10 @@ function AppContent() {
 
 export default function App() {
   return (
-    <NoteStoreProvider>
-      <AppContent />
-    </NoteStoreProvider>
+    <PlatformProvider>
+      <NoteStoreProvider>
+        <AppContent />
+      </NoteStoreProvider>
+    </PlatformProvider>
   );
 }

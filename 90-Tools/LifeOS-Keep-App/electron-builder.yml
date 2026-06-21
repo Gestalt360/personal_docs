@@ -4,7 +4,9 @@ copyright: Copyright © 2024 LifeOS
 directories:
   output: release
   buildResources: build
+icon: assets/icon.png
 files:
+  - assets/**/*
   - dist-electron/**/*
   - dist/**/*
   - package.json

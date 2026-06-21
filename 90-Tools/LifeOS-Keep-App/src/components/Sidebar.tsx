@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNoteStore } from '../store/noteStore';
 import TasksPanel from './TasksPanel';
+import SyncSettings from './SyncSettings';
 import {
   Lightbulb, Bell, Archive, Trash2, Settings, Plus, LayoutGrid, Tag,
   ChevronDown, ChevronRight, Download, Upload, FolderOpen, Target,
@@ -15,6 +16,7 @@ export default function Sidebar({ onTemplateClick }: SidebarProps) {
   const { view, labels, activeLabel, setView, setActiveLabel, selectFolder, exportToMarkdown, importFromMarkdown } = useNoteStore();
   const [showLabels, setShowLabels] = useState(true);
   const [showSync, setShowSync] = useState(false);
+  const [showSyncSettings, setShowSyncSettings] = useState(false);
   const [syncStatus, setSyncStatus] = useState<string | null>(null);
 
   const gitSync = async () => {
@@ -157,26 +159,25 @@ export default function Sidebar({ onTemplateClick }: SidebarProps) {
         {showSync && (
           <div className="mt-1 space-y-0.5">
             <button
+              onClick={() => setShowSyncSettings(true)}
+              className="w-full flex items-center gap-3 px-4 py-2 rounded-lg text-sm text-gray-700 hover:bg-gray-200 transition-colors"
+            >
+              <Settings size={16} />
+              Cloud Sync Settings
+            </button>
+            <button
               onClick={handleExport}
               className="w-full flex items-center gap-3 px-4 py-2 rounded-lg text-sm text-gray-700 hover:bg-gray-200 transition-colors"
             >
               <Download size={16} />
-              Export to Markdown
+              Export to File
             </button>
             <button
               onClick={handleImport}
               className="w-full flex items-center gap-3 px-4 py-2 rounded-lg text-sm text-gray-700 hover:bg-gray-200 transition-colors"
             >
               <Upload size={16} />
-              Import from Markdown
-            </button>
-            <button
-              onClick={gitSync}
-              className="w-full flex items-center gap-3 px-4 py-2 rounded-lg text-sm text-gray-700 hover:bg-gray-200 transition-colors"
-              disabled={syncStatus === 'Syncing...'}
-            >
-              <GitBranch size={16} />
-              Sync to GitHub
+              Import from File
             </button>
             {syncStatus && (
               <p className="px-4 text-xs text-gray-500">{syncStatus}</p>
@@ -184,6 +185,9 @@ export default function Sidebar({ onTemplateClick }: SidebarProps) {
           </div>
         )}
       </div>
+
+      {/* Sync Settings Modal */}
+      {showSyncSettings && <SyncSettings onClose={() => setShowSyncSettings(false)} />}
     </div>
   );
 }

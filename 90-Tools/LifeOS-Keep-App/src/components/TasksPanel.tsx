@@ -3,19 +3,14 @@ import { useNoteStore } from '../store/noteStore';
 import { CheckSquare, Bell, Calendar, Clock, X, ExternalLink, RefreshCw, AlertCircle } from 'lucide-react';
 
 export default function TasksPanel() {
-  const { listTasks, createTask, deleteTask, updateTask } = useNoteStore();
+  const { listTasks, createTask, deleteTask, updateTask, checkAuth } = useNoteStore();
   const [tasks, setTasks] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
   const [authStatus, setAuthStatus] = useState<'checking' | 'connected' | 'disconnected'>('checking');
   const [newTaskTitle, setNewTaskTitle] = useState('');
 
-  const checkAuth = async () => {
-    const api = (window as any).electronAPI;
-    if (!api?.tasks?.checkAuth) {
-      setAuthStatus('disconnected');
-      return;
-    }
-    const result = await api.tasks.checkAuth();
+  const checkAuthStatus = async () => {
+    const result = await checkAuth();
     setAuthStatus(result.authenticated ? 'connected' : 'disconnected');
   };
 
@@ -29,7 +24,7 @@ export default function TasksPanel() {
   };
 
   useEffect(() => {
-    checkAuth();
+    checkAuthStatus();
   }, []);
 
   useEffect(() => {

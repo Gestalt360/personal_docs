@@ -17,7 +17,7 @@ interface NoteEditorProps {
 }
 
 export default function NoteEditor({ noteId, onClose }: NoteEditorProps) {
-  const { getNote, updateNote, archiveNote, trashNote, restoreNote, deleteNote } = useNoteStore();
+  const { getNote, updateNote, archiveNote, trashNote, restoreNote, deleteNote, createTask, updateTask, deleteTask } = useNoteStore();
   const [note, setNote] = useState<Note | null>(null);
   const [showColorPicker, setShowColorPicker] = useState(false);
   const [showLabelManager, setShowLabelManager] = useState(false);
@@ -61,16 +61,14 @@ export default function NoteEditor({ noteId, onClose }: NoteEditorProps) {
   const handleSetReminder = async () => {
     if (!reminderDate || !reminderTime) return;
     const due = new Date(`${reminderDate}T${reminderTime}:00`).toISOString();
-    const api = (window as any).electronAPI;
-    if (!api) return;
 
     setTaskStatus('Creating Google Task...');
     try {
       let result;
       if (note.taskId) {
-        result = await api.tasks.update(note.taskId, { due, title: note.title });
+        result = await updateTask(note.taskId, { due, title: note.title });
       } else {
-        result = await api.tasks.create({
+        result = await createTask({
           title: note.title || 'LifeOS Reminder',
           due,
           notes: note.content || '',
@@ -90,8 +88,7 @@ export default function NoteEditor({ noteId, onClose }: NoteEditorProps) {
 
   const handleRemoveReminder = async () => {
     if (note.taskId) {
-      const api = (window as any).electronAPI;
-      await api.tasks.delete(note.taskId);
+      await deleteTask(note.taskId);
     }
     handleUpdate({ reminder: undefined, taskId: undefined });
     setReminderDate('');
