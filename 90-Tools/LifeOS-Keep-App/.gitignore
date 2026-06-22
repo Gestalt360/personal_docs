@@ -23,3 +23,4 @@ Thumbs.db
 # Capacitor native platforms
 android/
 ios/
+tsc-output.txt
