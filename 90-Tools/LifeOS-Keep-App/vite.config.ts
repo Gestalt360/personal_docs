@@ -9,6 +9,16 @@ export default defineConfig({
     port: 5175,
     strictPort: false,
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Heavy SDKs are split into separate async chunks
+          octokit: ['@octokit/rest'],
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     VitePWA({

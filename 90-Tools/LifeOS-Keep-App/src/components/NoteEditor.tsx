@@ -117,9 +117,9 @@ export default function NoteEditor({ noteId, onClose }: NoteEditorProps) {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center pt-20 bg-black/50">
+    <div className="fixed inset-0 z-50 flex items-start md:items-center justify-center md:pt-0 bg-black/50">
       <div
-        className="w-full max-w-[600px] rounded-lg keep-shadow"
+        className="w-full md:max-w-[600px] h-full md:h-auto md:max-h-[85vh] md:rounded-lg md:keep-shadow flex flex-col md:mx-4"
         style={{ backgroundColor: COLOR_MAP[note.color] }}
       >
         {/* Header */}
@@ -159,7 +159,7 @@ export default function NoteEditor({ noteId, onClose }: NoteEditorProps) {
         </div>
 
         {/* Content */}
-        <div className="px-4 py-2">
+        <div className="flex-1 overflow-y-auto px-4 py-2">
           {note.type === 'text' && isEditing && (
             <textarea
               value={note.content}

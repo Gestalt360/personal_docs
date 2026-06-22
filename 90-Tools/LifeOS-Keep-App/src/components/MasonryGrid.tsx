@@ -2,6 +2,8 @@ import React from 'react';
 import Masonry from 'react-masonry-css';
 import { Note } from '../types/note';
 import NoteCard from './NoteCard';
+import SwipeableCard from './SwipeableCard';
+import { useNoteStore } from '../store/noteStore';
 
 interface MasonryGridProps {
   notes: Note[];
@@ -15,6 +17,22 @@ const breakpointColumns = {
   900: 2,
   600: 1,
 };
+
+function NoteCardWrapper({ note, onEdit }: { note: Note; onEdit: (id: string) => void }) {
+  const { archiveNote, togglePin, trashNote } = useNoteStore();
+
+  return (
+    <div className="mb-4">
+      <SwipeableCard
+        onArchive={() => archiveNote(note.id)}
+        onPin={() => togglePin(note.id)}
+        onTrash={() => trashNote(note.id)}
+      >
+        <NoteCard note={note} onEdit={onEdit} />
+      </SwipeableCard>
+    </div>
+  );
+}
 
 export default function MasonryGrid({ notes, onEdit }: MasonryGridProps) {
   const pinned = notes.filter(n => n.isPinned);
@@ -34,9 +52,7 @@ export default function MasonryGrid({ notes, onEdit }: MasonryGridProps) {
             columnClassName="masonry-grid-col"
           >
             {pinned.map(note => (
-              <div key={note.id} className="mb-4">
-                <NoteCard note={note} onEdit={onEdit} />
-              </div>
+              <NoteCardWrapper key={note.id} note={note} onEdit={onEdit} />
             ))}
           </Masonry>
         </div>
@@ -56,9 +72,7 @@ export default function MasonryGrid({ notes, onEdit }: MasonryGridProps) {
             columnClassName="masonry-grid-col"
           >
             {unpinned.map(note => (
-              <div key={note.id} className="mb-4">
-                <NoteCard note={note} onEdit={onEdit} />
-              </div>
+              <NoteCardWrapper key={note.id} note={note} onEdit={onEdit} />
             ))}
           </Masonry>
         </div>

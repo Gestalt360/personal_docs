@@ -10,6 +10,7 @@ import TemplateModal from './components/TemplateModal';
 import GoalsTree from './components/GoalsTree';
 import HabitTracker from './components/HabitTracker';
 import { Lightbulb, Archive, Trash2, Bell, LayoutGrid, X, Target, Flame, CheckSquare, Menu } from 'lucide-react';
+import MobileNav from './components/MobileNav';
 
 function AppContent() {
   const { view, filteredNotes, isLoading, searchQuery } = useNoteStore();
@@ -154,7 +155,7 @@ function AppContent() {
 
         <SearchBar />
 
-        <div className="flex-1 overflow-y-auto px-3 md:px-6 py-4">
+        <div className="flex-1 overflow-y-auto px-3 md:px-6 py-4 pb-20 md:pb-6">
           {/* View header */}
           {renderViewHeader()}
 
@@ -218,6 +219,9 @@ function AppContent() {
       {showTemplates && (
         <TemplateModal onClose={() => setShowTemplates(false)} />
       )}
+
+      {/* Mobile Bottom Nav */}
+      <MobileNav />
     </div>
   );
 }
