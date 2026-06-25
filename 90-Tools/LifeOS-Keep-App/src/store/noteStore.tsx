@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
 import type { Note, NoteColor, NoteTemplate, TaskStatus, CompletionRating } from '../types/note';
 import { usePlatform } from './platform';
+import type { PlatformAPI } from './platform';
 
 interface NoteStoreState {
   notes: Note[];
@@ -55,8 +56,8 @@ interface NoteStoreActions {
 
 const NoteStoreContext = createContext<(NoteStoreState & NoteStoreActions & { filteredNotes: Note[] }) | null>(null);
 
-export function NoteStoreProvider({ children }: { children: React.ReactNode }) {
-  const platform = usePlatform();
+export function NoteStoreProvider({ children, platform: platformOverride }: { children: React.ReactNode, platform?: PlatformAPI }) {
+  const platform = platformOverride || usePlatform();
 
   const [state, setState] = useState<NoteStoreState>({
     notes: [],

@@ -5,6 +5,13 @@ import renderer from 'vite-plugin-electron-renderer';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  test: {
+    // Load the Jest‑dom extensions for all tests
+    setupFiles: ['src/setupTests.ts'],
+    environment: 'jsdom',
+    globals: true,
+    include: ['src/**/*.test.{ts,tsx,js,jsx}'],
+  },
   server: {
     port: 5175,
     strictPort: false,
